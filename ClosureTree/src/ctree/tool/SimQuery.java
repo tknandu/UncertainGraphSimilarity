@@ -42,7 +42,7 @@ public class SimQuery {
 
     public static void main(String[] args) throws Exception {
    
-    	  String[] customArgs = {"-range=50", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
+    	  String[] customArgs = {"-range=5", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {
@@ -57,7 +57,12 @@ public class SimQuery {
         System.err.println("Building ctree from " + opt.getArg(0));
         LGraph[] graphs = LGraphFile.loadLGraphs(opt.getArg(0));
         
-        GraphMapper mapper = new NeighborBiasedMapper(new LGraphWeightMatrix());
+        double probThresh=0.0;
+        if (opt.hasOpt("probThresh")) {
+        	probThresh = opt.getDouble("probThresh");
+        }
+        
+        GraphMapper mapper = new NeighborBiasedMapper(new LGraphWeightMatrix(), 10, probThresh);
         GraphSim graphSim = new LGraphSim();
         LabelMap labelMap = new LabelMap(graphs);
         int L = labelMap.size();
@@ -66,8 +71,8 @@ public class SimQuery {
         GraphFactory factory = new LGraphFactory(labelMap, dim1, dim2);
         
         // Decide m, M
-        int m = 10;
-        int M = 19;
+        int m = 1;
+        int M = 2;
         CTree ctree = BuildCTree.buildCTree(graphs, m, M, mapper, graphSim, labelMap, factory); // build ctree using hierarchical clustering
         
         Graph[] queries = LGraphFile.loadLGraphs(opt.getArg(1));

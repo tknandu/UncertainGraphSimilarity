@@ -16,6 +16,9 @@ public class LGraph implements Graph {
   protected LVertex[] V;
   protected UnlabeledEdge[] E;
   protected String id;
+  
+  public Map<String,Double> probMap = null;
+  
   public LGraph() {
   }
 
@@ -45,7 +48,8 @@ public class LGraph implements Graph {
    * @return int[][]
    */
   public int[][] adjMatrix() {
-    int[][] adj = new int[V.length][V.length];
+  	    
+  	int[][] adj = new int[V.length][V.length];
     for (int i = 0; i < V.length; i++) {
       Arrays.fill(adj[i], 0);
     }
@@ -66,6 +70,7 @@ public class LGraph implements Graph {
    * @return int[][]
    */
   public int[][] adjList() {
+  	
     int n = V.length;
     LinkedList<Integer> [] llist = new LinkedList[n];
     for (int i = 0; i < n; i++) {

@@ -36,6 +36,8 @@ public class LGraphFile  {
     BufferedReader in = new BufferedReader(new FileReader(filename));
     Vector<LGraph> graphs = new Vector();
 
+    Map<String,Double> probMap = new HashMap<String,Double>();
+    
     String line;
     while (true) {
       do {
@@ -79,9 +81,18 @@ public class LGraphFile  {
         int v2 = Integer.parseInt(tokens.nextToken());
         double prob = Double.parseDouble(tokens.nextToken());
         edges[i] = new UnlabeledEdge(v1, v2, false,prob);
+        if(v1<v2)
+        {
+        	probMap.put(v1+","+v2, prob);
+        }
+        else
+        {
+        	probMap.put(v2+","+v1, prob);
+        }
       }
 
       LGraph g = new LGraph(vertices, edges, id);
+      g.probMap = probMap;
       graphs.addElement(g);
     }
 

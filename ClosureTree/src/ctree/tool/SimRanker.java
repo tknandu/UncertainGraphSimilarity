@@ -59,14 +59,15 @@ public class SimRanker {
           Graph g = node.childGraphAt(i); // if g is not a leaf node, its closure is returned 
           double sim;
           if (strictRanking && !node.isLeaf()) {
-            //sim = graphSim.simUpper(query, g); // this seems to be histogram based for closure 
-            int[] map = mapper.map(query, g);
-            sim = graphSim.sim(query, g, map); // this seems to be for database graph
+            sim = graphSim.simUpper(query, g); // this seems to be histogram based for closure 
+            //int[] map = ((NeighborBiasedMapper)mapper).mapRangeQuery(query, g);
+            //sim = graphSim.sim(query, g, map); // this seems to be for database graph
             //System.out.println("Upper bound = "+sim1+" Exact sim = "+sim);
           }
           else {
-            int[] map = mapper.map(query, g);
+            int[] map = ((NeighborBiasedMapper)mapper).mapRangeQuery(query, g);
             sim = graphSim.sim(query, g, map); // this seems to be for database graph
+            System.out.println("Exact sim = "+sim);
           }
           RankerEntry entry2 = new RankerEntry( -sim, child);
           pqueue.add(entry2);
