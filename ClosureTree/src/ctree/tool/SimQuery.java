@@ -42,7 +42,7 @@ public class SimQuery {
 
     public static void main(String[] args) throws Exception {
    
-    	  String[] customArgs = {"-range=50", "-output=output.txt", "databaseG.txt", "queryG.txt"};
+    	  String[] customArgs = {"-range=50", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {

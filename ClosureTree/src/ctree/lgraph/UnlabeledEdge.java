@@ -11,13 +11,15 @@ import ctree.graph.*;
 public class UnlabeledEdge implements Edge {
   protected boolean containsNull;
   protected int v1, v2;
+  public double prob;
   public UnlabeledEdge() {
   }
 
-  public UnlabeledEdge(int _v1, int _v2, boolean _containsNull) {
+  public UnlabeledEdge(int _v1, int _v2, boolean _containsNull,double _prob) {
     v1 = _v1;
     v2 = _v2;
     containsNull = _containsNull;
+    prob = _prob;
   }
 
   public int v1() {

@@ -85,10 +85,10 @@ public class LGraphFactory implements GraphFactory {
       int p2 = map[e.v2()]; // e'=(p1,p2) is a mapping of e
       if (e.containsNull == false && p1 >= 0 && p2 >= 0 &&
           adj2[p1][p2] == 1) {
-        edges.addElement(new UnlabeledEdge(e.v1(), e.v2(), e.containsNull)); // need clone?
+        edges.addElement(new UnlabeledEdge(e.v1(), e.v2(), e.containsNull, e.prob)); // need clone?
       }
       else {
-        edges.addElement(new UnlabeledEdge(e.v1(), e.v2(), true));
+        edges.addElement(new UnlabeledEdge(e.v1(), e.v2(), true,e.prob));
       }
     }
 
@@ -100,7 +100,7 @@ public class LGraphFactory implements GraphFactory {
       int p2 = rmap[e.v2];
       // if e is unmapped then 2
       if (p1 >= n1 || p2 >= n1 || adj1[p1][p2] == 0) {
-        edges.addElement(new UnlabeledEdge(p1, p2, true));
+        edges.addElement(new UnlabeledEdge(p1, p2, true,e.prob));
 //        if(p1>=n1 || p2>=n1)
   //      	new Scanner(System.in).next();
       }

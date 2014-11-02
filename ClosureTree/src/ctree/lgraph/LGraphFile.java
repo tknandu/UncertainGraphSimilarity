@@ -77,8 +77,8 @@ public class LGraphFile  {
         StringTokenizer tokens = new StringTokenizer(line);
         int v1 = Integer.parseInt(tokens.nextToken());
         int v2 = Integer.parseInt(tokens.nextToken());
-
-        edges[i] = new UnlabeledEdge(v1, v2, false);
+        double prob = Double.parseDouble(tokens.nextToken());
+        edges[i] = new UnlabeledEdge(v1, v2, false,prob);
       }
 
       LGraph g = new LGraph(vertices, edges, id);
