@@ -164,6 +164,8 @@ public class NeighborBiasedMapping {
         Arrays.fill(map, -1);
         Arrays.fill(rmap, -1);
 
+        Map<String,Integer> discaredBasedOnProb = new HashMap<String,Integer>();
+        
         // iteration of mapping in the order of weighted spanning
         int maxSize=PQ.size();
         while (!PQ.isEmpty()) {
@@ -172,6 +174,7 @@ public class NeighborBiasedMapping {
                 continue;
             }
             if (rmap[e.v] >= 0) { // v has been mapped, find another v
+            	System.out.println("here");
                 maxW[e.u] = 0;
                 for (int v : bilist[e.u]) {
                     if (rmap[v] < 0 && W[e.u][v] > maxW[e.u]) {
@@ -234,9 +237,10 @@ public class NeighborBiasedMapping {
 	            }
             }
             else { // current mapping would lead to probility of mapped G2 to fall below threshold, hence find better v
+            	discaredBasedOnProb.put(e.u+","+e.v,1);
               maxW[e.u] = 0;
               for (int v : bilist[e.u]) {
-                  if (rmap[v] < 0 && W[e.u][v] > maxW[e.u]) {
+                  if (rmap[v] < 0 && !discaredBasedOnProb.containsKey(e.u+","+v) && W[e.u][v] > maxW[e.u]) {
                       maxW[e.u] = W[e.u][v];
                       maxMate[e.u] = v;
                   }
