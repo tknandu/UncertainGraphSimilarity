@@ -140,7 +140,6 @@ public class NeighborBiasedMapping {
                                   int[][] alist2, int[][] bilist,double bonus, double userProbThreshold) {
     	
     	  // added
-     		Map<String, Double> probMap2 = g2.probMap;
     		double probOfMappedG2 = 1.0;
     		
         // Insert initial entries into PQ
@@ -193,12 +192,12 @@ public class NeighborBiasedMapping {
           			for(int neigh : alist1[e.u]){
           				if(neigh==rmap[v1]) {
                 		if(e.v<v1){
-                			System.out.println(e.v+","+v1+" "+probMap2.get(e.v+","+v1));
-                			tempProbOfMappedG2 = tempProbOfMappedG2 * probMap2.get(e.v+","+v1);
+                			//System.out.println(e.v+","+v1+" "+g2.probMap.get(e.v+","+v1));
+                			tempProbOfMappedG2 = tempProbOfMappedG2 * g2.probMap.get(e.v+","+v1);
                 		}
                 		else {
-                			System.out.println(v1+","+e.v+" "+probMap2.get(v1+","+e.v));
-                			tempProbOfMappedG2 = tempProbOfMappedG2 * probMap2.get(v1+","+e.v);
+                			//System.out.println(v1+","+e.v+" "+g2.probMap.get(v1+","+e.v));
+                			tempProbOfMappedG2 = tempProbOfMappedG2 * g2.probMap.get(v1+","+e.v);
                 		}          					
           					break;
           				}

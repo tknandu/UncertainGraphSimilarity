@@ -35,11 +35,12 @@ public class LGraphFile  {
       IOException {
     BufferedReader in = new BufferedReader(new FileReader(filename));
     Vector<LGraph> graphs = new Vector();
-
-    Map<String,Double> probMap = new HashMap<String,Double>();
     
     String line;
     while (true) {
+    	
+      Map<String,Double> probMap = new HashMap<String,Double>();
+    	
       do {
         line = in.readLine();
         if (line == null) {
