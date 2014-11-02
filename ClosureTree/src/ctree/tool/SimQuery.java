@@ -11,6 +11,8 @@ import ctree.util.*;
 import ctree.lgraph.*;
 import java.io.PrintWriter;
 
+import ctree.tool.BuildCTree;;
+
 /**
  *
  * @author Huahai He
@@ -40,16 +42,34 @@ public class SimQuery {
 
     public static void main(String[] args) throws Exception {
    
-    	  String[] customArgs = {"-range=0.01", "-output=output.txt", "sampleCTree.ctr", "queryG.txt"};
+    	  String[] customArgs = {"-range=0.01", "-output=output.txt", "databaseG.txt", "queryG.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {
             usage();
             return;
         }
-        System.err.println("Load ctree " + opt.getArg(0));
-        CTree ctree = CTree.load(opt.getArg(0));
+        
+        //System.err.println("Load ctree " + opt.getArg(0));
+        //CTree ctree = CTree.load(opt.getArg(0));
 
+        // Added
+        System.err.println("Building ctree from " + opt.getArg(0));
+        LGraph[] graphs = LGraphFile.loadLGraphs(opt.getArg(0));
+        
+        GraphMapper mapper = new NeighborBiasedMapper(new LGraphWeightMatrix());
+        GraphSim graphSim = new LGraphSim();
+        LabelMap labelMap = new LabelMap(graphs);
+        int L = labelMap.size();
+        int dim1 = Math.min(97, L);
+        int dim2 = Math.min(97, L * L);
+        GraphFactory factory = new LGraphFactory(labelMap, dim1, dim2);
+
+        // Decide m, M
+        int m = 10;
+        int M = 19;
+        CTree ctree = BuildCTree.buildCTree(graphs, m, M, mapper, graphSim, labelMap, factory); // build ctree using hierarchical clustering
+        
         Graph[] queries = LGraphFile.loadLGraphs(opt.getArg(1));
 
         boolean knn;
@@ -78,8 +98,8 @@ public class SimQuery {
         // By strict ranking, the similarity between a ctree node and the query
         // is computed by upper bound.
 
-        GraphMapper mapper = new NeighborBiasedMapper(new LGraphWeightMatrix());
-        GraphSim graphSim = new LGraphSim();
+        //GraphMapper mapper = new NeighborBiasedMapper(new LGraphWeightMatrix());
+        //GraphSim graphSim = new LGraphSim();
         DataSum stat = new DataSum();
 
         System.err.println("Query");
