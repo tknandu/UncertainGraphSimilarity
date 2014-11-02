@@ -42,7 +42,7 @@ public class SimQuery {
 
     public static void main(String[] args) throws Exception {
    
-    	  String[] customArgs = {"-range=0.01", "-output=output.txt", "databaseG.txt", "queryG.txt"};
+    	  String[] customArgs = {"-range=50", "-output=output.txt", "databaseG.txt", "queryG.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {
@@ -64,7 +64,7 @@ public class SimQuery {
         int dim1 = Math.min(97, L);
         int dim2 = Math.min(97, L * L);
         GraphFactory factory = new LGraphFactory(labelMap, dim1, dim2);
-
+        
         // Decide m, M
         int m = 10;
         int M = 19;
