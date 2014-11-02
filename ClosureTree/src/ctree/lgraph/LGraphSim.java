@@ -26,8 +26,8 @@ public class LGraphSim implements GraphSim {
       if (map[i] >= 0) {
         sim += VSIM;
       }
-
     }
+    
     Edge[] E1 = g1.E();
     int[][] adj2 = g2.adjMatrix();
     for (int i = 0; i < E1.length; i++) {
