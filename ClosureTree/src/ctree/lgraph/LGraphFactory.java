@@ -85,7 +85,20 @@ public class LGraphFactory implements GraphFactory {
       int p2 = map[e.v2()]; // e'=(p1,p2) is a mapping of e
       if (e.containsNull == false && p1 >= 0 && p2 >= 0 &&
           adj2[p1][p2] == 1) {
-        edges.addElement(new UnlabeledEdge(e.v1(), e.v2(), e.containsNull, e.prob)); // need clone?
+      	
+      	// assign weight of edge in closure as max of prob of edge in g1, g2
+      	
+      	double g2Prob=0.0;
+      	if(p1<p2)
+      		g2Prob = g2.probMap.get(p1+","+p2);
+      	else
+      		g2Prob = g2.probMap.get(p2+","+p1);
+        if(g2Prob>e.prob){
+        	edges.addElement(new UnlabeledEdge(e.v1(), e.v2(), e.containsNull, g2Prob)); // need clone?
+        }
+        else {
+        	edges.addElement(new UnlabeledEdge(e.v1(), e.v2(), e.containsNull, e.prob));
+        }
       }
       else {
         edges.addElement(new UnlabeledEdge(e.v1(), e.v2(), true,e.prob));
@@ -108,7 +121,22 @@ public class LGraphFactory implements GraphFactory {
 
     UnlabeledEdge[] E = new UnlabeledEdge[edges.size()];
     edges.toArray(E);
+    
+    // create ProbMap for graph closure
+    Map<String,Double> probMap = new HashMap<String,Double>();
+    for(UnlabeledEdge edge : E){
+    	int v1 = edge.v1();
+    	int v2 = edge.v2();
+    	if(v1<v2){
+    		probMap.put(v1+","+v2, edge.prob);
+    	}
+    	else{
+    		probMap.put(v2+","+v1, edge.prob);
+    	}
+    }
+    
     LGraph gc = new LGraph(V, E,  null);
+    gc.probMap = probMap;
     return gc;
   }
 
