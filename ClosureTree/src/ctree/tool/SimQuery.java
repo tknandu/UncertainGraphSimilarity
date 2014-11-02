@@ -39,7 +39,10 @@ public class SimQuery {
     }
 
     public static void main(String[] args) throws Exception {
-        Opt opt = new Opt(args);
+   
+    	  String[] customArgs = {"-range=0.5", "exampleCTree.txt", "queryTree.txt"};
+    	
+        Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {
             usage();
             return;
