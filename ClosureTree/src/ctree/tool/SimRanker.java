@@ -49,21 +49,21 @@ public class SimRanker {
       RankerEntry entry = pqueue.poll();
       Object obj = entry.getObject();
       if (obj instanceof Graph) { // object
-        return entry;
+        return entry; // if it is a graph, it is returned
       }
       else { // index node or leaf node
         CTreeNode node = (CTreeNode) obj;
         //insert all children into pqueue
         for (int i = 0; i < node.getEntries().size(); i++) {
           Object child = node.childAt(i);
-          Graph g = node.childGraphAt(i);
+          Graph g = node.childGraphAt(i); // if g is not a leaf node, its closure is returned 
           double sim;
           if (strictRanking && !node.isLeaf()) {
-            sim = graphSim.simUpper(query, g);
+            sim = graphSim.simUpper(query, g); // this seems to be histogram  based for closure 
           }
           else {
             int[] map = mapper.map(query, g);
-            sim = graphSim.sim(query, g, map);
+            sim = graphSim.sim(query, g, map); // this seems to be for database graph
           }
           RankerEntry entry2 = new RankerEntry( -sim, child);
           pqueue.add(entry2);
