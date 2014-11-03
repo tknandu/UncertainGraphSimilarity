@@ -210,7 +210,7 @@ public class NeighborBiasedMapping {
             
             if(tempProbOfMappedG2 > userProbThreshold) { 	// map u to v
             	probOfMappedG2 = tempProbOfMappedG2;
-            	
+            	System.out.println(e.u +" is mapped to "+e.v);
 	            map[e.u] = e.v;
 	            rmap[e.v] = e.u;
 	
@@ -257,7 +257,7 @@ public class NeighborBiasedMapping {
         //System.out.println(n1+" "+n2+" "+maxSize);
         
         System.out.println("Probability of G2 after mapping = "+probOfMappedG2);
-        
+        System.out.println("G2's id:"+g2.getId());
         return map;
     }
 
