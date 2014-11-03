@@ -61,6 +61,7 @@ public class NeighborBiasedMapping {
                     maxMate[i] = j;
                 }
             }
+            //System.out.println("Best mate for node "+i+": "+maxMate[i]+" "+maxW[i]);
             if (maxW[i] > 0) {
                 PQ.add(new Entry(i, maxMate[i], maxW[i]));
             }
@@ -71,10 +72,13 @@ public class NeighborBiasedMapping {
         Arrays.fill(map, -1);
         Arrays.fill(rmap, -1);
 
+        //System.out.println("Entries in PQ:");
+        
         // iteration of mapping in the order of weighted spanning
         int maxSize=PQ.size();
         while (!PQ.isEmpty()) {
             Entry e = PQ.poll();
+            //System.out.println(e.u+" "+e.v+" "+e.w);
             if (map[e.u] >= 0) { // u has been mapped
                 continue;
             }
@@ -174,7 +178,7 @@ public class NeighborBiasedMapping {
                 continue;
             }
             if (rmap[e.v] >= 0) { // v has been mapped, find another v
-            	System.out.println("here");
+            	//System.out.println("here");
                 maxW[e.u] = 0;
                 for (int v : bilist[e.u]) {
                     if (rmap[v] < 0 && W[e.u][v] > maxW[e.u]) {
@@ -256,7 +260,17 @@ public class NeighborBiasedMapping {
         }
         //System.out.println(n1+" "+n2+" "+maxSize);
         
-        System.out.println("Probability of G2 after mapping = "+probOfMappedG2);
+        
+        if(g2.id()==null){
+          System.out.println("NBM Results for mapping query graph to internal Ctree node");
+        }
+        else {
+          System.out.println("NBM Results for mapping query graph to graph #"+g2.id());
+        }
+        for (int i = 0; i < map.length; i++) {
+            System.out.println(i+" "+map[i]);
+        }
+        System.out.println("Probability of g2 after mapping (considering only mapped edges) = "+probOfMappedG2);
         
         return map;
     }

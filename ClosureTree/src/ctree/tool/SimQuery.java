@@ -42,7 +42,7 @@ public class SimQuery {
 
     public static void main(String[] args) throws Exception {
    
-    	  String[] customArgs = {"-range=5", "-probThresh=0.5", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
+    	  String[] customArgs = {"-range=3", "-probThresh=0.1", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {
@@ -54,7 +54,7 @@ public class SimQuery {
         //CTree ctree = CTree.load(opt.getArg(0));
 
         // Added
-        System.err.println("Building ctree from " + opt.getArg(0));
+        System.err.println("Building ctree from " + opt.getArg(0)+"\n");
         LGraph[] graphs = LGraphFile.loadLGraphs(opt.getArg(0));
         
         double probThresh=0.0;
@@ -62,7 +62,7 @@ public class SimQuery {
         	probThresh = opt.getDouble("probThresh");
         }
         
-        GraphMapper mapper = new NeighborBiasedMapper(new LGraphWeightMatrix(), 10, probThresh);
+        GraphMapper mapper = new NeighborBiasedMapper(new LGraphWeightMatrix(), 10, probThresh); // bonus = 10
         GraphSim graphSim = new LGraphSim();
         LabelMap labelMap = new LabelMap(graphs);
         int L = labelMap.size();
@@ -100,15 +100,18 @@ public class SimQuery {
             out = new PrintWriter(output);
         }
 
-        // By strict ranking, the similarity between a ctree node and the query
+        // We always compute exact sim even for internal node, so next comment is invalid
+        // By strict ranking, the similarity between a ctree node and the query 
         // is computed by upper bound.
 
         //GraphMapper mapper = new NeighborBiasedMapper(new LGraphWeightMatrix());
         //GraphSim graphSim = new LGraphSim();
         DataSum stat = new DataSum();
 
-        System.err.println("Query");
+        System.err.println("Range Query:\n");
         for (int i = 0; i < nQ; i++) {
+        	  System.out.println("For query graph:");
+        	  System.out.println(queries[i].toString());
             long query_time = System.currentTimeMillis();
 
             Vector<RankerEntry> ans;
@@ -163,7 +166,7 @@ public class SimQuery {
         }
 
         //format: query_time(ms) ans_size access_ratio confidence validity precision confidence_L
-        System.err.println("format: query_time(ms) ans_size access_ratio");
+        System.err.println("Result: Query_time(ms) Ans_size Access_ratio");
         System.out.printf("%f %f %f\n",
                           stat.mean("query_time"), stat.mean("ans_size"),
                           stat.mean("access_ratio"));
@@ -267,7 +270,7 @@ public class SimQuery {
                                          preciseRanking);
         RankerEntry entry;
         Vector<RankerEntry> ans = new Vector(); // answer set
-        while ((entry = ranker.nextNN()) != null && entry.getDist() <= range) {
+        while ((entry = ranker.optimizedRangeQuery(-range)) != null && entry.getDist() <= range) {
             ans.addElement(entry);
         }
         accessCount = ranker.getAccessCount();

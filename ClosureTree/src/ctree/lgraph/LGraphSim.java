@@ -22,6 +22,7 @@ public class LGraphSim implements GraphSim {
 
   public int sim(Graph g1, Graph g2, int[] map) {
     int sim = 0;
+    
     for (int i = 0; i < map.length; i++) {
       if (map[i] >= 0) {
         sim += VSIM;
