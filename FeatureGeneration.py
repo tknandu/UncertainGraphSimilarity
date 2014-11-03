@@ -167,6 +167,11 @@ def addNodes(G,alpha,labelList):
 		sampleSet.append(newGraph)
 	return sampleSet
 
-sampleSet=addNodes(Q,6,labelList)
-for graphSample in sampleSet:
-	printGraph(graphSample)
+
+sampleSet=[(graphSample,3) for graphSample in addNodes(Q,3,labelList)]
+sampleSet+=[(graphSample,6) for graphSample in addNodes(Q,6,labelList)]
+sampleSet+=[(graphSample,6) for graphSample in addNodes(Q,6,labelList)]
+for (sampleIndex,graphSample) in enumerate(sampleSet):
+	print "#"+str(sampleIndex)
+	print "EditDistance:"+str(graphSample[1])
+	printGraph(graphSample[0])
