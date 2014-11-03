@@ -41,7 +41,7 @@ public class LGraphWeightMatrix implements WeightMatrix {
     // compute W
     int c=0;
     for (int u = 0; u < n1; u++) {
-      Arrays.fill(W[u], 0);
+      Arrays.fill(W[u], 0.01);
       for (int v = 0; v < n2; v++) {
         if (VL1[u] == VL2[v]) {
         	c++;
@@ -56,7 +56,7 @@ public class LGraphWeightMatrix implements WeightMatrix {
         }
       }
     }
-    System.out.println(c);
+    //System.out.println(c);
     return W;
   }
 

@@ -13,6 +13,7 @@ public interface Graph extends java.io.Serializable {
   Edge[] E();
   int numV();
   int numE();
+  String id();
   int[][] adjMatrix();
   int[][] adjList();
   Edge[][] adjEdges();

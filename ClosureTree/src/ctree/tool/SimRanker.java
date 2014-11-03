@@ -61,13 +61,15 @@ public class SimRanker {
           if (strictRanking && !node.isLeaf()) {
             int sim1 = graphSim.simUpper(query, g); // this seems to be histogram based for closure 
             int[] map = ((NeighborBiasedMapper)mapper).mapRangeQuery(query, g);
+            //int[] map = ((NeighborBiasedMapper)mapper).map(query, g);
             sim = graphSim.sim(query, g, map); // this seems to be for database graph
             System.out.println("Upper bound = "+sim1+" Exact sim = "+sim);
           }
           else {
             int[] map = ((NeighborBiasedMapper)mapper).mapRangeQuery(query, g);
-            sim = graphSim.sim(query, g, map); // this seems to be for database graph
-            System.out.println("Exact sim = "+sim);
+          	//int[] map = ((NeighborBiasedMapper)mapper).map(query, g);
+          	sim = graphSim.sim(query, g, map); // this seems to be for database graph
+            System.out.println("Exact sim to graph "+g.toString()+"= "+sim);
           }
           RankerEntry entry2 = new RankerEntry( -sim, child);
           pqueue.add(entry2);
@@ -77,6 +79,68 @@ public class SimRanker {
     }
     return null;
   }
+  
+  /**
+   * Return the next nearest neighbour satisfying range threshold
+   * @return Data and its feature distance to the query point
+   */
+  public RankerEntry optimizedRangeQuery(double range) {
+    while (!pqueue.isEmpty()) {
+      RankerEntry entry = pqueue.poll();
+      Object obj = entry.getObject();
+      
+      if (obj instanceof Graph) { // object
+        return entry; // if it is a graph, it is returned
+      }
+      
+      else { // index node or leaf node
+        CTreeNode node = (CTreeNode) obj;
+        //insert all children into pqueue
+        for (int i = 0; i < node.getEntries().size(); i++) {
+          Object child = node.childAt(i);
+          Graph g = node.childGraphAt(i); // if g is not a leaf node, its closure is returned 
+          double sim;
+          
+          if (strictRanking && !node.isLeaf()) {
+            int sim1 = graphSim.simUpper(query, g); // this seems to be histogram based for closure 
+            int[] map = ((NeighborBiasedMapper)mapper).mapRangeQuery(query, g);
+            //int[] map = ((NeighborBiasedMapper)mapper).map(query, g);
+            sim = graphSim.sim(query, g, map); // this seems to be for database graph
+            System.out.println("Upper bound of sim = "+sim1+" Exact sim = "+sim);
+            if(sim < range){
+            	System.out.println("Pruned Ctree internal node since similarity falls below threshold="+ range+" !");
+            	continue; // do not add to PQ 
+            }
+            else {
+            	System.out.println("Ctree internal node is not pruned since similarity is above threshold="+ range);
+            }
+          }
+          
+          else {
+            int[] map = ((NeighborBiasedMapper)mapper).mapRangeQuery(query, g);
+          	//int[] map = ((NeighborBiasedMapper)mapper).map(query, g);
+          	sim = graphSim.sim(query, g, map); // this seems to be for database graph
+            System.out.println("Exact sim to graph "+g.id()+"= "+sim);
+            if(sim < range){
+            	System.out.println("Graph is not in answer set since similarity falls below threshold="+ range+" !");
+            }
+            else {
+            	System.out.println("Graph is in answer set since similarity is above threshold="+ range);
+            }
+          }
+          
+          System.out.println();
+          
+          RankerEntry entry2 = new RankerEntry( -sim, child);
+          pqueue.add(entry2);
+          accessCount++;
+        }
+      }
+    }
+    return null;
+  }
+
+  
 
   public Vector<RankerEntry> optimizedKNNQuery(int k) {
     PriorityQueue<RankerEntry> knnPQ = new PriorityQueue(k); ;

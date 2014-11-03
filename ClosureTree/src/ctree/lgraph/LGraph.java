@@ -43,6 +43,13 @@ public class LGraph implements Graph {
   }
 
   /**
+   * @return id
+   */
+  public String id() {
+    return id;
+  }
+  
+  /**
    * adjMatrix
    *
    * @return int[][]
