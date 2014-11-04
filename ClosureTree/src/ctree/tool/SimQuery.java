@@ -122,9 +122,16 @@ public class SimQuery {
             } else {
             		/* in optimizedRangeQuery, you prune internal Ctree nodes which fail probability test */
                 //ans = optimizedRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict);
+            	
             		/* in naiveRangeQuery, you don't prune internal Ctree nodes which fail probability test, instead you prune
                 	 at the end */
-                ans = naiveRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+                //ans = naiveRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+                
+            		/* in samplingRangeQuery, at each Ctree node, you generate PossibleWorld deterministic versions of 
+            		   the uncertain graph whose prob > probThreshold and set sim = weighted similarity of those possible 
+            		   worlds */
+                ans = samplingRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+                
             }
             query_time = System.currentTimeMillis() - query_time;
 
@@ -304,6 +311,34 @@ public class SimQuery {
         RankerEntry entry;
         Vector<RankerEntry> ans = new Vector(); // answer set
         while ((entry = ranker.naiveRangeQuery(-range, probThresh)) != null && entry.getDist() <= range && entry.prob >= probThresh) {
+            ans.addElement(entry);
+        }
+        accessCount = ranker.getAccessCount();
+        ranker.clear();        
+        return ans;
+    }
+    
+    /**
+     * Sampling Range query
+     * @param ctree CTree
+     * @param mapper GraphMapper
+     * @param graphSim GraphSim
+     * @param query Graph
+     * @param range double
+     * @param preciseRanking boolean
+     * @return Vector
+     */
+    public static Vector<RankerEntry> samplingRangeQuery(CTree ctree,
+                                                 GraphMapper mapper,
+                                                 GraphSim graphSim,
+                                                 Graph query, double range,
+                                                 boolean preciseRanking,
+                                                 double probThresh) {
+        SimRanker ranker = new SimRanker(ctree, mapper, graphSim, query,
+                                         preciseRanking);
+        RankerEntry entry;
+        Vector<RankerEntry> ans = new Vector(); // answer set
+        while ((entry = ranker.samplingRangeQuery(-range, probThresh)) != null && entry.getDist() <= range) {
             ans.addElement(entry);
         }
         accessCount = ranker.getAccessCount();

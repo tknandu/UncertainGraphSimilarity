@@ -2,6 +2,7 @@ package ctree.tool;
 
 import java.util.*;
 import ctree.graph.*;
+import ctree.lgraph.LGraph;
 import ctree.mapper.*;
 import ctree.index.*;
 
@@ -109,6 +110,7 @@ public class SimRanker {
             System.out.println("Upper bound of sim = "+sim1+" Exact sim = "+sim);
             if(sim < range){
             	System.out.println("Pruned Ctree internal node since similarity falls below threshold="+ range+" !");
+            	accessCount++;
             	continue; // do not add to PQ 
             }
             else {
@@ -168,6 +170,7 @@ public class SimRanker {
             System.out.println("Upper bound of sim = "+sim1+" Exact sim = "+sim);
             if(sim < range){
             	System.out.println("Pruned Ctree internal node since similarity falls below threshold="+ range+" !");
+            	accessCount++;
             	continue; // do not add to PQ 
             }
             else {
@@ -189,7 +192,7 @@ public class SimRanker {
             }
             else {
             	if(entry.prob >= probThresh)
-            		System.out.println("Graph is in answer set since similarity is above threshold="+ range+" and prob > threshold="+probThresh);
+            		System.out.println("Graph is in answer set since similarity > threshold="+ range+" and prob > threshold="+probThresh);
             	else
             		System.out.println("Graph is not in answer set since probablity of mapped version falls below threshold="+ probThresh+" !");
             }
@@ -208,6 +211,94 @@ public class SimRanker {
     return null;
   }  
 
+  /**
+   * Sampling range query
+   * @return Data and its feature distance to the query point
+   */
+  public RankerEntry samplingRangeQuery(double range, double probThresh) {
+  	
+  	int noOfSampledGraphs = 1000;
+  	
+    while (!pqueue.isEmpty()) {
+      RankerEntry entry = pqueue.poll();
+      Object obj = entry.getObject();
+      
+      if (obj instanceof Graph) { // object
+        return entry; // if it is a graph, it is returned
+      }
+      
+      else { // index node or leaf node
+        CTreeNode node = (CTreeNode) obj;
+        //insert all children into pqueue
+        for (int i = 0; i < node.getEntries().size(); i++) {
+          Object child = node.childAt(i);
+          Graph g = node.childGraphAt(i); // if g is not a leaf node, its closure is returned 
+          double weightedSim;
+          
+          if (strictRanking && !node.isLeaf()) { 
+          	
+            LGraph[] sampledGraphs = ((LGraph)g).sampledGraphs(noOfSampledGraphs, probThresh);
+            double weightedSim_Num = 0.0, weightedSim_Den = 0.0;
+            System.out.println("Number of sampled deterministic graphs with prob>probThresh= "+sampledGraphs.length);
+            
+           for(int j=0; j<sampledGraphs.length; j++){
+          	 int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraphs[j]); // probability of mapped Ctree node not considered for pruning here
+          	 int sim = graphSim.sim(query, sampledGraphs[j], map); 
+          	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim;
+          	 weightedSim_Den += sampledGraphs[j].probOfGraph;
+           }
+            
+           weightedSim = weightedSim_Num/weightedSim_Den;
+           
+            System.out.println("Weighted sim = "+weightedSim);
+            
+            if(weightedSim < range){
+            	System.out.println("Pruned Ctree internal node since weighted similarity falls below threshold="+ range+" !");
+            	accessCount++;
+            	continue; // do not add to PQ 
+            }
+            else {
+            	System.out.println("Ctree internal node is not pruned since weighted similarity is above threshold="+ range);
+            }
+          }
+          
+          else {
+          	
+            LGraph[] sampledGraphs = ((LGraph)g).sampledGraphs(noOfSampledGraphs, probThresh);
+            double weightedSim_Num = 0.0, weightedSim_Den = 0.0;
+            System.out.println("Number of sampled deterministic graphs with prob>probThresh= "+sampledGraphs.length);
+            
+           for(int j=0; j<sampledGraphs.length; j++){
+          	 int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraphs[j]); // probability of mapped Ctree node not considered for pruning here
+          	 int sim = graphSim.sim(query, sampledGraphs[j], map); 
+          	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim;
+          	 weightedSim_Den += sampledGraphs[j].probOfGraph;
+           }
+            
+           weightedSim = weightedSim_Num/weightedSim_Den;
+           
+           System.out.println("Weighted sim of graph "+g.id()+"= "+weightedSim);
+            
+            if(weightedSim < range){
+            	System.out.println("Graph is not in answer set since since weighted similarity falls below threshold="+ range+" !");
+            }
+            else {
+            	System.out.println("Graph is in answer set since weighted similarity is above threshold="+ range);
+            }
+          }
+          
+          RankerEntry entry2 = new RankerEntry( -weightedSim, child);
+          pqueue.add(entry2);
+          System.out.println();
+         
+          accessCount++;
+        }
+      }
+    }
+    return null;
+  }  
+  
+  
   public Vector<RankerEntry> optimizedKNNQuery(int k) {
     PriorityQueue<RankerEntry> knnPQ = new PriorityQueue(k); ;
     double lowerBound = -1;

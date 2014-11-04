@@ -16,6 +16,7 @@ public class LGraph implements Graph {
   protected LVertex[] V;
   protected UnlabeledEdge[] E;
   protected String id;
+  public double probOfGraph;
   
   public Map<String,Double> probMap = null;
   
@@ -127,6 +128,35 @@ public class LGraph implements Graph {
 
   }
 
+  public LGraph[] sampledGraphs(int maxNoOfSampledGraphs, double probThresh){
+  	LGraph[] graphs = new LGraph[maxNoOfSampledGraphs];
+  	int cnt = 0;
+  	
+  	for(int i=0; i<maxNoOfSampledGraphs; i++){
+  		double prob = 1.0;
+  		
+  		List<UnlabeledEdge> edges = new ArrayList<UnlabeledEdge>();
+  		for(UnlabeledEdge edge: this.E){
+  			if(Math.random()<=edge.prob){
+  				edges.add(edge);
+  				prob = prob * edge.prob;
+  			}
+  		}
+  		
+  		UnlabeledEdge[] edgesArray = new UnlabeledEdge[edges.size()];
+  		
+  		if(prob>=probThresh){ // only if prob of graph >= probThresh, use it to compute weighted sim
+    		LGraph graph = new LGraph(this.V, edges.toArray(edgesArray) ,this.id+"_"+i);
+    		graph.probOfGraph = prob;
+    		graphs[cnt]=graph;
+    		cnt++;
+  		}
+
+  	}
+  	
+  	return graphs;
+  }
+  
 
   /**
    * @return int
