@@ -44,7 +44,7 @@ public class SimQuery {
    
 
     	  //String[] customArgs = {"-range=9", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
-    		String[] customArgs = {"-range=9", "-probThresh=0.0", "-output=output.txt", "toyEvaluationGraph.txt", "evaluationQueryGraph.txt"};
+    		String[] customArgs = {"-range=340", "-probThresh=0.0", "-output=output.txt", "toyEvaluationGraph.txt", "evaluationQueryGraph.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {

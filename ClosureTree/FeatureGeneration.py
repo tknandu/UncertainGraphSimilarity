@@ -125,6 +125,7 @@ def writeGraphToFile(G,fileptr,graphId):
 #print len(features)
 
 labelList=["A","B","C"]
+"""
 Q=nx.Graph()
 Q.add_node(0)
 Q.add_node(1)
@@ -144,7 +145,8 @@ Q.node[1]['label']="B"
 Q.node[2]['label']="B"
 Q.node[3]['label']="C"
 Q.node[4]['label']="C"
-
+"""
+Q=nx.read_gml('graph.gml')
 writeGraphToFile(Q,open("evaluationQueryGraph.txt","w"),10000)
 #G1=addNodeAndEdge(Q)
 #G2=addEdge(Q)
@@ -220,8 +222,10 @@ def relabelNodes(G,alpha,labelList):
 
 evaluationFile=open("evaluation.txt","w")
 sampleSet=[]
-sampleSet.append((deleteEdges(Q,3),3))
-sampleSet.append((relabelNodes(Q,3,labelList),3))
+for editDistance in range(2,16):
+	for sampleSize in range(5):
+		sampleSet.append((deleteEdges(Q,editDistance),editDistance))
+		sampleSet.append((relabelNodes(Q,editDistance,labelList),editDistance))
 #for sampleCount in range(5):
 #	sampleSet+=[(graphSample,2) for graphSample in addNodes(Q,2,labelList)]
 #	sampleSet+=[(graphSample,3) for graphSample in addNodes(Q,3,labelList)]
