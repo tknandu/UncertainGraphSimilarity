@@ -1,5 +1,0 @@
-Answer set size: 4
-GraphId: 2 Similarity: 5.845044468513738
-GraphId: 0 Similarity: 7.9710103991823615
-GraphId: 1 Similarity: 5.466332581662003
-GraphId: 3 Similarity: 4.891125413083321
