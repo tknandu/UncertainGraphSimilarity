@@ -127,10 +127,10 @@ public class SimQuery {
 
             // Output answers to this query
             if (output != null) {
-                out.println(ans.size());
+                out.println("Answer set size: "+ans.size());
                 for (RankerEntry e : ans) {
                     Graph g = e.getGraph();
-                    out.println(((LGraph) g).getId());
+                    out.println("GraphId: "+((LGraph) g).getId()+" Similarity: "+-e.getDist());
                 }
             }
 
@@ -276,7 +276,7 @@ public class SimQuery {
             ans.addElement(entry);
         }
         accessCount = ranker.getAccessCount();
-        ranker.clear();
+        ranker.clear();        
         return ans;
     }
 
