@@ -146,7 +146,8 @@ Q.node[2]['label']="B"
 Q.node[3]['label']="C"
 Q.node[4]['label']="C"
 """
-Q=nx.read_gml('graph.gml')
+import sys
+Q=nx.read_gml(sys.argv[1])
 writeGraphToFile(Q,open("evaluationQueryGraph.txt","w"),10000)
 #G1=addNodeAndEdge(Q)
 #G2=addEdge(Q)

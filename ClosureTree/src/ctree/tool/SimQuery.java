@@ -44,7 +44,7 @@ public class SimQuery {
    
 
     	  //String[] customArgs = {"-range=9", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
-    		String[] customArgs = {"-range=340", "-probThresh=0.0", "-output=output.txt", "toyEvaluationGraph.txt", "evaluationQueryGraph.txt"};
+    		String[] customArgs = {"-range=106", "-probThresh=0.0", "-output=output.txt", "toyEvaluationGraph.txt", "evaluationQueryGraph.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {
@@ -127,10 +127,10 @@ public class SimQuery {
 
             // Output answers to this query
             if (output != null) {
-                out.println(ans.size());
+                out.println("Answer set size: "+ans.size());
                 for (RankerEntry e : ans) {
                     Graph g = e.getGraph();
-                    out.println(((LGraph) g).getId());
+                    out.println("GraphId: "+((LGraph) g).getId()+" Similarity: "+-e.getDist());
                 }
             }
 
@@ -276,7 +276,7 @@ public class SimQuery {
             ans.addElement(entry);
         }
         accessCount = ranker.getAccessCount();
-        ranker.clear();
+        ranker.clear();        
         return ans;
     }
 

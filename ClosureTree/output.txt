@@ -1,11 +1,8 @@
-10
-9
-0
-2
-6
-4
-8
-14
-10
-16
-12
+Answer set size: 7
+GraphId: 123 Similarity: 116.0
+GraphId: 5 Similarity: 116.0
+GraphId: 29 Similarity: 116.0
+GraphId: 58 Similarity: 109.0
+GraphId: 56 Similarity: 109.0
+GraphId: 60 Similarity: 108.0
+GraphId: 62 Similarity: 108.0
