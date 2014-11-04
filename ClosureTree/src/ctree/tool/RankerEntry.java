@@ -13,12 +13,19 @@ import ctree.graph.*;
 public class RankerEntry implements Comparable {
   private double dist; // distance to the query
   private Object obj; // Graph or CTreeNode
-
+  public double prob; // pronbability of mapped version of prob graph
+  
   public RankerEntry(double _dist, Object _obj) {
     dist = _dist;
     obj = _obj;
   }
 
+  public RankerEntry(double _dist, Object _obj, double _prob) {
+    dist = _dist;
+    obj = _obj;
+    prob = _prob;
+  }
+  
   public int compareTo(Object obj) {
     RankerEntry e1 = (RankerEntry) obj;
     if (dist < e1.dist) {

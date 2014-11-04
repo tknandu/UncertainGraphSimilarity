@@ -81,7 +81,7 @@ public class SimRanker {
   }
   
   /**
-   * Return the next nearest neighbour satisfying range threshold
+   * Return the next nearest neighbour satisfying range threshold with pruning at internal Ctree nodes based on prob threshold
    * @return Data and its feature distance to the query point
    */
   public RankerEntry optimizedRangeQuery(double range) {
@@ -140,7 +140,73 @@ public class SimRanker {
     return null;
   }
 
-  
+  /**
+   * Return the next nearest neighbour satisfying range threshold without pruning at internal Ctree nodes based on prob threshold
+   * @return Data and its feature distance to the query point
+   */
+  public RankerEntry naiveRangeQuery(double range, double probThresh) {
+    while (!pqueue.isEmpty()) {
+      RankerEntry entry = pqueue.poll();
+      Object obj = entry.getObject();
+      
+      if (obj instanceof Graph) { // object
+        return entry; // if it is a graph, it is returned
+      }
+      
+      else { // index node or leaf node
+        CTreeNode node = (CTreeNode) obj;
+        //insert all children into pqueue
+        for (int i = 0; i < node.getEntries().size(); i++) {
+          Object child = node.childAt(i);
+          Graph g = node.childGraphAt(i); // if g is not a leaf node, its closure is returned 
+          double sim;
+          
+          if (strictRanking && !node.isLeaf()) {
+            int sim1 = graphSim.simUpper(query, g); 
+            int[] map = ((NeighborBiasedMapper)mapper).map(query, g); // probability of mapped Ctree node not considered for pruning here
+            sim = graphSim.sim(query, g, map); 
+            System.out.println("Upper bound of sim = "+sim1+" Exact sim = "+sim);
+            if(sim < range){
+            	System.out.println("Pruned Ctree internal node since similarity falls below threshold="+ range+" !");
+            	continue; // do not add to PQ 
+            }
+            else {
+            	System.out.println("Ctree internal node is not pruned since similarity is above threshold="+ range);
+            }
+            RankerEntry entry2 = new RankerEntry( -sim, child);
+            pqueue.add(entry2);
+          }
+          
+          else {
+            int[] map = ((NeighborBiasedMapper)mapper).mapAndReturnProb(query, g, entry); // for a database graph, we calculate probability of mapped G2
+          	//int[] map = ((NeighborBiasedMapper)mapper).map(query, g);
+          	sim = graphSim.sim(query, g, map); // this seems to be for database graph
+            System.out.println("Exact sim to graph "+g.id()+"= "+sim);
+            System.out.println("Probability of mapped version of graph "+g.id()+"= "+entry.prob);
+            
+            if(sim < range){
+            	System.out.println("Graph is not in answer set since similarity falls below threshold="+ range+" !");
+            }
+            else {
+            	if(entry.prob >= probThresh)
+            		System.out.println("Graph is in answer set since similarity is above threshold="+ range+" and prob > threshold="+probThresh);
+            	else
+            		System.out.println("Graph is not in answer set since probablity of mapped version falls below threshold="+ probThresh+" !");
+            }
+            
+            RankerEntry entry2 = new RankerEntry( -sim, child);
+            entry2.prob = entry.prob;
+            pqueue.add(entry2);
+          }
+          
+          System.out.println();
+         
+          accessCount++;
+        }
+      }
+    }
+    return null;
+  }  
 
   public Vector<RankerEntry> optimizedKNNQuery(int k) {
     PriorityQueue<RankerEntry> knnPQ = new PriorityQueue(k); ;

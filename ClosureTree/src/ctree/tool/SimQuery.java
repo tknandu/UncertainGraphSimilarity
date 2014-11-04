@@ -120,8 +120,11 @@ public class SimQuery {
             if (knn) {
                 ans = kNNQuery(ctree, mapper, graphSim, queries[i], k, strict);
             } else {
-                ans = rangeQuery(ctree, mapper, graphSim, queries[i], -range,
-                                 strict);
+            		/* in optimizedRangeQuery, you prune internal Ctree nodes which fail probability test */
+                //ans = optimizedRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict);
+            		/* in naiveRangeQuery, you don't prune internal Ctree nodes which fail probability test, instead you prune
+                	 at the end */
+                ans = naiveRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
             }
             query_time = System.currentTimeMillis() - query_time;
 
@@ -254,7 +257,7 @@ public class SimQuery {
     }
 
     /**
-     * Range query
+     * Optimized Range query
      * @param ctree CTree
      * @param mapper GraphMapper
      * @param graphSim GraphSim
@@ -263,7 +266,7 @@ public class SimQuery {
      * @param preciseRanking boolean
      * @return Vector
      */
-    public static Vector<RankerEntry> rangeQuery(CTree ctree,
+    public static Vector<RankerEntry> optimizedRangeQuery(CTree ctree,
                                                  GraphMapper mapper,
                                                  GraphSim graphSim,
                                                  Graph query, double range,
@@ -273,6 +276,34 @@ public class SimQuery {
         RankerEntry entry;
         Vector<RankerEntry> ans = new Vector(); // answer set
         while ((entry = ranker.optimizedRangeQuery(-range)) != null && entry.getDist() <= range) {
+            ans.addElement(entry);
+        }
+        accessCount = ranker.getAccessCount();
+        ranker.clear();        
+        return ans;
+    }
+    
+    /**
+     * Naive Range query
+     * @param ctree CTree
+     * @param mapper GraphMapper
+     * @param graphSim GraphSim
+     * @param query Graph
+     * @param range double
+     * @param preciseRanking boolean
+     * @return Vector
+     */
+    public static Vector<RankerEntry> naiveRangeQuery(CTree ctree,
+                                                 GraphMapper mapper,
+                                                 GraphSim graphSim,
+                                                 Graph query, double range,
+                                                 boolean preciseRanking,
+                                                 double probThresh) {
+        SimRanker ranker = new SimRanker(ctree, mapper, graphSim, query,
+                                         preciseRanking);
+        RankerEntry entry;
+        Vector<RankerEntry> ans = new Vector(); // answer set
+        while ((entry = ranker.naiveRangeQuery(-range, probThresh)) != null && entry.getDist() <= range && entry.prob >= probThresh) {
             ans.addElement(entry);
         }
         accessCount = ranker.getAccessCount();
