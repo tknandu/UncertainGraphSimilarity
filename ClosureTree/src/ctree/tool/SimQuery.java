@@ -43,8 +43,8 @@ public class SimQuery {
     public static void main(String[] args) throws Exception {
    
 
-    	  String[] customArgs = {"-range=3", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
-
+    	  //String[] customArgs = {"-range=9", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
+    		String[] customArgs = {"-range=9", "-probThresh=0.0", "-output=output.txt", "toyEvaluationGraph.txt", "evaluationQueryGraph.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {

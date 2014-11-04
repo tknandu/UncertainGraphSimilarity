@@ -110,7 +110,7 @@ def printGraph(G):
 
 def writeGraphToFile(G,fileptr,graphId):
 	#Print number of nodes
-	fileptr.write(str(graphId)+"\n")
+	fileptr.write("#"+str(graphId)+"\n")
 	fileptr.write(str(nx.number_of_nodes(G))+"\n")
 	#Print the node labels
 	for vertex in G:
@@ -179,14 +179,55 @@ def addNodes(G,alpha,labelList):
 		sampleSet.append(newGraph)
 	return sampleSet
 
+def deleteEdges(G,alpha):
+	sampleGraph=G.copy()
+	n=nx.number_of_nodes(G)	
+	for edgeDeletion in range(alpha):
+		if nx.number_of_edges(sampleGraph)==0:
+			print "Insufficient edges"
+			break
+		while True:
+			i=random.randint(0,n-1)
+			j=random.randint(0,n-1)
+			if j not in sampleGraph[i]:
+				continue
+			else:
+				sampleGraph.remove_edge(i,j)
+				break
+	return sampleGraph
+
+def relabelNodes(G,alpha,labelList):
+	sampleGraph=G.copy()
+	n=nx.number_of_nodes(G)
+	relabelled={}
+	for relabelling in range(alpha):
+		while True:
+			randomNode=random.randint(0,n-1)
+			if randomNode in relabelled:
+				continue
+			else:
+				relabelled[randomNode]=1
+				originalLabel=G.node[randomNode]['label']
+				while True:
+					randomLabel=labelList[random.randint(0,len(labelList)-1)]
+					if randomLabel==originalLabel:
+						continue
+					else:
+						sampleGraph.node[randomNode]['label']=randomLabel
+						break
+				break
+	return sampleGraph
+
 evaluationFile=open("evaluation.txt","w")
 sampleSet=[]
-for sampleCount in range(5):
-	sampleSet+=[(graphSample,2) for graphSample in addNodes(Q,2,labelList)]
-	sampleSet+=[(graphSample,3) for graphSample in addNodes(Q,3,labelList)]
-	sampleSet+=[(graphSample,4) for graphSample in addNodes(Q,4,labelList)]
-	sampleSet+=[(graphSample,5) for graphSample in addNodes(Q,5,labelList)]
-	sampleSet+=[(graphSample,6) for graphSample in addNodes(Q,6,labelList)]
+sampleSet.append((deleteEdges(Q,3),3))
+sampleSet.append((relabelNodes(Q,3,labelList),3))
+#for sampleCount in range(5):
+#	sampleSet+=[(graphSample,2) for graphSample in addNodes(Q,2,labelList)]
+#	sampleSet+=[(graphSample,3) for graphSample in addNodes(Q,3,labelList)]
+#	sampleSet+=[(graphSample,4) for graphSample in addNodes(Q,4,labelList)]
+#	sampleSet+=[(graphSample,5) for graphSample in addNodes(Q,5,labelList)]
+#	sampleSet+=[(graphSample,6) for graphSample in addNodes(Q,6,labelList)]
 
 for (sampleIndex,graphSample) in enumerate(sampleSet):
 	if sampleIndex!=0:
