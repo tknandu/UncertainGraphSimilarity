@@ -1,1295 +1,1236 @@
 Building ctree from graphDatabase.txt
 
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
-coming here merge
 Range Query:
 
 For query graph:
 #10000
 30
+B
+C
+B
 A
 B
 C
 B
 C
-C
 A
 C
-C
-C
 B
 B
-C
-C
 B
 C
 B
-B
-A
 A
 C
 C
 A
-A
-A
-A
 B
 C
-B
 C
-298
-0 4
+C
+B
+A
+C
+A
+A
+C
+A
+171
+0 1
+0 5
 0 6
-0 7
-0 9
-0 10
+0 8
 0 12
-0 13
-0 15
+0 14
 0 16
 0 17
-0 18
-0 23
+0 21
 0 24
 0 25
-0 26
-0 27
 0 28
-0 29
 1 2
-1 3
-1 5
+1 4
 1 6
 1 8
-1 9
+1 10
 1 12
-1 14
 1 15
-1 17
+1 16
+1 18
 1 19
-1 20
 1 21
-1 22
-1 23
 1 24
 1 25
-1 27
+1 26
 1 28
 1 29
 2 4
-2 5
 2 6
-2 7
-2 8
-2 9
-2 12
-2 14
-2 15
-2 17
-2 18
-2 21
+2 10
+2 13
+2 19
+2 20
 2 23
-2 24
 2 25
-2 26
+2 27
+2 28
 3 5
-3 6
-3 8
+3 7
 3 9
 3 10
-3 11
-3 12
+3 13
+3 15
 3 16
-3 17
 3 18
-3 19
-3 21
-3 23
 3 24
+3 25
 3 26
+3 27
 3 28
-3 29
-4 6
+4 5
 4 7
-4 8
-4 9
 4 10
 4 11
-4 12
-4 13
+4 14
 4 16
 4 17
-4 18
 4 20
-4 21
-4 23
 4 24
-4 25
 4 26
-4 28
-5 6
-5 7
-5 8
 5 10
-5 12
 5 13
-5 14
 5 16
 5 18
 5 19
-5 20
+5 21
 5 22
 5 23
-5 24
+5 25
 5 26
-5 27
-5 28
-5 29
-6 7
 6 8
 6 9
-6 10
-6 11
+6 12
 6 13
-6 14
-6 15
-6 16
-6 17
-6 18
 6 19
 6 20
 6 22
-6 23
-6 24
-6 26
 6 27
-7 11
-7 12
-7 13
-7 14
+6 28
+7 9
+7 10
 7 15
 7 16
-7 17
-7 19
 7 20
-7 21
-7 23
-7 24
-7 25
-7 26
 7 27
-8 9
+7 28
 8 10
+8 11
 8 12
-8 14
-8 15
 8 16
-8 17
-8 19
-8 20
 8 21
-8 22
 8 23
 8 24
+8 25
 8 26
-8 28
+8 29
+9 10
+9 12
+9 13
 9 15
-9 16
 9 17
 9 19
-9 20
-9 21
-9 24
-9 25
 9 26
-9 28
-9 29
-10 11
-10 12
-10 15
-10 16
-10 18
-10 19
+10 17
 10 20
-10 21
-10 22
-10 23
-10 25
-10 26
-10 27
+10 24
+10 29
 11 13
-11 15
-11 16
-11 17
+11 14
 11 18
 11 20
 11 21
 11 22
-11 23
-11 25
-11 26
 11 27
 11 28
+12 15
+12 16
 12 17
 12 18
-12 19
 12 20
-12 21
-12 22
-12 23
-12 24
-12 25
-12 26
-12 28
+12 27
 12 29
-13 14
 13 17
 13 18
 13 19
-13 20
 13 21
 13 22
 13 24
-13 25
-13 26
 13 27
 13 28
-13 29
-14 15
-14 16
+14 17
 14 18
-14 19
-14 20
-14 21
-14 24
-14 27
-15 16
-15 17
-15 18
-15 19
 15 21
 15 22
 15 23
-15 24
-15 25
 15 26
-15 27
-15 28
 15 29
-16 19
-16 20
+16 17
 16 22
-16 24
 16 25
-16 27
-16 28
-16 29
+16 26
 17 19
-17 20
 17 21
-17 22
 17 23
-17 24
-17 25
-17 27
+17 28
 17 29
-18 21
-18 24
-18 26
-18 27
-18 28
-18 29
+18 22
+18 25
+19 21
+19 22
+19 23
 19 25
-19 26
 19 27
-19 28
-19 29
 20 21
-20 23
+20 22
 20 24
-20 27
 20 28
-20 29
-21 22
 21 23
-21 24
-21 25
-21 26
-21 28
 21 29
-22 23
-22 24
-22 25
-22 26
 22 27
-22 28
-22 29
-23 24
-23 26
+23 25
 23 27
+23 28
+23 29
 24 27
-24 28
 24 29
 25 27
-25 28
-26 27
-26 29
+25 29
+26 28
 27 28
-28 29
 
-Edge Added to Rep:3 10
-Edge Added to Rep:7 20
-Edge Added to Rep:4 15
-Edge Added to Rep:10 23
-Edge Added to Rep:26 27
-Edge Added to Rep:6 11
-Edge Added to Rep:16 24
-Edge Added to Rep:0 25
-Edge Added to Rep:2 5
-Edge Added to Rep:3 8
-Edge Added to Rep:17 23
-Edge Added to Rep:22 25
-Edge Added to Rep:8 15
-Edge Added to Rep:3 6
-Edge Added to Rep:0 29
-Edge Added to Rep:2 8
-Edge Added to Rep:7 17
-Edge Added to Rep:8 24
-Edge Added to Rep:5 18
-Edge Added to Rep:1 2
-Edge Added to Rep:9 26
-Edge Added to Rep:32 26
-Edge Added to Rep:11 20
-Edge Added to Rep:27 28
-Edge Added to Rep:8 21
-Edge Added to Rep:18 24
-Edge Added to Rep:17 22
-Edge Added to Rep:5 20
-Edge Added to Rep:8 22
-Edge Added to Rep:6 9
-Edge Added to Rep:6 22
-Edge Added to Rep:2 21
-Edge Added to Rep:3 16
-Edge Added to Rep:32 18
-Edge Added to Rep:15 23
-Edge Added to Rep:4 7
-Edge Added to Rep:20 28
-Edge Added to Rep:9 28
-Edge Added to Rep:2 11
-Edge Added to Rep:10 11
-Edge Added to Rep:2 6
-Edge Added to Rep:7 23
-Edge Added to Rep:1 22
-Edge Added to Rep:0 12
-Edge Added to Rep:1 28
-Edge Added to Rep:13 18
-Edge Added to Rep:4 8
-Edge Added to Rep:30 17
-Edge Added to Rep:5 8
-Edge Added to Rep:35 28
-Edge Added to Rep:3 18
-Edge Added to Rep:4 25
-Edge Added to Rep:20 29
-Edge Added to Rep:16 28
-Edge Added to Rep:16 26
-Edge Added to Rep:13 24
-Edge Added to Rep:32 8
-Edge Added to Rep:25 27
-Edge Added to Rep:11 18
-Edge Added to Rep:23 26
-Edge Added to Rep:8 10
-Edge Added to Rep:2 4
-Edge Added to Rep:15 17
-Edge Added to Rep:11 21
-Edge Added to Rep:15 28
-Edge Added to Rep:15 29
-Edge Added to Rep:4 13
-Edge Added to Rep:5 16
-Edge Added to Rep:8 17
-Edge Added to Rep:7 15
-Edge Added to Rep:6 16
-Edge Added to Rep:4 16
-Edge Added to Rep:10 20
-Edge Added to Rep:13 27
-Edge Added to Rep:28 29
-Edge Added to Rep:4 17
-Edge Added to Rep:13 21
-Edge Added to Rep:10 16
-Edge Added to Rep:8 23
-Edge Added to Rep:9 19
-Edge Added to Rep:0 26
-Edge Added to Rep:0 10
-Edge Added to Rep:4 11
-Edge Added to Rep:12 14
-Edge Added to Rep:34 17
-Edge Added to Rep:9 21
-Edge Added to Rep:5 29
-Edge Added to Rep:12 24
-Edge Added to Rep:21 28
-Edge Added to Rep:0 17
-Edge Added to Rep:0 15
-Edge Added to Rep:7 12
-Edge Added to Rep:7 25
-Edge Added to Rep:5 23
-Edge Added to Rep:8 20
-Edge Added to Rep:5 26
-Edge Added to Rep:20 24
-Edge Added to Rep:2 7
-Edge Added to Rep:4 28
-Edge Added to Rep:0 24
-Edge Added to Rep:12 17
-Edge Added to Rep:1 9
-Edge Added to Rep:17 29
-Edge Added to Rep:11 13
-Edge Added to Rep:11 25
-Edge Added to Rep:7 21
-Edge Added to Rep:9 15
-Edge Added to Rep:1 20
-Edge Added to Rep:27 3
-Edge Added to Rep:30 18
-Edge Added to Rep:6 20
-Edge Added to Rep:0 4
-Edge Added to Rep:24 28
-Edge Added to Rep:23 28
-Edge Added to Rep:1 5
-Edge Added to Rep:1 24
-Edge Added to Rep:5 12
-Edge Added to Rep:11 23
-Edge Added to Rep:32 30
-Edge Added to Rep:4 9
-Edge Added to Rep:5 7
-Edge Added to Rep:30 28
-Edge Added to Rep:2 24
-Edge Added to Rep:32 0
-Edge Added to Rep:22 29
-Edge Added to Rep:33 21
-Edge Added to Rep:15 26
-Edge Added to Rep:9 25
-Edge Added to Rep:11 17
-Edge Added to Rep:11 27
-Edge Added to Rep:33 12
-Edge Added to Rep:17 20
-Edge Added to Rep:21 22
-Edge Added to Rep:9 16
-Edge Added to Rep:4 34
-Edge Added to Rep:32 3
-Edge Added to Rep:0 13
-Edge Added to Rep:30 5
-Edge Added to Rep:16 27
-Edge Added to Rep:2 18
-Edge Added to Rep:10 25
-Edge Added to Rep:11 16
-Edge Added to Rep:21 23
-Edge Added to Rep:7 33
-Edge Added to Rep:12 22
-Edge Added to Rep:13 28
-Edge Added to Rep:5 27
-Edge Added to Rep:8 16
-Edge Added to Rep:5 24
-Edge Added to Rep:19 27
-Edge Added to Rep:5 6
-Edge Added to Rep:23 27
-Edge Added to Rep:15 27
-Edge Added to Rep:33 9
-Edge Added to Rep:1 3
-Edge Added to Rep:1 27
-Edge Added to Rep:26 24
-Edge Added to Rep:18 21
-Edge Added to Rep:16 22
-Edge Added to Rep:11 19
-Edge Added to Rep:32 20
-Edge Added to Rep:6 12
-Edge Added to Rep:14 15
-Edge Added to Rep:3 21
-Edge Added to Rep:3 17
-Edge Added to Rep:9 20
-Edge Added to Rep:17 28
-Edge Added to Rep:15 18
-Edge Added to Rep:32 22
-Edge Added to Rep:16 20
-Edge Added to Rep:15 21
-Edge Added to Rep:32 6
-Edge Added to Rep:15 16
-Edge Added to Rep:24 27
-Edge Added to Rep:9 10
-Edge Added to Rep:1 15
-Edge Added to Rep:7 24
-Edge Added to Rep:6 28
-Edge Added to Rep:9 22
-Edge Added to Rep:6 24
-Edge Added to Rep:32 23
-Edge Added to Rep:6 27
-Edge Added to Rep:26 20
-Edge Added to Rep:17 19
-Edge Added to Rep:8 19
-Edge Added to Rep:11 15
-Edge Added to Rep:24 29
-Edge Added to Rep:10 12
-Edge Added to Rep:10 15
-Edge Added to Rep:4 12
-Edge Added to Rep:10 21
-Edge Added to Rep:2 19
-Edge Added to Rep:1 17
-Edge Added to Rep:13 8
-Edge Added to Rep:35 16
-Edge Added to Rep:4 35
-Edge Added to Rep:14 9
-Edge Added to Rep:11 22
-Edge Added to Rep:21 25
-Edge Added to Rep:5 28
-Edge Added to Rep:14 26
-Edge Added to Rep:3 19
-Edge Added to Rep:21 29
-Edge Added to Rep:33 29
-Edge Added to Rep:1 14
-Edge Added to Rep:21 26
-Edge Added to Rep:25 29
-Edge Added to Rep:15 22
-Edge Added to Rep:19 0
-Edge Added to Rep:2 25
-Edge Added to Rep:3 24
-Edge Added to Rep:21 27
-Edge Added to Rep:19 18
-Edge Added to Rep:7 26
-Edge Added to Rep:13 33
-Edge Added to Rep:12 26
-Edge Added to Rep:10 34
-Edge Added to Rep:25 35
-Edge Added to Rep:22 19
-Edge Added to Rep:8 12
-Edge Added to Rep:33 0
-Edge Added to Rep:22 28
-Edge Added to Rep:33 35
-Edge Added to Rep:20 0
-Edge Added to Rep:22 34
-Edge Added to Rep:6 18
-Edge Added to Rep:13 29
-Edge Added to Rep:8 7
-Edge Added to Rep:31 24
-Edge Added to Rep:10 14
-Edge Added to Rep:5 22
-Edge Added to Rep:1 18
-Edge Added to Rep:2 35
-Edge Added to Rep:16 25
-Edge Added to Rep:9 11
-Edge Added to Rep:19 28
-Edge Added to Rep:32 16
-Edge Added to Rep:32 25
-Edge Added to Rep:12 18
-Edge Added to Rep:6 14
-Edge Added to Rep:13 15
-Edge Added to Rep:2 31
-Edge Added to Rep:32 9
-Edge Added to Rep:7 9
-Edge Added to Rep:1 6
-Edge Added to Rep:11 30
-Edge Added to Rep:12 29
-Edge Added to Rep:5 19
-Edge Added to Rep:3 20
-Edge Added to Rep:0 27
-Edge Added to Rep:2 27
-Edge Added to Rep:6 10
-Edge Added to Rep:9 30
-Edge Added to Rep:4 18
-Edge Added to Rep:24 33
-Edge Added to Rep:22 4
-Edge Added to Rep:14 23
-Edge Added to Rep:0 6
-Edge Added to Rep:4 27
-Edge Added to Rep:20 31
-Edge Added to Rep:35 23
-Edge Added to Rep:3 28
-Edge Added to Rep:3 5
-Edge Added to Rep:13 12
-Edge Added to Rep:3 7
-Edge Added to Rep:6 7
-Edge Added to Rep:34 14
-Edge Added to Rep:35 29
-Edge Added to Rep:12 19
-Edge Added to Rep:33 1
-Edge Added to Rep:10 28
-Edge Added to Rep:6 13
-Edge Added to Rep:1 8
-Edge Added to Rep:7 19
-Edge Added to Rep:8 30
-Edge Added to Rep:22 30
-Edge Added to Rep:19 25
-Edge Added to Rep:2 17
-Edge Added to Rep:32 2
-Edge Added to Rep:17 18
-Edge Added to Rep:16 29
-Edge Added to Rep:13 26
-Edge Added to Rep:30 29
-Edge Added to Rep:17 27
-Edge Added to Rep:15 24
-Edge Added to Rep:10 18
-Edge Added to Rep:3 22
-Edge Added to Rep:31 18
-Edge Added to Rep:20 23
-Edge Added to Rep:14 18
-Edge Added to Rep:14 4
-Edge Added to Rep:1 23
-Edge Added to Rep:21 32
-Edge Added to Rep:32 7
-Edge Added to Rep:21 16
-Edge Added to Rep:0 34
-Edge Added to Rep:14 20
-Edge Added to Rep:30 35
-Edge Added to Rep:13 20
-Edge Added to Rep:9 27
-Edge Added to Rep:6 19
-Edge Added to Rep:16 18
-Edge Added to Rep:31 17
-Edge Added to Rep:26 17
-Edge Added to Rep:27 32
-Edge Added to Rep:10 33
-Edge Added to Rep:5 9
-Edge Added to Rep:7 27
-Edge Added to Rep:35 24
-Edge Added to Rep:1 16
-Edge Added to Rep:32 15
-Edge Added to Rep:11 5
-Edge Added to Rep:0 7
-Edge Added to Rep:31 6
-Edge Added to Rep:25 23
-Edge Added to Rep:2 16
-Edge Added to Rep:32 5
-Edge Added to Rep:6 21
-Edge Added to Rep:13 3
-Edge Added to Rep:18 29
-Edge Added to Rep:32 29
-Edge Added to Rep:31 12
-Edge Added to Rep:13 31
-Edge Added to Rep:8 28
-Edge Added to Rep:14 32
-Edge Added to Rep:1 19
-Edge Added to Rep:14 25
-Edge Added to Rep:1 12
-Edge Added to Rep:21 0
-Edge Added to Rep:20 35
-Edge Added to Rep:25 24
-Edge Added to Rep:26 34
-Edge Added to Rep:19 26
-Edge Added to Rep:7 13
-Edge Added to Rep:14 28
-Edge Added to Rep:5 10
-Edge Added to Rep:14 3
-Edge Added to Rep:23 18
-Edge Added to Rep:20 27
-Edge Added to Rep:6 15
-Edge Added to Rep:6 23
-Edge Added to Rep:23 29
-Edge Added to Rep:1 10
-Edge Added to Rep:35 27
-Edge Added to Rep:21 5
-Edge Added to Rep:8 27
-Edge Added to Rep:22 33
-Edge Added to Rep:20 22
-Edge Added to Rep:4 23
-Edge Added to Rep:32 11
-Edge Added to Rep:30 10
-Edge Added to Rep:5 33
-Edge Added to Rep:32 28
-Edge Added to Rep:4 10
-Edge Added to Rep:7 11
-Edge Added to Rep:12 15
-Edge Added to Rep:29 31
-Edge Added to Rep:14 30
-Edge Added to Rep:16 30
-Edge Added to Rep:11 29
-Edge Added to Rep:15 31
-Edge Added to Rep:12 25
-Edge Added to Rep:11 14
-Edge Added to Rep:0 28
-Edge Added to Rep:17 16
-Edge Added to Rep:13 34
-Edge Added to Rep:8 0
-Edge Added to Rep:30 2
-Edge Added to Rep:11 28
-Edge Added to Rep:1 29
-Edge Added to Rep:26 28
-Edge Added to Rep:25 20
-Edge Added to Rep:4 21
-Edge Added to Rep:13 25
-Edge Added to Rep:19 23
-Edge Added to Rep:2 12
-Edge Added to Rep:17 10
-Edge Added to Rep:17 24
-Edge Added to Rep:13 30
-Edge Added to Rep:9 24
-Edge Added to Rep:22 23
-Edge Added to Rep:2 0
-Edge Added to Rep:11 33
-Edge Added to Rep:2 9
-Edge Added to Rep:8 14
-Edge Added to Rep:30 12
-Edge Added to Rep:31 26
-Edge Added to Rep:22 2
-Edge Added to Rep:30 3
-Edge Added to Rep:31 4
-Edge Added to Rep:30 34
-Edge Added to Rep:24 19
-Edge Added to Rep:33 19
-Representative sim = 265
-Pruned Ctree internal node since weighted similarity falls below threshold=320.0 !
-Edge Added to Rep:8 10
-Edge Added to Rep:5 6
-Edge Added to Rep:22 25
-Edge Added to Rep:23 24
-Edge Added to Rep:0 26
-Edge Added to Rep:27 2
-Edge Added to Rep:9 16
-Edge Added to Rep:5 10
-Edge Added to Rep:7 27
-Edge Added to Rep:0 23
-Edge Added to Rep:24 34
-Edge Added to Rep:31 16
-Edge Added to Rep:6 18
-Edge Added to Rep:22 26
-Edge Added to Rep:1 20
-Edge Added to Rep:18 29
-Edge Added to Rep:15 29
-Edge Added to Rep:3 18
-Edge Added to Rep:12 22
-Edge Added to Rep:17 29
-Edge Added to Rep:13 25
-Edge Added to Rep:32 22
-Edge Added to Rep:19 27
-Edge Added to Rep:31 27
-Edge Added to Rep:4 7
-Edge Added to Rep:33 17
-Edge Added to Rep:7 33
-Edge Added to Rep:1 19
-Edge Added to Rep:3 19
-Edge Added to Rep:17 21
-Edge Added to Rep:14 18
-Edge Added to Rep:1 9
-Edge Added to Rep:10 32
-Edge Added to Rep:11 22
-Edge Added to Rep:9 20
-Edge Added to Rep:1 8
-Edge Added to Rep:1 24
-Edge Added to Rep:5 23
-Edge Added to Rep:7 15
-Edge Added to Rep:22 24
-Edge Added to Rep:8 15
-Edge Added to Rep:14 15
-Edge Added to Rep:10 21
-Edge Added to Rep:10 22
-Edge Added to Rep:3 11
-Edge Added to Rep:6 23
-Edge Added to Rep:11 13
-Edge Added to Rep:10 12
-Edge Added to Rep:1 5
-Edge Added to Rep:5 32
-Edge Added to Rep:11 20
-Edge Added to Rep:10 18
-Edge Added to Rep:25 32
-Edge Added to Rep:3 24
-Edge Added to Rep:5 4
-Edge Added to Rep:6 20
-Edge Added to Rep:6 27
-Edge Added to Rep:24 11
-Edge Added to Rep:11 21
-Edge Added to Rep:22 23
-Edge Added to Rep:7 32
-Edge Added to Rep:17 10
-Edge Added to Rep:8 30
-Edge Added to Rep:15 22
-Edge Added to Rep:5 22
-Edge Added to Rep:7 21
-Edge Added to Rep:3 7
-Edge Added to Rep:8 9
-Edge Added to Rep:23 31
-Edge Added to Rep:29 32
-Edge Added to Rep:23 27
-Edge Added to Rep:2 9
-Edge Added to Rep:5 7
-Edge Added to Rep:21 25
-Edge Added to Rep:15 25
-Edge Added to Rep:19 29
-Edge Added to Rep:21 23
-Edge Added to Rep:4 21
-Edge Added to Rep:20 33
-Edge Added to Rep:3 17
-Edge Added to Rep:16 27
-Edge Added to Rep:0 1
-Edge Added to Rep:8 21
-Edge Added to Rep:3 6
-Edge Added to Rep:7 23
-Edge Added to Rep:12 19
-Edge Added to Rep:5 24
-Edge Added to Rep:8 16
-Edge Added to Rep:14 21
-Edge Added to Rep:8 22
-Edge Added to Rep:0 15
-Edge Added to Rep:1 6
-Edge Added to Rep:18 24
-Edge Added to Rep:17 24
-Edge Added to Rep:16 24
-Edge Added to Rep:12 25
-Edge Added to Rep:19 26
-Edge Added to Rep:12 20
-Edge Added to Rep:24 25
-Edge Added to Rep:19 25
-Edge Added to Rep:9 26
-Edge Added to Rep:9 32
-Edge Added to Rep:33 23
-Edge Added to Rep:5 28
-Edge Added to Rep:5 19
-Edge Added to Rep:0 18
-Edge Added to Rep:4 26
-Edge Added to Rep:2 21
-Edge Added to Rep:21 26
-Edge Added to Rep:9 21
-Edge Added to Rep:0 8
-Edge Added to Rep:11 25
-Edge Added to Rep:27 8
-Edge Added to Rep:3 26
-Edge Added to Rep:7 19
-Edge Added to Rep:2 26
-Edge Added to Rep:31 29
-Edge Added to Rep:13 18
-Edge Added to Rep:22 20
-Edge Added to Rep:6 10
-Edge Added to Rep:12 21
-Edge Added to Rep:24 27
-Edge Added to Rep:21 24
-Edge Added to Rep:14 24
-Edge Added to Rep:4 12
-Edge Added to Rep:12 26
-Edge Added to Rep:4 20
-Edge Added to Rep:12 17
-Edge Added to Rep:0 12
-Edge Added to Rep:33 15
-Edge Added to Rep:1 3
-Edge Added to Rep:31 14
-Edge Added to Rep:32 19
-Edge Added to Rep:29 25
-Edge Added to Rep:9 34
-Edge Added to Rep:0 13
-Edge Added to Rep:6 26
-Edge Added to Rep:4 11
-Edge Added to Rep:2 24
-Edge Added to Rep:12 24
-Edge Added to Rep:3 21
-Edge Added to Rep:13 24
-Edge Added to Rep:7 14
-Edge Added to Rep:17 32
-Edge Added to Rep:30 5
-Edge Added to Rep:27 28
-Edge Added to Rep:14 19
-Edge Added to Rep:13 3
-Edge Added to Rep:29 30
-Edge Added to Rep:16 19
-Edge Added to Rep:30 18
-Edge Added to Rep:1 22
-Edge Added to Rep:2 12
-Edge Added to Rep:4 23
-Edge Added to Rep:9 7
-Edge Added to Rep:32 13
-Edge Added to Rep:17 22
-Edge Added to Rep:31 21
-Edge Added to Rep:4 17
-Edge Added to Rep:33 29
-Edge Added to Rep:14 0
-Edge Added to Rep:14 10
-Edge Added to Rep:4 13
-Edge Added to Rep:16 29
-Edge Added to Rep:15 24
-Edge Added to Rep:9 25
-Edge Added to Rep:0 7
-Edge Added to Rep:5 12
-Edge Added to Rep:11 14
-Edge Added to Rep:1 29
-Edge Added to Rep:1 15
-Edge Added to Rep:6 8
-Edge Added to Rep:15 17
-Edge Added to Rep:10 28
-Edge Added to Rep:3 23
-Edge Added to Rep:12 29
-Edge Added to Rep:33 16
-Edge Added to Rep:24 29
-Edge Added to Rep:0 25
-Edge Added to Rep:15 16
-Edge Added to Rep:24 31
-Edge Added to Rep:27 32
-Edge Added to Rep:2 14
-Edge Added to Rep:15 23
-Edge Added to Rep:5 27
-Edge Added to Rep:8 19
-Edge Added to Rep:3 12
-Edge Added to Rep:8 20
-Edge Added to Rep:13 17
-Edge Added to Rep:28 29
-Edge Added to Rep:15 27
-Edge Added to Rep:13 30
-Edge Added to Rep:30 32
-Edge Added to Rep:17 19
-Edge Added to Rep:11 30
-Edge Added to Rep:16 22
-Edge Added to Rep:26 34
-Edge Added to Rep:1 25
-Edge Added to Rep:34 2
-Edge Added to Rep:11 15
-Edge Added to Rep:6 14
-Edge Added to Rep:0 6
-Edge Added to Rep:2 18
-Edge Added to Rep:4 10
-Edge Added to Rep:3 2
-Edge Added to Rep:4 19
-Edge Added to Rep:15 21
-Edge Added to Rep:9 12
-Edge Added to Rep:12 18
-Edge Added to Rep:9 27
-Edge Added to Rep:17 25
-Edge Added to Rep:4 6
-Edge Added to Rep:22 29
-Edge Added to Rep:16 20
-Edge Added to Rep:5 16
-Edge Added to Rep:6 11
-Edge Added to Rep:2 0
-Edge Added to Rep:20 21
-Edge Added to Rep:15 18
-Edge Added to Rep:33 13
-Edge Added to Rep:3 16
-Edge Added to Rep:22 9
-Edge Added to Rep:7 25
-Edge Added to Rep:9 17
-Edge Added to Rep:33 25
-Edge Added to Rep:2 4
-Edge Added to Rep:1 32
-Edge Added to Rep:6 12
-Edge Added to Rep:15 28
-Edge Added to Rep:15 26
-Edge Added to Rep:23 18
-Edge Added to Rep:21 29
-Edge Added to Rep:9 29
-Edge Added to Rep:31 6
-Edge Added to Rep:8 26
-Edge Added to Rep:10 11
-Edge Added to Rep:18 16
-Edge Added to Rep:14 34
-Edge Added to Rep:11 18
-Edge Added to Rep:4 28
-Edge Added to Rep:31 26
-Edge Added to Rep:7 10
-Edge Added to Rep:4 33
-Edge Added to Rep:13 21
-Edge Added to Rep:15 12
-Edge Added to Rep:1 31
-Edge Added to Rep:2 5
-Edge Added to Rep:19 28
-Edge Added to Rep:22 28
-Edge Added to Rep:4 29
-Edge Added to Rep:8 14
-Edge Added to Rep:17 20
-Edge Added to Rep:5 13
-Edge Added to Rep:6 16
-Edge Added to Rep:34 4
-Edge Added to Rep:8 32
-Edge Added to Rep:20 23
-Edge Added to Rep:14 12
-Edge Added to Rep:26 27
-Edge Added to Rep:12 1
-Edge Added to Rep:16 2
-Edge Added to Rep:1 34
-Edge Added to Rep:13 19
-Edge Added to Rep:3 25
-Edge Added to Rep:20 2
-Edge Added to Rep:11 9
-Edge Added to Rep:5 34
-Edge Added to Rep:9 10
-Edge Added to Rep:13 14
-Edge Added to Rep:11 27
-Edge Added to Rep:6 15
-Edge Added to Rep:6 24
-Edge Added to Rep:11 33
-Edge Added to Rep:34 12
-Edge Added to Rep:26 32
-Edge Added to Rep:3 8
-Edge Added to Rep:11 34
-Edge Added to Rep:13 20
-Edge Added to Rep:18 27
-Edge Added to Rep:30 6
-Edge Added to Rep:11 26
-Edge Added to Rep:13 10
-Edge Added to Rep:0 28
-Edge Added to Rep:12 13
-Edge Added to Rep:31 13
-Edge Added to Rep:7 24
-Edge Added to Rep:23 25
-Edge Added to Rep:2 15
-Edge Added to Rep:5 14
-Edge Added to Rep:1 17
-Edge Added to Rep:11 8
-Edge Added to Rep:5 8
-Edge Added to Rep:25 27
-Edge Added to Rep:15 19
-Edge Added to Rep:33 22
-Edge Added to Rep:4 24
-Edge Added to Rep:24 10
-Edge Added to Rep:26 14
-Edge Added to Rep:16 1
-Edge Added to Rep:4 8
-Edge Added to Rep:20 30
-Edge Added to Rep:6 9
-Edge Added to Rep:23 29
-Edge Added to Rep:8 23
-Edge Added to Rep:9 24
-Edge Added to Rep:5 0
-Edge Added to Rep:31 3
-Edge Added to Rep:28 32
-Edge Added to Rep:22 34
-Edge Added to Rep:14 32
-Edge Added to Rep:20 18
-Edge Added to Rep:27 12
-Edge Added to Rep:23 32
-Edge Added to Rep:2 6
-Edge Added to Rep:21 34
-Edge Added to Rep:2 30
-Edge Added to Rep:11 2
-Edge Added to Rep:18 31
-Edge Added to Rep:3 32
-Edge Added to Rep:13 1
-Edge Added to Rep:34 28
-Edge Added to Rep:8 24
-Edge Added to Rep:16 17
-Edge Added to Rep:10 19
-Edge Added to Rep:10 30
-Edge Added to Rep:11 28
-Edge Added to Rep:9 23
-Edge Added to Rep:22 3
-Edge Added to Rep:32 21
-Edge Added to Rep:20 27
-Edge Added to Rep:14 25
-Edge Added to Rep:19 21
-Edge Added to Rep:4 16
-Edge Added to Rep:34 23
-Edge Added to Rep:4 25
-Edge Added to Rep:2 13
-Edge Added to Rep:8 34
-Edge Added to Rep:16 25
-Edge Added to Rep:18 1
-Edge Added to Rep:1 27
-Edge Added to Rep:20 3
-Edge Added to Rep:3 5
-Edge Added to Rep:22 0
-Edge Added to Rep:9 15
-Edge Added to Rep:31 10
-Edge Added to Rep:9 19
-Edge Added to Rep:10 29
-Edge Added to Rep:31 30
-Edge Added to Rep:0 4
-Edge Added to Rep:9 18
-Edge Added to Rep:23 14
-Edge Added to Rep:21 33
-Edge Added to Rep:11 0
-Edge Added to Rep:33 10
-Edge Added to Rep:0 27
-Edge Added to Rep:15 35
-Edge Added to Rep:7 20
-Edge Added to Rep:8 17
-Edge Added to Rep:22 14
-Edge Added to Rep:34 35
-Edge Added to Rep:0 29
-Edge Added to Rep:18 21
-Edge Added to Rep:18 17
-Edge Added to Rep:23 28
-Edge Added to Rep:20 24
-Edge Added to Rep:5 20
-Edge Added to Rep:12 23
-Edge Added to Rep:2 8
-Edge Added to Rep:1 26
-Edge Added to Rep:10 1
-Edge Added to Rep:8 25
-Edge Added to Rep:31 11
-Edge Added to Rep:22 19
-Edge Added to Rep:1 23
-Edge Added to Rep:20 19
-Edge Added to Rep:3 29
-Edge Added to Rep:13 28
-Edge Added to Rep:9 5
-Edge Added to Rep:24 33
-Edge Added to Rep:23 26
-Edge Added to Rep:4 35
-Edge Added to Rep:7 12
-Edge Added to Rep:27 21
-Edge Added to Rep:34 17
-Edge Added to Rep:11 23
-Edge Added to Rep:6 22
-Edge Added to Rep:0 21
-Edge Added to Rep:31 28
-Edge Added to Rep:7 26
-Edge Added to Rep:34 29
-Edge Added to Rep:14 28
-Edge Added to Rep:10 16
-Edge Added to Rep:5 18
-Edge Added to Rep:30 22
-Edge Added to Rep:2 7
-Edge Added to Rep:3 27
-Edge Added to Rep:4 18
-Edge Added to Rep:5 25
-Edge Added to Rep:17 31
-Edge Added to Rep:8 31
-Edge Added to Rep:14 27
-Edge Added to Rep:24 19
-Edge Added to Rep:3 30
-Edge Added to Rep:7 30
-Edge Added to Rep:33 30
-Edge Added to Rep:11 17
-Edge Added to Rep:20 15
-Edge Added to Rep:7 22
-Edge Added to Rep:13 16
-Edge Added to Rep:16 23
-Edge Added to Rep:4 1
-Edge Added to Rep:20 29
-Edge Added to Rep:17 14
-Edge Added to Rep:11 12
-Edge Added to Rep:3 15
-Edge Added to Rep:26 29
-Edge Added to Rep:33 5
-Edge Added to Rep:8 29
-Edge Added to Rep:31 20
-Edge Added to Rep:6 32
-Edge Added to Rep:8 13
-Edge Added to Rep:11 1
-Edge Added to Rep:4 31
-Edge Added to Rep:3 10
-Edge Added to Rep:27 4
-Edge Added to Rep:7 34
-Edge Added to Rep:23 13
-Edge Added to Rep:1 2
-Edge Added to Rep:5 15
-Edge Added to Rep:31 25
-Edge Added to Rep:1 14
-Edge Added to Rep:18 28
-Edge Added to Rep:9 35
-Edge Added to Rep:9 13
-Edge Added to Rep:16 35
-Edge Added to Rep:33 14
-Edge Added to Rep:30 28
-Edge Added to Rep:16 21
-Edge Added to Rep:0 32
-Edge Added to Rep:7 28
-Edge Added to Rep:16 30
-Edge Added to Rep:6 19
-Edge Added to Rep:10 27
-Edge Added to Rep:20 28
-Edge Added to Rep:2 35
-Edge Added to Rep:33 35
-Edge Added to Rep:5 21
-Edge Added to Rep:7 13
-Edge Added to Rep:2 17
-Edge Added to Rep:0 16
-Edge Added to Rep:10 35
-Edge Added to Rep:31 19
-Edge Added to Rep:34 25
-Edge Added to Rep:24 30
-Edge Added to Rep:17 26
-Edge Added to Rep:32 18
-Edge Added to Rep:28 26
-Edge Added to Rep:2 25
-Edge Added to Rep:0 9
-Edge Added to Rep:25 18
-Edge Added to Rep:30 9
-Edge Added to Rep:22 35
-Edge Added to Rep:30 26
-Edge Added to Rep:34 6
-Representative sim = 292
-Pruned Ctree internal node since weighted similarity falls below threshold=320.0 !
+Upper bound of sim = 201 Exact sim = 197.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 201 Exact sim = 201.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 200 Exact sim = 195.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 201 Exact sim = 196.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 199 Exact sim = 199.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 201 Exact sim = 201.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 199 Exact sim = 196.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 199 Exact sim = 190.0
+Pruned Ctree internal node since similarity falls below threshold=193.0 !
+Upper bound of sim = 201 Exact sim = 197.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 200 Exact sim = 200.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 200 Exact sim = 200.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 201 Exact sim = 199.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 199 Exact sim = 198.0
+Ctree internal node is not pruned since similarity is above threshold=193.0
+
+Upper bound of sim = 201 Exact sim = 181.0
+Pruned Ctree internal node since similarity falls below threshold=193.0 !
+Exact sim to graph 37= 198.0
+Probability of mapped version of graph 37= 2.015757510461188E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 40= 197.0
+Probability of mapped version of graph 40= 3.4977826060246007E-25
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 41= 197.0
+Probability of mapped version of graph 41= 1.2648193570157686E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 44= 197.0
+Probability of mapped version of graph 44= 1.897029389029474E-25
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 45= 197.0
+Probability of mapped version of graph 45= 1.935161540819073E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 48= 197.0
+Probability of mapped version of graph 48= 1.0259151626160702E-21
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 49= 197.0
+Probability of mapped version of graph 49= 4.566606211615731E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 50= 201.0
+Probability of mapped version of graph 50= 8.163065403049531E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 52= 197.0
+Probability of mapped version of graph 52= 4.953974396546338E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 53= 197.0
+Probability of mapped version of graph 53= 1.3420753265273835E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 56= 197.0
+Probability of mapped version of graph 56= 3.384829149408877E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 57= 197.0
+Probability of mapped version of graph 57= 5.944473421480257E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 60= 196.0
+Probability of mapped version of graph 60= 1.067590868175499E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 61= 196.0
+Probability of mapped version of graph 61= 9.297448259073099E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 63= 187.0
+Probability of mapped version of graph 63= 3.376111641834115E-24
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 64= 196.0
+Probability of mapped version of graph 64= 2.2819643677786892E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 65= 196.0
+Probability of mapped version of graph 65= 1.6652124841594892E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 68= 196.0
+Probability of mapped version of graph 68= 2.8897348739294415E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 69= 196.0
+Probability of mapped version of graph 69= 6.036082883806046E-21
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 72= 196.0
+Probability of mapped version of graph 72= 1.632271100356299E-21
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 73= 196.0
+Probability of mapped version of graph 73= 6.0371745593264844E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 76= 196.0
+Probability of mapped version of graph 76= 1.0602039510992723E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 2= 171.0
+Probability of mapped version of graph 2= 4.027208804971534E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 3= 201.0
+Probability of mapped version of graph 3= 2.3706444923080886E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 31= 174.0
+Probability of mapped version of graph 31= 8.025092768608583E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 74= 186.0
+Probability of mapped version of graph 74= 3.9007736820810723E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 99= 143.0
+Probability of mapped version of graph 99= 1.719007609077636E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 107= 166.0
+Probability of mapped version of graph 107= 7.347106933320125E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 124= 193.0
+Probability of mapped version of graph 124= 1.2815332049593396E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 125= 193.0
+Probability of mapped version of graph 125= 1.4020431602253184E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 128= 193.0
+Probability of mapped version of graph 128= 4.270192656765761E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 129= 193.0
+Probability of mapped version of graph 129= 8.075860706575322E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 132= 193.0
+Probability of mapped version of graph 132= 2.5511789185363317E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 133= 193.0
+Probability of mapped version of graph 133= 2.0604281730499268E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 136= 193.0
+Probability of mapped version of graph 136= 2.2953077174721757E-21
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 137= 193.0
+Probability of mapped version of graph 137= 7.43795907047667E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 140= 192.0
+Probability of mapped version of graph 140= 3.798673503066816E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 141= 192.0
+Probability of mapped version of graph 141= 1.9692443844192632E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 144= 192.0
+Probability of mapped version of graph 144= 1.7821860003606103E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 145= 192.0
+Probability of mapped version of graph 145= 7.610273324583174E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 148= 192.0
+Probability of mapped version of graph 148= 7.286694770378057E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 149= 192.0
+Probability of mapped version of graph 149= 1.683996735098333E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 43= 175.0
+Probability of mapped version of graph 43= 3.220085282107703E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 54= 149.0
+Probability of mapped version of graph 54= 3.8140037001638418E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 83= 201.0
+Probability of mapped version of graph 83= 4.6747511930386126E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 90= 176.0
+Probability of mapped version of graph 90= 9.180102965588563E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 91= 134.0
+Probability of mapped version of graph 91= 1.478411584141886E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 95= 201.0
+Probability of mapped version of graph 95= 1.6352913545422617E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 98= 144.0
+Probability of mapped version of graph 98= 3.0208734053375898E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 131= 178.0
+Probability of mapped version of graph 131= 6.250432036883066E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 135= 161.0
+Probability of mapped version of graph 135= 1.954640070332993E-19
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 138= 128.0
+Probability of mapped version of graph 138= 3.3889222398460146E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 154= 191.0
+Probability of mapped version of graph 154= 8.72714216510833E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 175= 132.0
+Probability of mapped version of graph 175= 4.15210412834528E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 182= 134.0
+Probability of mapped version of graph 182= 2.403374742165503E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 195= 137.0
+Probability of mapped version of graph 195= 4.6385490611503915E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 207= 132.0
+Probability of mapped version of graph 207= 5.626820180118671E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 219= 201.0
+Probability of mapped version of graph 219= 1.942850691172988E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 222= 131.0
+Probability of mapped version of graph 222= 7.25201643432444E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 223= 128.0
+Probability of mapped version of graph 223= 1.6725396177386107E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 254= 140.0
+Probability of mapped version of graph 254= 6.845188184224286E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 262= 133.0
+Probability of mapped version of graph 262= 3.56327452453713E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 279= 135.0
+Probability of mapped version of graph 279= 2.560865111122421E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 51= 201.0
+Probability of mapped version of graph 51= 1.1456285237904078E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 71= 188.0
+Probability of mapped version of graph 71= 4.783944440561209E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 87= 133.0
+Probability of mapped version of graph 87= 1.540968295664678E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 171= 138.0
+Probability of mapped version of graph 171= 3.0318853098789798E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 179= 130.0
+Probability of mapped version of graph 179= 4.036339765096741E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 192= 190.0
+Probability of mapped version of graph 192= 1.5691974704774093E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 193= 190.0
+Probability of mapped version of graph 193= 3.6679969323190595E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 196= 190.0
+Probability of mapped version of graph 196= 2.292436876673218E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 197= 190.0
+Probability of mapped version of graph 197= 8.927704129245552E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 200= 189.0
+Probability of mapped version of graph 200= 1.0353191383630166E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 201= 189.0
+Probability of mapped version of graph 201= 3.700480504915088E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 204= 146.0
+Probability of mapped version of graph 204= 4.534119524297435E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 205= 159.0
+Probability of mapped version of graph 205= 3.025829139737355E-18
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 208= 159.0
+Probability of mapped version of graph 208= 2.31802590428529E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 209= 189.0
+Probability of mapped version of graph 209= 1.4506577318912185E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 212= 189.0
+Probability of mapped version of graph 212= 9.213410499484348E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 213= 180.0
+Probability of mapped version of graph 213= 9.005548248189798E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 216= 189.0
+Probability of mapped version of graph 216= 1.1434647887481281E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 217= 176.0
+Probability of mapped version of graph 217= 1.532826937823288E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 220= 188.0
+Probability of mapped version of graph 220= 2.0227151600754424E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 221= 188.0
+Probability of mapped version of graph 221= 3.677154806987299E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 227= 130.0
+Probability of mapped version of graph 227= 1.270188844991003E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 234= 131.0
+Probability of mapped version of graph 234= 7.751320996513206E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 238= 132.0
+Probability of mapped version of graph 238= 3.4594921751307E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 251= 141.0
+Probability of mapped version of graph 251= 3.080865309456686E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 259= 130.0
+Probability of mapped version of graph 259= 5.333527411106473E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 7= 154.0
+Probability of mapped version of graph 7= 3.758709312939512E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 11= 189.0
+Probability of mapped version of graph 11= 2.7497404879749025E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 38= 201.0
+Probability of mapped version of graph 38= 1.384105548113814E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 42= 189.0
+Probability of mapped version of graph 42= 1.6368641293266334E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 46= 188.0
+Probability of mapped version of graph 46= 1.1064274768958676E-19
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 55= 201.0
+Probability of mapped version of graph 55= 7.552132827450848E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 58= 156.0
+Probability of mapped version of graph 58= 4.4406837493885754E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 59= 130.0
+Probability of mapped version of graph 59= 1.5534988010044215E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 62= 155.0
+Probability of mapped version of graph 62= 4.3204306918035024E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 75= 191.0
+Probability of mapped version of graph 75= 6.798077125732381E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 94= 191.0
+Probability of mapped version of graph 94= 7.445866719265113E-25
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 110= 135.0
+Probability of mapped version of graph 110= 4.237374488317528E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 118= 143.0
+Probability of mapped version of graph 118= 2.4384731705214374E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 123= 147.0
+Probability of mapped version of graph 123= 7.035195510821275E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 127= 167.0
+Probability of mapped version of graph 127= 6.28614430279883E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 151= 179.0
+Probability of mapped version of graph 151= 2.3786953722907094E-19
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 163= 140.0
+Probability of mapped version of graph 163= 5.795516488398449E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 230= 133.0
+Probability of mapped version of graph 230= 7.040573410621357E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 270= 135.0
+Probability of mapped version of graph 270= 8.431071465861375E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 274= 135.0
+Probability of mapped version of graph 274= 2.0811811033322333E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 167= 134.0
+Probability of mapped version of graph 167= 7.671792579351485E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 170= 132.0
+Probability of mapped version of graph 170= 1.6101197093787516E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 186= 134.0
+Probability of mapped version of graph 186= 2.464717132848099E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 187= 134.0
+Probability of mapped version of graph 187= 9.06337526919031E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 194= 162.0
+Probability of mapped version of graph 194= 2.9179780292898124E-18
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 211= 133.0
+Probability of mapped version of graph 211= 2.6732283608564214E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 214= 135.0
+Probability of mapped version of graph 214= 2.1587590247684377E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 224= 188.0
+Probability of mapped version of graph 224= 3.133617710714529E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 225= 177.0
+Probability of mapped version of graph 225= 4.275924846981193E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 228= 188.0
+Probability of mapped version of graph 228= 4.138838730617719E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 229= 188.0
+Probability of mapped version of graph 229= 3.314563605807791E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 232= 188.0
+Probability of mapped version of graph 232= 6.71221286918205E-24
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 233= 188.0
+Probability of mapped version of graph 233= 2.8894103652023323E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 236= 188.0
+Probability of mapped version of graph 236= 8.08984973912741E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 237= 188.0
+Probability of mapped version of graph 237= 2.8202735317689304E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 26= 143.0
+Probability of mapped version of graph 26= 8.163517993502104E-18
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 47= 201.0
+Probability of mapped version of graph 47= 1.3823749665895601E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 79= 145.0
+Probability of mapped version of graph 79= 9.618626881573262E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 119= 157.0
+Probability of mapped version of graph 119= 2.4323121262001785E-18
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 126= 131.0
+Probability of mapped version of graph 126= 1.4341080949585198E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 146= 142.0
+Probability of mapped version of graph 146= 1.8649459831401411E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 190= 130.0
+Probability of mapped version of graph 190= 3.798444126449955E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 198= 201.0
+Probability of mapped version of graph 198= 2.1066262178261215E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 215= 191.0
+Probability of mapped version of graph 215= 1.2447505721912827E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 231= 127.0
+Probability of mapped version of graph 231= 2.013294792231751E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 242= 191.0
+Probability of mapped version of graph 242= 4.837014069764242E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 250= 135.0
+Probability of mapped version of graph 250= 6.27864371098637E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 255= 139.0
+Probability of mapped version of graph 255= 5.595070376765363E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 263= 128.0
+Probability of mapped version of graph 263= 4.7565416538241125E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 266= 133.0
+Probability of mapped version of graph 266= 7.034717488712212E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 278= 132.0
+Probability of mapped version of graph 278= 4.100221443584787E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 14= 201.0
+Probability of mapped version of graph 14= 1.3285258708286628E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 30= 192.0
+Probability of mapped version of graph 30= 2.561815917045979E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 39= 201.0
+Probability of mapped version of graph 39= 1.4667872954153712E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 70= 201.0
+Probability of mapped version of graph 70= 1.15843117016053E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 106= 130.0
+Probability of mapped version of graph 106= 1.044373699233399E-12
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 147= 137.0
+Probability of mapped version of graph 147= 7.544180060879469E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 168= 191.0
+Probability of mapped version of graph 168= 4.1693437533325996E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 169= 191.0
+Probability of mapped version of graph 169= 1.1364002894797008E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 172= 191.0
+Probability of mapped version of graph 172= 1.0534996911297412E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 173= 191.0
+Probability of mapped version of graph 173= 1.2036422811836695E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 176= 191.0
+Probability of mapped version of graph 176= 1.5118595011039368E-21
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 177= 191.0
+Probability of mapped version of graph 177= 1.9365596799293051E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 178= 130.0
+Probability of mapped version of graph 178= 8.921348260375684E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 180= 190.0
+Probability of mapped version of graph 180= 2.977701016176343E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 181= 173.0
+Probability of mapped version of graph 181= 9.938745940963779E-18
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 184= 190.0
+Probability of mapped version of graph 184= 1.973191372152958E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 185= 190.0
+Probability of mapped version of graph 185= 1.0467029504055032E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 188= 174.0
+Probability of mapped version of graph 188= 2.5260223766666342E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 189= 190.0
+Probability of mapped version of graph 189= 3.056951880112165E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 191= 142.0
+Probability of mapped version of graph 191= 2.721741437302614E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 0= 199.0
+Probability of mapped version of graph 0= 7.845319031599338E-26
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 1= 199.0
+Probability of mapped version of graph 1= 1.5399247687876246E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 4= 199.0
+Probability of mapped version of graph 4= 6.032979564764154E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 5= 199.0
+Probability of mapped version of graph 5= 1.0251250245675116E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 6= 169.0
+Probability of mapped version of graph 6= 5.868717691185429E-19
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 8= 199.0
+Probability of mapped version of graph 8= 4.419261088820421E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 9= 199.0
+Probability of mapped version of graph 9= 8.456404655689155E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 10= 192.0
+Probability of mapped version of graph 10= 6.140005902089256E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 12= 199.0
+Probability of mapped version of graph 12= 8.543813355624164E-25
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 13= 199.0
+Probability of mapped version of graph 13= 3.356657725961542E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 16= 199.0
+Probability of mapped version of graph 16= 1.189743639432349E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 17= 199.0
+Probability of mapped version of graph 17= 1.260563886401783E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 20= 198.0
+Probability of mapped version of graph 20= 5.807186080066261E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 21= 198.0
+Probability of mapped version of graph 21= 8.868392670010939E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 24= 198.0
+Probability of mapped version of graph 24= 1.1769126565884581E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 25= 198.0
+Probability of mapped version of graph 25= 6.256358178899099E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 27= 150.0
+Probability of mapped version of graph 27= 2.4068619345803994E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 28= 198.0
+Probability of mapped version of graph 28= 1.8673542275739856E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 29= 198.0
+Probability of mapped version of graph 29= 1.0881599281703627E-21
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 32= 198.0
+Probability of mapped version of graph 32= 5.602073290606208E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 33= 198.0
+Probability of mapped version of graph 33= 1.2044766791668589E-20
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 36= 198.0
+Probability of mapped version of graph 36= 7.048077719807714E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 100= 194.0
+Probability of mapped version of graph 100= 4.006329182653228E-21
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 101= 194.0
+Probability of mapped version of graph 101= 8.430762831269432E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 103= 146.0
+Probability of mapped version of graph 103= 1.2638034764024736E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 104= 194.0
+Probability of mapped version of graph 104= 1.8924727119342437E-25
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 105= 194.0
+Probability of mapped version of graph 105= 1.7591597829980555E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 108= 194.0
+Probability of mapped version of graph 108= 9.987433325193243E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 109= 194.0
+Probability of mapped version of graph 109= 1.636010641892425E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 112= 194.0
+Probability of mapped version of graph 112= 6.445633021676085E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 113= 194.0
+Probability of mapped version of graph 113= 2.9555339956056227E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 114= 165.0
+Probability of mapped version of graph 114= 3.781470725569654E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 116= 194.0
+Probability of mapped version of graph 116= 1.552811371253471E-20
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 117= 194.0
+Probability of mapped version of graph 117= 1.248897200344499E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 120= 193.0
+Probability of mapped version of graph 120= 2.2511297604222414E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 121= 152.0
+Probability of mapped version of graph 121= 1.2569333728241687E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 122= 201.0
+Probability of mapped version of graph 122= 5.590113184365732E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 66= 137.0
+Probability of mapped version of graph 66= 7.739730078642948E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 102= 138.0
+Probability of mapped version of graph 102= 1.9230724925906593E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 111= 184.0
+Probability of mapped version of graph 111= 3.1468958312770134E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 115= 136.0
+Probability of mapped version of graph 115= 6.58728965629994E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 139= 192.0
+Probability of mapped version of graph 139= 1.9040554206856123E-25
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 150= 191.0
+Probability of mapped version of graph 150= 5.547567395456145E-23
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 158= 140.0
+Probability of mapped version of graph 158= 4.684926987741073E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 159= 135.0
+Probability of mapped version of graph 159= 1.270999036709999E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 166= 135.0
+Probability of mapped version of graph 166= 7.867986751497933E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 183= 128.0
+Probability of mapped version of graph 183= 4.891030221276217E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 202= 120.0
+Probability of mapped version of graph 202= 1.4817778395698136E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 203= 136.0
+Probability of mapped version of graph 203= 1.5428304081996473E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 210= 134.0
+Probability of mapped version of graph 210= 5.752810544435274E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 218= 161.0
+Probability of mapped version of graph 218= 3.531343549609094E-18
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 226= 128.0
+Probability of mapped version of graph 226= 5.942395909040869E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 246= 135.0
+Probability of mapped version of graph 246= 7.763870078417072E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 247= 140.0
+Probability of mapped version of graph 247= 1.7936599817005103E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 258= 124.0
+Probability of mapped version of graph 258= 1.3956587424809385E-12
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 267= 129.0
+Probability of mapped version of graph 267= 2.3264517317478237E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 15= 201.0
+Probability of mapped version of graph 15= 3.36476672393499E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 18= 187.0
+Probability of mapped version of graph 18= 7.557283101811137E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 19= 201.0
+Probability of mapped version of graph 19= 1.4603765226725783E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 22= 201.0
+Probability of mapped version of graph 22= 1.2902724047271246E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 23= 201.0
+Probability of mapped version of graph 23= 2.6305399823591106E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 34= 190.0
+Probability of mapped version of graph 34= 3.5914218174819144E-22
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 35= 152.0
+Probability of mapped version of graph 35= 1.9921338264673186E-17
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 67= 176.0
+Probability of mapped version of graph 67= 1.757491721258583E-20
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 77= 196.0
+Probability of mapped version of graph 77= 2.3049509494657055E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 78= 139.0
+Probability of mapped version of graph 78= 1.594863510630315E-14
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 80= 195.0
+Probability of mapped version of graph 80= 3.4992562090287904E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 81= 195.0
+Probability of mapped version of graph 81= 3.248909603833942E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 82= 182.0
+Probability of mapped version of graph 82= 1.521926714529897E-18
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 84= 195.0
+Probability of mapped version of graph 84= 1.6314327431873823E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 85= 195.0
+Probability of mapped version of graph 85= 1.164145788617406E-23
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 86= 161.0
+Probability of mapped version of graph 86= 3.3397473985629046E-19
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 88= 195.0
+Probability of mapped version of graph 88= 1.6040468023511876E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 89= 195.0
+Probability of mapped version of graph 89= 4.280576466148597E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 92= 195.0
+Probability of mapped version of graph 92= 4.226467112769498E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 93= 195.0
+Probability of mapped version of graph 93= 2.90689370737746E-24
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 96= 195.0
+Probability of mapped version of graph 96= 9.516737327471268E-25
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 97= 195.0
+Probability of mapped version of graph 97= 8.279594621277451E-22
+Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
+
+Exact sim to graph 130= 133.0
+Probability of mapped version of graph 130= 1.7587078170893833E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 142= 136.0
+Probability of mapped version of graph 142= 1.4031152337235838E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 143= 135.0
+Probability of mapped version of graph 143= 4.872648452193081E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 162= 136.0
+Probability of mapped version of graph 162= 2.2295340552253657E-16
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 206= 132.0
+Probability of mapped version of graph 206= 8.579248275302928E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 235= 138.0
+Probability of mapped version of graph 235= 7.221059566113139E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 239= 126.0
+Probability of mapped version of graph 239= 2.187800004532811E-15
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
+Exact sim to graph 243= 137.0
+Probability of mapped version of graph 243= 1.4918294669905967E-13
+Graph is not in answer set since similarity falls below threshold=193.0 !
+
 Result: Query_time(ms) Ans_size Access_ratio
-33.000000 0.000000 0.007143
+82.000000 87.000000 0.928571

@@ -44,7 +44,7 @@ public class SimQuery {
     public static void main(String[] args) throws Exception {
     	
     	  //String[] customArgs = {"-range=0", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
-    		String[] customArgs = {"-range=320", "-probThresh=0.0", "-output=answerSet.txt", "graphDatabase.txt", "queryGraph.txt"};
+    		String[] customArgs = {"-range=193", "-probThresh=2.1294038288374836E-77", "-output=answerSet.txt", "graphDatabase.txt", "queryGraph.txt"};
 
     	
         Opt opt = new Opt(customArgs);
@@ -74,8 +74,8 @@ public class SimQuery {
         GraphFactory factory = new LGraphFactory(labelMap, dim1, dim2);
         
         // Decide m, M
-        int m = 1;
-        int M = 2;
+        int m = 10;
+        int M = 30;
         CTree ctree = BuildCTree.buildCTree(graphs, m, M, mapper, graphSim, labelMap, factory); // build ctree using hierarchical clustering
         
         Graph[] queries = LGraphFile.loadLGraphs(opt.getArg(1));
@@ -105,14 +105,14 @@ public class SimQuery {
 
         
         
-        /*
+        
         // if you want to generate probability for database graphs
         File file = new File("graphIdToProbMapping.txt");
         PrintWriter probOutput = new PrintWriter(file);
         SimRanker ranker = new SimRanker(ctree, mapper, graphSim, queries[0],strict);
         ranker.generateProbs(graphs, queries, probOutput);
         probOutput.close();
-        */
+        
         
         
         
@@ -140,7 +140,7 @@ public class SimQuery {
             	
             		/* in naiveRangeQuery, you don't prune internal Ctree nodes which fail probability test, instead you prune
                 	 at the end */
-                //ans = naiveRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+                ans = naiveRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
                 
             		/* in samplingRangeQuery, at each Ctree node, you generate PossibleWorld deterministic versions of 
             		   the uncertain graph whose prob > probThreshold and set sim = weighted similarity of those possible 
@@ -149,7 +149,7 @@ public class SimQuery {
 
 
                 /* Representative graph approach */
-                 ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+                 //ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
 
 
             }

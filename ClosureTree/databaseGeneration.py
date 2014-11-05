@@ -25,9 +25,12 @@ def writeGraphToFile(G,fileptr,graphId):
 	for edge in G.edges():
 		fileptr.write(str(edge[0])+" "+str(edge[1])+" "+str(1.0)+"\n")
 
+lower_bound = 0.5
+upper_bound = 1
+
 def addProbabilities(G):
 	for n in G.edges_iter():
-		G.edge[n[0]][n[1]]['prob'] = random.random()
+		G.edge[n[0]][n[1]]['prob'] = random.random()*(upper_bound-lower_bound) + lower_bound
 
 def addNodes(G,alpha,labelList):
 	#For now alpha is even

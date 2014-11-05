@@ -44,8 +44,8 @@ for lineNumber,line in enumerate(answerSet):
 precision=(len(truePositives)+0.0)/(len(positives)+0.0)
 recall=(len(truePositives)+0.0)/(len(groundPositives)+0.0)
 
-print 'No of positives correctly returned: ', truePositives
-print 'No of true ground positives: ', groundPositives
-print 'No of positives returned: ', positives
-print 'Precision: ',precision
-print 'Recall: ',recall
+print 'No of positives correctly returned: ', len(truePositives)
+print 'No of true ground positives: ', len(groundPositives)
+print 'No of positives returned: ', len(positives)
+print 'Precision: ', precision
+print 'Recall: ', recall
