@@ -479,10 +479,12 @@ public class SimRanker {
   	
 	  for(int i=0; i<queries.length; i++){	
 	  	for(int j=0; j<graphs.length; j++){
+	  		
+	  		
 	  		LGraph[] sampledGraphs = ((LGraph)graphs[j]).sampledGraphs(noOfSampledGraphs, probThresh);
 	  		double prob_Num = 0.0, prob_Den = 0.0;
 	  		int size = 0;
-	  		
+	 
 	  		for(int k=0; k<sampledGraphs.length; k++){
 	  			int[] map = ((NeighborBiasedMapper)mapper).mapAndReturnProb((LGraph)queries[i], sampledGraphs[k], entry);
 	  			size+= sampledGraphs[k].numE();
@@ -490,7 +492,14 @@ public class SimRanker {
 	  			prob_Den += sampledGraphs[k].probOfGraph;
 	  		}
 	  		
-	  		output.println("Id: "+graphs[j].id()+" Prob: "+(prob_Num/prob_Den)+" Avg no edges: "+(double)size/sampledGraphs.length);
+	  		//output.println("Id: "+graphs[j].id()+" Prob: "+(prob_Num/prob_Den)+" Avg no edges: "+(double)size/sampledGraphs.length);
+	  		
+	  		
+	  		int[] map = ((NeighborBiasedMapper)mapper).mapAndReturnProb((LGraph)queries[i], graphs[j], entry);
+	  		//output.println("Id: "+graphs[j].id()+" Prob: "+entry.prob);
+	  		
+	  		output.println("Id: "+graphs[j].id()+" Prob: "+entry.prob+" Weighted Prob: "+(prob_Num/prob_Den)+" Avg no edges: "+(double)size/sampledGraphs.length);
+	  		
 	  	}
 	  }
   	

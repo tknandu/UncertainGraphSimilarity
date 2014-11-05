@@ -289,7 +289,7 @@ public class BuildCTree {
             return sub1;
         } else {
             assert (sub1.size() + sub2.size() <= 2 * ctree.get_M());
-            System.out.println("coming here merge");
+            //System.out.println("coming here merge");
             CTreeNode node1 = new CTreeNode(ctree, null, sub1, false, false);
             CTreeNode node2 = new CTreeNode(ctree, null, sub2, false, false);
             Vector v = new Vector();
