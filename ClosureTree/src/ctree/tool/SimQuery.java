@@ -43,8 +43,8 @@ public class SimQuery {
     public static void main(String[] args) throws Exception {
    
 
-    	  //String[] customArgs = {"-range=9", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
-    		String[] customArgs = {"-range=106", "-probThresh=0.0", "-output=output.txt", "toyEvaluationGraph.txt", "evaluationQueryGraph.txt"};
+    	  String[] customArgs = {"-range=4", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
+    	  //String[] customArgs = {"-range=106", "-probThresh=0.0", "-output=output.txt", "toyEvaluationGraph.txt", "evaluationQueryGraph.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {
@@ -130,8 +130,8 @@ public class SimQuery {
             		/* in samplingRangeQuery, at each Ctree node, you generate PossibleWorld deterministic versions of 
             		   the uncertain graph whose prob > probThreshold and set sim = weighted similarity of those possible 
             		   worlds */
-                ans = samplingRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
-                
+                //ans = samplingRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+            	ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
             }
             query_time = System.currentTimeMillis() - query_time;
 
@@ -346,4 +346,18 @@ public class SimQuery {
         return ans;
     }
 
+    
+    public static Vector<RankerEntry> GPRepresentativeRangeQuery(CTree ctree,GraphMapper mapper,GraphSim graphSim,Graph query, double range,boolean preciseRanking,double probThresh) 
+    {
+    	SimRanker ranker = new SimRanker(ctree, mapper, graphSim, query,
+    			preciseRanking);
+    	RankerEntry entry;
+    	Vector<RankerEntry> ans = new Vector(); // answer set
+    	while ((entry = ranker.GPRepresentativeRangeQuery(-range, probThresh)) != null && entry.getDist() <= range) {
+    		ans.addElement(entry);
+    	}
+    	accessCount = ranker.getAccessCount();
+    	ranker.clear();        
+    	return ans;
+    }    
 }

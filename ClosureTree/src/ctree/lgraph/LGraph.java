@@ -128,6 +128,108 @@ public class LGraph implements Graph {
 
   }
 
+  public LGraph GPRepresentative()
+  {
+	  Double[] discrepancies=new Double[this.V.length];
+	  for(int i=0;i<discrepancies.length;i++)
+	  {
+		  discrepancies[i]=0.0;
+	  }
+	  List<UnlabeledEdge> edges=new ArrayList<UnlabeledEdge>();
+	  for(UnlabeledEdge edge:this.E)
+	  {
+		  edges.add(edge);
+		  discrepancies[edge.v1]-=edge.prob;
+		  discrepancies[edge.v2]-=edge.prob;
+	  }
+	  Collections.sort(edges, new Comparator<UnlabeledEdge>() {
+	        @Override
+	        public int compare(UnlabeledEdge  e1, UnlabeledEdge e2)
+	        {
+
+	            if(e2.prob<e1.prob)
+	            {
+	            	return -1;
+	            }
+	            else
+	            {
+	            	return 1;
+	            }
+	        }
+	    });
+	  List<UnlabeledEdge> selectedEdges=new ArrayList<UnlabeledEdge>();
+	  for(UnlabeledEdge e:edges)
+	  {
+		  //System.out.println("Edge Probability"+e.prob);
+		  double disv1=discrepancies[e.v1];
+		  double disv2=discrepancies[e.v2];
+		  if(Math.abs(disv1+1)+Math.abs(disv2+1)<Math.abs(disv1)+Math.abs(disv2))
+		  {
+			  selectedEdges.add(e);
+			  System.out.println("Edge Added to Rep:"+e.v1+" "+e.v2);
+			  discrepancies[e.v1]+=1;
+			  discrepancies[e.v2]+=1;
+		  }
+	  }
+	  UnlabeledEdge[] edgesArray = new UnlabeledEdge[selectedEdges.size()];
+	  LGraph GPRepresentative = new LGraph(this.V, selectedEdges.toArray(edgesArray) ,this.id+"*");
+	  GPRepresentative.probMap=this.probMap;
+	  return GPRepresentative;
+  }
+  /*
+  public LGraph ADRRepresentative()
+  {
+	  Double[] discrepancies=new Double[this.V.length];
+	  double probSum = 0.0;
+	  for(int i=0;i<discrepancies.length;i++)
+	  {
+		  discrepancies[i]=0.0;
+	  }
+	  List<UnlabeledEdge> edges=new ArrayList<UnlabeledEdge>();
+	  for(UnlabeledEdge edge:this.E)
+	  {
+		  edges.add(edge);
+		  discrepancies[edge.v1]-=edge.prob;
+		  discrepancies[edge.v2]-=edge.prob;
+		  probSum+=edge.prob;
+	  }
+	  Collections.sort(edges, new Comparator<UnlabeledEdge>() {
+	        @Override
+	        public int compare(UnlabeledEdge  e1, UnlabeledEdge e2)
+	        {
+
+	            if(e2.prob<e1.prob)
+	            {
+	            	return -1;
+	            }
+	            else
+	            {
+	            	return 1;
+	            }
+	        }
+	    });
+	  List<UnlabeledEdge> selectedEdges=new ArrayList<UnlabeledEdge>();
+	  for(UnlabeledEdge e:edges)
+	  {
+		 //System.out.println("Edge Probability"+e.prob);
+		 double r=Math.random();
+		 if(r<=e.prob)
+		 {
+			 selectedEdges.add(e);
+			 discrepancies[e.v1]+=1;
+			 discrepancies[e.v2]+=1;
+		 }
+		 if(selectedEdges.size()>probSum)
+		 {
+			 break;
+		 }
+	  }
+	  UnlabeledEdge[] edgesArray = new UnlabeledEdge[selectedEdges.size()];
+	  LGraph GPRepresentative = new LGraph(this.V, selectedEdges.toArray(edgesArray) ,this.id+"*");
+	  GPRepresentative.probMap=this.probMap;
+	  return GPRepresentative;
+  }
+  */
   public LGraph[] sampledGraphs(int maxNoOfSampledGraphs, double probThresh){
   	LGraph[] graphs = new LGraph[maxNoOfSampledGraphs];
   	int cnt = 0;
