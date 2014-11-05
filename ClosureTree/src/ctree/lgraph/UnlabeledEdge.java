@@ -1,5 +1,5 @@
 package ctree.lgraph;
-
+import java.util.Comparator;
 import ctree.graph.*;
 
 /**
@@ -48,4 +48,12 @@ public class UnlabeledEdge implements Edge {
 
   }
 
+  public static Comparator<UnlabeledEdge> ProbComparator = new Comparator<UnlabeledEdge>() 
+  {
+	  
+      @Override
+      public int compare(UnlabeledEdge e1, UnlabeledEdge e2) {
+          return (int) (e1.prob - e2.prob);
+      }
+  };
 }
