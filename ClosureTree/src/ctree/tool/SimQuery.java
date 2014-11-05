@@ -44,7 +44,7 @@ public class SimQuery {
     public static void main(String[] args) throws Exception {
     	
     	  //String[] customArgs = {"-range=0", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
-    		String[] customArgs = {"-range=106", "-probThresh=0.0", "-output=answerSet.txt", "graphDatabase.txt", "queryGraph.txt"};
+    		String[] customArgs = {"-range=320", "-probThresh=0.0", "-output=answerSet.txt", "graphDatabase.txt", "queryGraph.txt"};
 
     	
         Opt opt = new Opt(customArgs);
@@ -136,7 +136,7 @@ public class SimQuery {
                 ans = kNNQuery(ctree, mapper, graphSim, queries[i], k, strict);
             } else {
             		/* in optimizedRangeQuery, you prune internal Ctree nodes which fail probability test */
-                ans = optimizedRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict);
+                //ans = optimizedRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict);
             	
             		/* in naiveRangeQuery, you don't prune internal Ctree nodes which fail probability test, instead you prune
                 	 at the end */
@@ -148,7 +148,7 @@ public class SimQuery {
                 //ans = samplingRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
 
                 /* Representative graph approach */
-                // ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+                 ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
 
             }
             query_time = System.currentTimeMillis() - query_time;
