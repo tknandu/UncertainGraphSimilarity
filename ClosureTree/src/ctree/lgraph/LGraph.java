@@ -176,8 +176,8 @@ public class LGraph implements Graph {
 	  GPRepresentative.probMap=this.probMap;
 	  return GPRepresentative;
   }
-  /*
-  public LGraph ADRRepresentative()
+  
+  public LGraph ADRRepresentative(int rewiringSteps)
   {
 	  Double[] discrepancies=new Double[this.V.length];
 	  double probSum = 0.0;
@@ -209,27 +209,95 @@ public class LGraph implements Graph {
 	        }
 	    });
 	  List<UnlabeledEdge> selectedEdges=new ArrayList<UnlabeledEdge>();
+	  List<UnlabeledEdge> excludedEdges=new ArrayList<UnlabeledEdge>();
+	  HashMap<Integer,ArrayList<Integer>> adjacency=new HashMap<Integer,ArrayList<Integer>>();
+	  for(int i=0;i<this.V.length;i++)
+	  {
+		  adjacency.put(i,new ArrayList<Integer>());
+	  }
+	  //Create the instance with the same degree as the expected degree
 	  for(UnlabeledEdge e:edges)
 	  {
 		 //System.out.println("Edge Probability"+e.prob);
+		if(selectedEdges.size()>probSum)
+		{
+			excludedEdges.add(e);
+			continue;
+		}
 		 double r=Math.random();
 		 if(r<=e.prob)
 		 {
 			 selectedEdges.add(e);
+			 adjacency.get(e.v1).add(e.v2);
+			 adjacency.get(e.v2).add(e.v1);
 			 discrepancies[e.v1]+=1;
 			 discrepancies[e.v2]+=1;
 		 }
-		 if(selectedEdges.size()>probSum)
+		 else
 		 {
-			 break;
+			 excludedEdges.add(e);
 		 }
+
+	  }
+	  for(int i=0;i<rewiringSteps;i++)
+	  {
+		  Random rand=new Random();	
+		  for(int u=0;u<this.V.length;u++)
+		  {
+			  int uDegree=adjacency.get(u).size();
+			  if((uDegree==0)||(excludedEdges.size()==0))
+			  {
+				  continue;
+			  }
+			  int v=adjacency.get(u).get(rand.nextInt(uDegree));
+			  UnlabeledEdge e1=null;
+			  for(UnlabeledEdge e:selectedEdges)
+			  {
+				  if((e.v1==u)&&(e.v2==v))
+				  {
+					  e1=e;
+					  break;
+				  }
+				  else if((e.v1==v)&&(e.v2==u))
+				  {
+					  e1=e;
+					  break;
+				  }
+						  
+			  }
+			  UnlabeledEdge e2=excludedEdges.get(rand.nextInt(excludedEdges.size()));
+			  int x=e2.v1;
+			  int y=e2.v2;
+			  double d1=Math.abs(discrepancies[u]-1)+Math.abs(discrepancies[v]-1)-Math.abs(discrepancies[u])-Math.abs(discrepancies[v]);
+			  double d2=Math.abs(discrepancies[x]+1)+Math.abs(discrepancies[y]+1)-Math.abs(discrepancies[x])-Math.abs(discrepancies[y]);
+			  if(d1+d2<0)
+			  {
+				  //remove e1 from selectedEdges and add it to excludedEdges. Also remove it from adjancency
+				  selectedEdges.remove(e1);
+				  excludedEdges.add(e1);
+				  adjacency.get(u).remove(v);
+				  adjacency.get(v).remove(u);
+				  excludedEdges.remove(e2);
+				  selectedEdges.add(e2);
+				  adjacency.get(x).add(y);
+				  adjacency.get(y).add(x);
+				  discrepancies[u]-=1;
+				  discrepancies[v]-=1;
+				  discrepancies[x]+=1;
+				  discrepancies[y]+=1;
+			  }
+		  }
+	  }
+	  for(UnlabeledEdge e:selectedEdges)
+	  {
+		  System.out.println("ADRRepresentative: "+e.v1+" "+e.v2);
 	  }
 	  UnlabeledEdge[] edgesArray = new UnlabeledEdge[selectedEdges.size()];
 	  LGraph GPRepresentative = new LGraph(this.V, selectedEdges.toArray(edgesArray) ,this.id+"*");
 	  GPRepresentative.probMap=this.probMap;
 	  return GPRepresentative;
   }
-  */
+  
   public LGraph[] sampledGraphs(int maxNoOfSampledGraphs, double probThresh){
   	LGraph[] graphs = new LGraph[maxNoOfSampledGraphs];
   	int cnt = 0;

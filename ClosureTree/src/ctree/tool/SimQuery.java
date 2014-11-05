@@ -131,7 +131,7 @@ public class SimQuery {
             		   the uncertain graph whose prob > probThreshold and set sim = weighted similarity of those possible 
             		   worlds */
                 //ans = samplingRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
-            	ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+            	ans = ADRRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
             }
             query_time = System.currentTimeMillis() - query_time;
 
@@ -359,5 +359,20 @@ public class SimQuery {
     	accessCount = ranker.getAccessCount();
     	ranker.clear();        
     	return ans;
-    }    
+    }
+
+    public static Vector<RankerEntry> ADRRepresentativeRangeQuery(CTree ctree,GraphMapper mapper,GraphSim graphSim,Graph query, double range,boolean preciseRanking,double probThresh) 
+    {
+    	int numberOfSteps=2;
+    	SimRanker ranker = new SimRanker(ctree, mapper, graphSim, query,
+    			preciseRanking);
+    	RankerEntry entry;
+    	Vector<RankerEntry> ans = new Vector(); // answer set
+    	while ((entry = ranker.ADRRepresentativeRangeQuery(-range, probThresh,numberOfSteps)) != null && entry.getDist() <= range) {
+    		ans.addElement(entry);
+    	}
+    	accessCount = ranker.getAccessCount();
+    	ranker.clear();        
+    	return ans;
+    }
 }
