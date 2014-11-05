@@ -35,7 +35,7 @@ public class NeighborBiasedMapping {
         }
     }
     /**
-     * Find a graph mapping between two graphs
+     * Find a graph mapping between two graphs without taking into account the userProbThresh
      *
      * @param n1 number of vertices in G1
      * @param n2 number of vertices in G2
@@ -130,7 +130,7 @@ public class NeighborBiasedMapping {
     }
     
     /**
-     * Find a graph mapping between two graphs for range query
+     * Find a graph mapping between two graphs for range query until probability of mapped portion remains above userProbThresh
      *
      * @param n1 number of vertices in G1
      * @param n2 number of vertices in G2
@@ -215,7 +215,7 @@ public class NeighborBiasedMapping {
             
             if(tempProbOfMappedG2 > userProbThreshold) { 	// map u to v
             	probOfMappedG2 = tempProbOfMappedG2;
-            	System.out.println(e.u +" is mapped to "+e.v);
+            	//System.out.println(e.u +" is mapped to "+e.v);
 	            map[e.u] = e.v;
 	            rmap[e.v] = e.u;
 	
@@ -283,7 +283,8 @@ public class NeighborBiasedMapping {
     }
     
     /**
-     * Find a graph mapping between query and database graph and return probability of mapped version (used in naive)
+     * Find a graph mapping between query and database graph (without stopping considering userProbThresh)
+     *   and return probability of mapped version (used in naive)
      *
      * @param n1 number of vertices in G1
      * @param n2 number of vertices in G2

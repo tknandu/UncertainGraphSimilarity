@@ -1,0 +1,4244 @@
+Building ctree from graphDatabase.txt
+
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+For query graph:
+Range Query:
+
+#10000
+30
+A
+B
+C
+B
+C
+C
+A
+C
+C
+C
+B
+B
+C
+C
+B
+C
+B
+B
+A
+A
+C
+C
+A
+A
+A
+A
+B
+C
+B
+C
+298
+0 4
+0 6
+0 7
+0 9
+0 10
+0 12
+0 13
+0 15
+0 16
+0 17
+0 18
+0 23
+0 24
+0 25
+0 26
+0 27
+0 28
+0 29
+1 2
+1 3
+1 5
+1 6
+1 8
+1 9
+1 12
+1 14
+1 15
+1 17
+1 19
+1 20
+1 21
+1 22
+1 23
+1 24
+1 25
+1 27
+1 28
+1 29
+2 4
+2 5
+2 6
+2 7
+2 8
+2 9
+2 12
+2 14
+2 15
+2 17
+2 18
+2 21
+2 23
+2 24
+2 25
+2 26
+3 5
+3 6
+3 8
+3 9
+3 10
+3 11
+3 12
+3 16
+3 17
+3 18
+3 19
+3 21
+3 23
+3 24
+3 26
+3 28
+3 29
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 16
+4 17
+4 18
+4 20
+4 21
+4 23
+4 24
+4 25
+4 26
+4 28
+5 6
+5 7
+5 8
+5 10
+5 12
+5 13
+5 14
+5 16
+5 18
+5 19
+5 20
+5 22
+5 23
+5 24
+5 26
+5 27
+5 28
+5 29
+6 7
+6 8
+6 9
+6 10
+6 11
+6 13
+6 14
+6 15
+6 16
+6 17
+6 18
+6 19
+6 20
+6 22
+6 23
+6 24
+6 26
+6 27
+7 11
+7 12
+7 13
+7 14
+7 15
+7 16
+7 17
+7 19
+7 20
+7 21
+7 23
+7 24
+7 25
+7 26
+7 27
+8 9
+8 10
+8 12
+8 14
+8 15
+8 16
+8 17
+8 19
+8 20
+8 21
+8 22
+8 23
+8 24
+8 26
+8 28
+9 15
+9 16
+9 17
+9 19
+9 20
+9 21
+9 24
+9 25
+9 26
+9 28
+9 29
+10 11
+10 12
+10 15
+10 16
+10 18
+10 19
+10 20
+10 21
+10 22
+10 23
+10 25
+10 26
+10 27
+11 13
+11 15
+11 16
+11 17
+11 18
+11 20
+11 21
+11 22
+11 23
+11 25
+11 26
+11 27
+11 28
+12 17
+12 18
+12 19
+12 20
+12 21
+12 22
+12 23
+12 24
+12 25
+12 26
+12 28
+12 29
+13 14
+13 17
+13 18
+13 19
+13 20
+13 21
+13 22
+13 24
+13 25
+13 26
+13 27
+13 28
+13 29
+14 15
+14 16
+14 18
+14 19
+14 20
+14 21
+14 24
+14 27
+15 16
+15 17
+15 18
+15 19
+15 21
+15 22
+15 23
+15 24
+15 25
+15 26
+15 27
+15 28
+15 29
+16 19
+16 20
+16 22
+16 24
+16 25
+16 27
+16 28
+16 29
+17 19
+17 20
+17 21
+17 22
+17 23
+17 24
+17 25
+17 27
+17 29
+18 21
+18 24
+18 26
+18 27
+18 28
+18 29
+19 25
+19 26
+19 27
+19 28
+19 29
+20 21
+20 23
+20 24
+20 27
+20 28
+20 29
+21 22
+21 23
+21 24
+21 25
+21 26
+21 28
+21 29
+22 23
+22 24
+22 25
+22 26
+22 27
+22 28
+22 29
+23 24
+23 26
+23 27
+24 27
+24 28
+24 29
+25 27
+25 28
+26 27
+26 29
+27 28
+28 29
+
+Probability of G2 after mapping = 4.181270487271191E-93
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.181270487271191E-93
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3195819768007605E-44
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3195819768007605E-44
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.657263778362176E-28
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.657263778362176E-28
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.348813564514098E-82
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.348813564514098E-82
+Upper bound of sim = 327 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3391035872209772E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3391035872209772E-67
+Upper bound of sim = 328 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.679086145531919E-42
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.679086145531919E-42
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.11272694876427E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 9.11272694876427E-66
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.547345055115193E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.547345055115193E-72
+Upper bound of sim = 321 Exact sim = 312.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0526871947418068E-65
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0526871947418068E-65
+Upper bound of sim = 300 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8472556636173563E-42
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.8472556636173563E-42
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.577311789815676E-26
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.577311789815676E-26
+Upper bound of sim = 328 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.011302131472278E-27
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 8.011302131472278E-27
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.781314763411825E-73
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.781314763411825E-73
+Upper bound of sim = 326 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.874186019000157E-74
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.874186019000157E-74
+Upper bound of sim = 327 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.908695622606829E-38
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.908695622606829E-38
+Upper bound of sim = 328 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.860759826999985E-22
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.860759826999985E-22
+Upper bound of sim = 328 Exact sim = 304.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.041948532775357E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.041948532775357E-67
+Upper bound of sim = 326 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.163325608468094E-60
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.163325608468094E-60
+Upper bound of sim = 292 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.931995313551504E-57
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.931995313551504E-57
+Upper bound of sim = 327 Exact sim = 312.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.090702368925522E-44
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.090702368925522E-44
+Upper bound of sim = 328 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.179550121986402E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.179550121986402E-68
+Upper bound of sim = 316 Exact sim = 317.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.987343428986407E-69
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.987343428986407E-69
+Upper bound of sim = 326 Exact sim = 308.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.870358573310366E-63
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.870358573310366E-63
+Upper bound of sim = 326 Exact sim = 323.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.133942351909582E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.133942351909582E-68
+Upper bound of sim = 287 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.1274843550682795E-63
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.1274843550682795E-63
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6370523398734677E-20
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.6370523398734677E-20
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.4039598752324116E-40
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.4039598752324116E-40
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.81735119697814E-34
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.81735119697814E-34
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4701696555196618E-63
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.4701696555196618E-63
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1959302504360497E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1959302504360497E-72
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.715743311366481E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.715743311366481E-68
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.76919072001934E-65
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 8.76919072001934E-65
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.703536132254412E-128
+G2's id:89
+Probability of g2 after mapping (considering only mapped edges) = 8.703536132254412E-128
+Exact sim to graph 89= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.4630416307253994E-132
+G2's id:92
+Probability of g2 after mapping (considering only mapped edges) = 3.4630416307253994E-132
+Exact sim to graph 92= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.645367710096128E-126
+G2's id:93
+Probability of g2 after mapping (considering only mapped edges) = 4.645367710096128E-126
+Exact sim to graph 93= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4989501492895983E-127
+G2's id:96
+Probability of g2 after mapping (considering only mapped edges) = 1.4989501492895983E-127
+Exact sim to graph 96= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.8991874815014606E-118
+G2's id:97
+Probability of g2 after mapping (considering only mapped edges) = 3.8991874815014606E-118
+Exact sim to graph 97= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.572953901040446E-130
+G2's id:100
+Probability of g2 after mapping (considering only mapped edges) = 2.572953901040446E-130
+Exact sim to graph 100= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1079303895377259E-128
+G2's id:85
+Probability of g2 after mapping (considering only mapped edges) = 1.1079303895377259E-128
+Exact sim to graph 85= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.584048479903231E-127
+G2's id:88
+Probability of g2 after mapping (considering only mapped edges) = 9.584048479903231E-127
+Exact sim to graph 88= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.118457897171933E-48
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.118457897171933E-48
+Upper bound of sim = 327 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.86743030685731E-75
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 9.86743030685731E-75
+Upper bound of sim = 327 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.408941533260771E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.408941533260771E-71
+Upper bound of sim = 304 Exact sim = 312.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7255297804187242E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.7255297804187242E-68
+Upper bound of sim = 257 Exact sim = 322.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.284238299744051E-22
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 9.284238299744051E-22
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.92868495481044E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.92868495481044E-71
+Upper bound of sim = 327 Exact sim = 306.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.855257129696519E-41
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.855257129696519E-41
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6494351363644658E-31
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.6494351363644658E-31
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.807503825642236E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 9.807503825642236E-68
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8728126935903357E-74
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.8728126935903357E-74
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.138839374817835E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.138839374817835E-70
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.267711249614906E-49
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.267711249614906E-49
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.964436009346528E-127
+G2's id:137
+Probability of g2 after mapping (considering only mapped edges) = 2.964436009346528E-127
+Exact sim to graph 137= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.461475732652588E-129
+G2's id:140
+Probability of g2 after mapping (considering only mapped edges) = 1.461475732652588E-129
+Exact sim to graph 140= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.454324132544426E-123
+G2's id:141
+Probability of g2 after mapping (considering only mapped edges) = 7.454324132544426E-123
+Exact sim to graph 141= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.5759998133087633E-132
+G2's id:144
+Probability of g2 after mapping (considering only mapped edges) = 2.5759998133087633E-132
+Exact sim to graph 144= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.138839374817835E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.138839374817835E-70
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.5768583560365846E-125
+G2's id:149
+Probability of g2 after mapping (considering only mapped edges) = 3.5768583560365846E-125
+Upper bound of sim = 319 Exact sim = 319.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4432859692332714E-69
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.4432859692332714E-69
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8386800776409032E-126
+G2's id:145
+Probability of g2 after mapping (considering only mapped edges) = 2.8386800776409032E-126
+Exact sim to graph 145= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.371042546575518E-127
+G2's id:148
+Probability of g2 after mapping (considering only mapped edges) = 9.371042546575518E-127
+Exact sim to graph 148= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.81763301808658E-120
+G2's id:152
+Probability of g2 after mapping (considering only mapped edges) = 4.81763301808658E-120
+Exact sim to graph 152= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.2706008544958977E-128
+G2's id:153
+Probability of g2 after mapping (considering only mapped edges) = 4.2706008544958977E-128
+Exact sim to graph 153= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5386667282966114E-62
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.5386667282966114E-62
+Upper bound of sim = 328 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9129779792574571E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.9129779792574571E-66
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.161279549036176E-18
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.161279549036176E-18
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.9114604969605525E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.9114604969605525E-68
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.6868551932334836E-26
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.6868551932334836E-26
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.6923848497116203E-26
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.6923848497116203E-26
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1511857454087842E-43
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1511857454087842E-43
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.141576826270068E-40
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.141576826270068E-40
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1135429253921377E-43
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1135429253921377E-43
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.383830590397318E-42
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.383830590397318E-42
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.3938791272014193E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.3938791272014193E-77
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.880198724504705E-73
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.880198724504705E-73
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1519436930059661E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1519436930059661E-66
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8449053998726186E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.8449053998726186E-77
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7976315220160758E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.7976315220160758E-68
+Upper bound of sim = 328 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.7732994721259006E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.7732994721259006E-71
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5203656533054334E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.5203656533054334E-72
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.666737398218447E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.666737398218447E-76
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2549060544499067E-132
+G2's id:189
+Probability of g2 after mapping (considering only mapped edges) = 2.2549060544499067E-132
+Exact sim to graph 189= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0901721332969316E-129
+G2's id:192
+Probability of g2 after mapping (considering only mapped edges) = 2.0901721332969316E-129
+Exact sim to graph 192= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.068162522033058E-128
+G2's id:193
+Probability of g2 after mapping (considering only mapped edges) = 8.068162522033058E-128
+Exact sim to graph 193= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.448058712748518E-124
+G2's id:196
+Probability of g2 after mapping (considering only mapped edges) = 7.448058712748518E-124
+Exact sim to graph 196= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.81764011261923E-116
+G2's id:197
+Probability of g2 after mapping (considering only mapped edges) = 3.81764011261923E-116
+Exact sim to graph 197= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.992837558929313E-120
+G2's id:200
+Probability of g2 after mapping (considering only mapped edges) = 9.992837558929313E-120
+Exact sim to graph 200= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2149128187698503E-123
+G2's id:209
+Probability of g2 after mapping (considering only mapped edges) = 1.2149128187698503E-123
+Exact sim to graph 209= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.009903322924929E-125
+G2's id:212
+Probability of g2 after mapping (considering only mapped edges) = 9.009903322924929E-125
+Exact sim to graph 212= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.283332623686087E-43
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.283332623686087E-43
+Upper bound of sim = 328 Exact sim = 310.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0956753792412618E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.0956753792412618E-78
+Upper bound of sim = 310 Exact sim = 322.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8302942250087487E-131
+G2's id:201
+Probability of g2 after mapping (considering only mapped edges) = 2.8302942250087487E-131
+Exact sim to graph 201= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.2257735173654464E-140
+G2's id:204
+Probability of g2 after mapping (considering only mapped edges) = 3.2257735173654464E-140
+Exact sim to graph 204= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.4169208817992816E-126
+G2's id:205
+Probability of g2 after mapping (considering only mapped edges) = 4.4169208817992816E-126
+Exact sim to graph 205= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.3641083752063757E-125
+G2's id:208
+Probability of g2 after mapping (considering only mapped edges) = 2.3641083752063757E-125
+Exact sim to graph 208= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.670670444558678E-133
+G2's id:213
+Probability of g2 after mapping (considering only mapped edges) = 1.670670444558678E-133
+Exact sim to graph 213= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.802327469953782E-114
+G2's id:216
+Probability of g2 after mapping (considering only mapped edges) = 1.802327469953782E-114
+Exact sim to graph 216= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.798902195194047E-130
+G2's id:217
+Probability of g2 after mapping (considering only mapped edges) = 4.798902195194047E-130
+Exact sim to graph 217= 316.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.6739659087827434E-132
+G2's id:220
+Probability of g2 after mapping (considering only mapped edges) = 2.6739659087827434E-132
+Exact sim to graph 220= 315.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7472429682561276E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.7472429682561276E-71
+Upper bound of sim = 324 Exact sim = 297.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0940834355029068E-55
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0940834355029068E-55
+Upper bound of sim = 327 Exact sim = 301.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0325526905978888E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0325526905978888E-67
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8437005031622774E-62
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.8437005031622774E-62
+Upper bound of sim = 327 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2334646280159997E-74
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.2334646280159997E-74
+Upper bound of sim = 294 Exact sim = 325.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.976098096198083E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.976098096198083E-72
+Upper bound of sim = 327 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.467626535297335E-41
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.467626535297335E-41
+Upper bound of sim = 327 Exact sim = 325.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.0723291441730126E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.0723291441730126E-66
+Upper bound of sim = 327 Exact sim = 308.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.356866666719727E-50
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.356866666719727E-50
+Upper bound of sim = 328 Exact sim = 315.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2526161884219082E-44
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.2526161884219082E-44
+Upper bound of sim = 328 Exact sim = 294.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.995849490152591E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.995849490152591E-67
+Upper bound of sim = 327 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1359286633732696E-74
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1359286633732696E-74
+Upper bound of sim = 326 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.549282275084907E-54
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.549282275084907E-54
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.943549487852868E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.943549487852868E-72
+Upper bound of sim = 327 Exact sim = 322.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3940392049046327E-74
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3940392049046327E-74
+Upper bound of sim = 325 Exact sim = 322.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.90417433415234E-62
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.90417433415234E-62
+Upper bound of sim = 327 Exact sim = 318.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.008444197689523E-13
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.008444197689523E-13
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.394380568598289E-30
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.394380568598289E-30
+Upper bound of sim = 328 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2963629623862522E-18
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.2963629623862522E-18
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.072765660649884E-18
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.072765660649884E-18
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1456734927248219E-28
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1456734927248219E-28
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.917437175406027E-30
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.917437175406027E-30
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.772010420729123E-27
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.772010420729123E-27
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.0766285438680656E-33
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.0766285438680656E-33
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.8037320634377606E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.8037320634377606E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.70233009391811E-46
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 8.70233009391811E-46
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.9720103346917143E-60
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.9720103346917143E-60
+Upper bound of sim = 326 Exact sim = 308.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.355914937164745E-44
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.355914937164745E-44
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.943003652545378E-61
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.943003652545378E-61
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.139801985991004E-44
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.139801985991004E-44
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0126772368625596E-132
+G2's id:12
+Probability of g2 after mapping (considering only mapped edges) = 2.0126772368625596E-132
+Upper bound of sim = 326 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.383520708822121E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.383520708822121E-66
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.943003652545378E-61
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.943003652545378E-61
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8856511095854305E-129
+G2's id:21
+Probability of g2 after mapping (considering only mapped edges) = 1.8856511095854305E-129
+Upper bound of sim = 325 Exact sim = 325.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.33589576337456E-64
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.33589576337456E-64
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.937779588624299E-130
+G2's id:13
+Probability of g2 after mapping (considering only mapped edges) = 6.937779588624299E-130
+Exact sim to graph 13= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.257226703030314E-121
+G2's id:16
+Probability of g2 after mapping (considering only mapped edges) = 2.257226703030314E-121
+Exact sim to graph 16= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.8320369891947565E-130
+G2's id:17
+Probability of g2 after mapping (considering only mapped edges) = 5.8320369891947565E-130
+Exact sim to graph 17= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.971776329277093E-122
+G2's id:20
+Probability of g2 after mapping (considering only mapped edges) = 9.971776329277093E-122
+Exact sim to graph 20= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.813501274986248E-124
+G2's id:24
+Probability of g2 after mapping (considering only mapped edges) = 5.813501274986248E-124
+Exact sim to graph 24= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6348589931309148E-131
+G2's id:25
+Probability of g2 after mapping (considering only mapped edges) = 1.6348589931309148E-131
+Exact sim to graph 25= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2079383511044394E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.2079383511044394E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.627333263795041E-50
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.627333263795041E-50
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.8037320634377606E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.8037320634377606E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2079383511044394E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.2079383511044394E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.546447751043309E-129
+G2's id:32
+Probability of g2 after mapping (considering only mapped edges) = 3.546447751043309E-129
+Upper bound of sim = 325 Exact sim = 325.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0281896458480465E-73
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0281896458480465E-73
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.5905685156404125E-125
+G2's id:0
+Probability of g2 after mapping (considering only mapped edges) = 4.5905685156404125E-125
+Exact sim to graph 0= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4493712652778587E-123
+G2's id:1
+Probability of g2 after mapping (considering only mapped edges) = 1.4493712652778587E-123
+Exact sim to graph 1= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.5565713630719884E-128
+G2's id:28
+Probability of g2 after mapping (considering only mapped edges) = 2.5565713630719884E-128
+Exact sim to graph 28= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.302807429819739E-126
+G2's id:29
+Probability of g2 after mapping (considering only mapped edges) = 7.302807429819739E-126
+Exact sim to graph 29= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.845229498558381E-130
+G2's id:33
+Probability of g2 after mapping (considering only mapped edges) = 3.845229498558381E-130
+Exact sim to graph 33= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.5569326628453885E-140
+G2's id:36
+Probability of g2 after mapping (considering only mapped edges) = 3.5569326628453885E-140
+Exact sim to graph 36= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.71965681525278E-121
+G2's id:4
+Probability of g2 after mapping (considering only mapped edges) = 1.71965681525278E-121
+Upper bound of sim = 326 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.136114333172715E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 8.136114333172715E-72
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9715228267737836E-140
+G2's id:5
+Probability of g2 after mapping (considering only mapped edges) = 1.9715228267737836E-140
+Exact sim to graph 5= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.521874538845354E-136
+G2's id:8
+Probability of g2 after mapping (considering only mapped edges) = 9.521874538845354E-136
+Exact sim to graph 8= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0126772368625596E-132
+G2's id:12
+Probability of g2 after mapping (considering only mapped edges) = 2.0126772368625596E-132
+Exact sim to graph 12= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.71965681525278E-121
+G2's id:4
+Probability of g2 after mapping (considering only mapped edges) = 1.71965681525278E-121
+Exact sim to graph 4= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.631159829226639E-83
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.631159829226639E-83
+Upper bound of sim = 315 Exact sim = 325.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.263660502204428E-80
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.263660502204428E-80
+Upper bound of sim = 326 Exact sim = 310.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.546447751043309E-129
+G2's id:32
+Probability of g2 after mapping (considering only mapped edges) = 3.546447751043309E-129
+Exact sim to graph 32= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8856511095854305E-129
+G2's id:21
+Probability of g2 after mapping (considering only mapped edges) = 1.8856511095854305E-129
+Exact sim to graph 21= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1246336433240669E-85
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1246336433240669E-85
+Upper bound of sim = 286 Exact sim = 315.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.1072126212513105E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.1072126212513105E-71
+Upper bound of sim = 295 Exact sim = 264.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.018760003391377E-60
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 8.018760003391377E-60
+Upper bound of sim = 327 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3533307046658808E-40
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3533307046658808E-40
+Upper bound of sim = 327 Exact sim = 305.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.978095505503348E-75
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.978095505503348E-75
+Upper bound of sim = 323 Exact sim = 320.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.528663263430006E-84
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.528663263430006E-84
+Upper bound of sim = 288 Exact sim = 320.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.3267425390105476E-42
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.3267425390105476E-42
+Upper bound of sim = 328 Exact sim = 303.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.303444041627321E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.303444041627321E-68
+Upper bound of sim = 327 Exact sim = 307.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.455536912145946E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.455536912145946E-68
+Upper bound of sim = 326 Exact sim = 320.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.050788706072612E-83
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.050788706072612E-83
+Upper bound of sim = 308 Exact sim = 289.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.4346755650243333E-18
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.4346755650243333E-18
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.6011918613277156E-31
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.6011918613277156E-31
+Upper bound of sim = 328 Exact sim = 317.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.860187093796984E-28
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.860187093796984E-28
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.14230830774709E-31
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 8.14230830774709E-31
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.6889497717644545E-63
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.6889497717644545E-63
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.1983961282100457E-43
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.1983961282100457E-43
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2127346741252046E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.2127346741252046E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.169950467618839E-49
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.169950467618839E-49
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.6889497717644545E-63
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.6889497717644545E-63
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.240260093465163E-129
+G2's id:41
+Probability of g2 after mapping (considering only mapped edges) = 3.240260093465163E-129
+Upper bound of sim = 324 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.624933457609792E-64
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.624933457609792E-64
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2127346741252046E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.2127346741252046E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.588457537271397E-124
+G2's id:52
+Probability of g2 after mapping (considering only mapped edges) = 1.588457537271397E-124
+Upper bound of sim = 324 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.333034886455003E-69
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.333034886455003E-69
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.110003857511579E-116
+G2's id:37
+Probability of g2 after mapping (considering only mapped edges) = 7.110003857511579E-116
+Exact sim to graph 37= 325.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.653988807194545E-123
+G2's id:40
+Probability of g2 after mapping (considering only mapped edges) = 7.653988807194545E-123
+Exact sim to graph 40= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.105952681089112E-123
+G2's id:44
+Probability of g2 after mapping (considering only mapped edges) = 3.105952681089112E-123
+Exact sim to graph 44= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.028515054662494E-126
+G2's id:45
+Probability of g2 after mapping (considering only mapped edges) = 4.028515054662494E-126
+Exact sim to graph 45= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5076058567442261E-125
+G2's id:48
+Probability of g2 after mapping (considering only mapped edges) = 1.5076058567442261E-125
+Exact sim to graph 48= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.333345160633258E-131
+G2's id:49
+Probability of g2 after mapping (considering only mapped edges) = 6.333345160633258E-131
+Exact sim to graph 49= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.054429235169557E-123
+G2's id:53
+Probability of g2 after mapping (considering only mapped edges) = 5.054429235169557E-123
+Exact sim to graph 53= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.5459245539206506E-151
+G2's id:56
+Probability of g2 after mapping (considering only mapped edges) = 2.5459245539206506E-151
+Exact sim to graph 56= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.588457537271397E-124
+G2's id:52
+Probability of g2 after mapping (considering only mapped edges) = 1.588457537271397E-124
+Exact sim to graph 52= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6851369168413244E-46
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.6851369168413244E-46
+Upper bound of sim = 327 Exact sim = 313.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.392602501162948E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.392602501162948E-79
+Upper bound of sim = 327 Exact sim = 291.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.240260093465163E-129
+G2's id:41
+Probability of g2 after mapping (considering only mapped edges) = 3.240260093465163E-129
+Exact sim to graph 41= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5419970401442893E-80
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.5419970401442893E-80
+Upper bound of sim = 323 Exact sim = 313.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.426221929443951E-61
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.426221929443951E-61
+Upper bound of sim = 315 Exact sim = 319.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8913953236227066E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.8913953236227066E-76
+Upper bound of sim = 278 Exact sim = 281.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.913477088886564E-75
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.913477088886564E-75
+Upper bound of sim = 243 Exact sim = 294.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4634808264554034E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.4634808264554034E-79
+Upper bound of sim = 327 Exact sim = 311.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8769063335963434E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.8769063335963434E-79
+Upper bound of sim = 280 Exact sim = 310.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4885958886215763E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.4885958886215763E-77
+Upper bound of sim = 303 Exact sim = 288.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.437776574138603E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.437776574138603E-70
+Upper bound of sim = 327 Exact sim = 295.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7516954640856416E-58
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.7516954640856416E-58
+Upper bound of sim = 312 Exact sim = 293.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8899462257026528E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.8899462257026528E-70
+Upper bound of sim = 324 Exact sim = 283.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.444149571282546E-75
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.444149571282546E-75
+Upper bound of sim = 303 Exact sim = 293.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.563429186353702E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.563429186353702E-68
+Upper bound of sim = 323 Exact sim = 277.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0658589132570441E-83
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0658589132570441E-83
+Upper bound of sim = 238 Exact sim = 299.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.266449217727664E-81
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.266449217727664E-81
+Upper bound of sim = 283 Exact sim = 311.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8168438982379526E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.8168438982379526E-78
+Upper bound of sim = 301 Exact sim = 295.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.701325925173783E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.701325925173783E-72
+Upper bound of sim = 318 Exact sim = 311.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8668551956188676E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.8668551956188676E-79
+Upper bound of sim = 321 Exact sim = 295.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5848269850665075E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.5848269850665075E-72
+Upper bound of sim = 296 Exact sim = 283.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.5768583560365846E-125
+G2's id:149
+Probability of g2 after mapping (considering only mapped edges) = 3.5768583560365846E-125
+Exact sim to graph 149= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.5566873213967354E-56
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.5566873213967354E-56
+Upper bound of sim = 326 Exact sim = 281.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.749351925631042E-80
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.749351925631042E-80
+Upper bound of sim = 326 Exact sim = 301.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.2623251113421966E-63
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.2623251113421966E-63
+Upper bound of sim = 316 Exact sim = 289.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.3756597806956508E-65
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.3756597806956508E-65
+Upper bound of sim = 311 Exact sim = 304.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.565101484472601E-33
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.565101484472601E-33
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.438512456777458E-36
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.438512456777458E-36
+Upper bound of sim = 328 Exact sim = 313.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.320342322373881E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.320342322373881E-71
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.368221304079384E-48
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.368221304079384E-48
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.320342322373881E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.320342322373881E-71
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.79440228384105E-119
+G2's id:61
+Probability of g2 after mapping (considering only mapped edges) = 4.79440228384105E-119
+Upper bound of sim = 323 Exact sim = 323.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.395980291053608E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.395980291053608E-72
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.190944671868982E-124
+G2's id:57
+Probability of g2 after mapping (considering only mapped edges) = 9.190944671868982E-124
+Exact sim to graph 57= 324.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.116075957262747E-129
+G2's id:60
+Probability of g2 after mapping (considering only mapped edges) = 7.116075957262747E-129
+Exact sim to graph 60= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8034651750422475E-137
+G2's id:64
+Probability of g2 after mapping (considering only mapped edges) = 2.8034651750422475E-137
+Exact sim to graph 64= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.724061993243618E-128
+G2's id:65
+Probability of g2 after mapping (considering only mapped edges) = 3.724061993243618E-128
+Exact sim to graph 65= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.79440228384105E-119
+G2's id:61
+Probability of g2 after mapping (considering only mapped edges) = 4.79440228384105E-119
+Exact sim to graph 61= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.5563186834224497E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.5563186834224497E-79
+Upper bound of sim = 263 Exact sim = 298.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0887912587486291E-86
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0887912587486291E-86
+Upper bound of sim = 276 Exact sim = 307.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.7456623318833693E-94
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.7456623318833693E-94
+Upper bound of sim = 328 Exact sim = 315.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.1017979417690165E-53
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.1017979417690165E-53
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2937235987811718E-132
+G2's id:260
+Probability of g2 after mapping (considering only mapped edges) = 1.2937235987811718E-132
+Upper bound of sim = 313 Exact sim = 313.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.1690743035723928E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.1690743035723928E-70
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.19848418223104E-119
+G2's id:261
+Probability of g2 after mapping (considering only mapped edges) = 8.19848418223104E-119
+Exact sim to graph 261= 313.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.433620480885284E-110
+G2's id:264
+Probability of g2 after mapping (considering only mapped edges) = 4.433620480885284E-110
+Exact sim to graph 264= 301.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2426532113846068E-127
+G2's id:256
+Probability of g2 after mapping (considering only mapped edges) = 1.2426532113846068E-127
+Upper bound of sim = 314 Exact sim = 314.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3120219130460222E-86
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3120219130460222E-86
+Upper bound of sim = 328 Exact sim = 291.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2426532113846068E-127
+G2's id:256
+Probability of g2 after mapping (considering only mapped edges) = 1.2426532113846068E-127
+Exact sim to graph 256= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2937235987811718E-132
+G2's id:260
+Probability of g2 after mapping (considering only mapped edges) = 1.2937235987811718E-132
+Exact sim to graph 260= 313.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7018839013988576E-111
+G2's id:78
+Probability of g2 after mapping (considering only mapped edges) = 1.7018839013988576E-111
+Upper bound of sim = 280 Exact sim = 264.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8104433582833616E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.8104433582833616E-79
+Upper bound of sim = 316 Exact sim = 294.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.983370710354186E-86
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.983370710354186E-86
+Upper bound of sim = 327 Exact sim = 300.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.235424012376661E-40
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.235424012376661E-40
+Upper bound of sim = 312 Exact sim = 288.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7863204346312334E-69
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.7863204346312334E-69
+Upper bound of sim = 328 Exact sim = 306.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.3237664454962373E-48
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.3237664454962373E-48
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8889742515430305E-127
+G2's id:72
+Probability of g2 after mapping (considering only mapped edges) = 1.8889742515430305E-127
+Upper bound of sim = 323 Exact sim = 323.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.6249994353539787E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.6249994353539787E-70
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0388760164824976E-134
+G2's id:73
+Probability of g2 after mapping (considering only mapped edges) = 1.0388760164824976E-134
+Exact sim to graph 73= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.01170203511126E-121
+G2's id:76
+Probability of g2 after mapping (considering only mapped edges) = 9.01170203511126E-121
+Exact sim to graph 76= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8889742515430305E-127
+G2's id:72
+Probability of g2 after mapping (considering only mapped edges) = 1.8889742515430305E-127
+Exact sim to graph 72= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.240432100515373E-113
+G2's id:179
+Probability of g2 after mapping (considering only mapped edges) = 5.240432100515373E-113
+Upper bound of sim = 264 Exact sim = 264.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.596586859456702E-74
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.596586859456702E-74
+Upper bound of sim = 302 Exact sim = 298.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.564734514882394E-32
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.564734514882394E-32
+Upper bound of sim = 328 Exact sim = 312.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3604876258091512E-80
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3604876258091512E-80
+Upper bound of sim = 320 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9518052458577647E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.9518052458577647E-72
+Upper bound of sim = 319 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.050253540213573E-82
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.050253540213573E-82
+Upper bound of sim = 318 Exact sim = 307.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3661893012592527E-60
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3661893012592527E-60
+Upper bound of sim = 316 Exact sim = 295.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.299790014719199E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.299790014719199E-71
+Upper bound of sim = 304 Exact sim = 291.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.321937224064045E-47
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.321937224064045E-47
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1965124102960723E-54
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1965124102960723E-54
+Upper bound of sim = 327 Exact sim = 306.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.476063116128923E-58
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.476063116128923E-58
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.699231915779449E-60
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.699231915779449E-60
+Upper bound of sim = 328 Exact sim = 319.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.976162888547371E-120
+G2's id:232
+Probability of g2 after mapping (considering only mapped edges) = 5.976162888547371E-120
+Upper bound of sim = 315 Exact sim = 315.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.053581982251019E-80
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.053581982251019E-80
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5946368358568244E-128
+G2's id:233
+Probability of g2 after mapping (considering only mapped edges) = 1.5946368358568244E-128
+Exact sim to graph 233= 299.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2259260235003164E-134
+G2's id:236
+Probability of g2 after mapping (considering only mapped edges) = 2.2259260235003164E-134
+Exact sim to graph 236= 308.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.6662062059506555E-118
+G2's id:237
+Probability of g2 after mapping (considering only mapped edges) = 5.6662062059506555E-118
+Upper bound of sim = 315 Exact sim = 315.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.832653852431415E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.832653852431415E-77
+Upper bound of sim = 328 Exact sim = 321.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.026802517398179E-122
+G2's id:240
+Probability of g2 after mapping (considering only mapped edges) = 1.026802517398179E-122
+Exact sim to graph 240= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0881153878407093E-124
+G2's id:241
+Probability of g2 after mapping (considering only mapped edges) = 2.0881153878407093E-124
+Exact sim to graph 241= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.976162888547371E-120
+G2's id:232
+Probability of g2 after mapping (considering only mapped edges) = 5.976162888547371E-120
+Exact sim to graph 232= 315.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.6662062059506555E-118
+G2's id:237
+Probability of g2 after mapping (considering only mapped edges) = 5.6662062059506555E-118
+Exact sim to graph 237= 315.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0428307055886606E-36
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0428307055886606E-36
+Upper bound of sim = 328 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.1296915819797477E-38
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.1296915819797477E-38
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9611972660506355E-64
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.9611972660506355E-64
+Upper bound of sim = 328 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.448331555022102E-50
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.448331555022102E-50
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.630239627477019E-117
+G2's id:184
+Probability of g2 after mapping (considering only mapped edges) = 2.630239627477019E-117
+Upper bound of sim = 317 Exact sim = 317.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7402124308028982E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.7402124308028982E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.433728028697189E-128
+G2's id:185
+Probability of g2 after mapping (considering only mapped edges) = 2.433728028697189E-128
+Exact sim to graph 185= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.969677647494435E-116
+G2's id:188
+Probability of g2 after mapping (considering only mapped edges) = 5.969677647494435E-116
+Exact sim to graph 188= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8945254558601597E-126
+G2's id:177
+Probability of g2 after mapping (considering only mapped edges) = 2.8945254558601597E-126
+Upper bound of sim = 318 Exact sim = 318.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.894618438595217E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.894618438595217E-76
+Upper bound of sim = 328 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.3124053078658297E-126
+G2's id:180
+Probability of g2 after mapping (considering only mapped edges) = 5.3124053078658297E-126
+Exact sim to graph 180= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.972626560268862E-125
+G2's id:181
+Probability of g2 after mapping (considering only mapped edges) = 5.972626560268862E-125
+Exact sim to graph 181= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.608855502716912E-50
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.608855502716912E-50
+Upper bound of sim = 328 Exact sim = 321.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.234184271452287E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.234184271452287E-68
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.234184271452287E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.234184271452287E-68
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.125314354359898E-117
+G2's id:173
+Probability of g2 after mapping (considering only mapped edges) = 2.125314354359898E-117
+Exact sim to graph 173= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5339710734212327E-125
+G2's id:176
+Probability of g2 after mapping (considering only mapped edges) = 1.5339710734212327E-125
+Exact sim to graph 176= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5372222911679492E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.5372222911679492E-78
+Upper bound of sim = 327 Exact sim = 311.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.038665057567324E-51
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.038665057567324E-51
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6204500964464458E-126
+G2's id:168
+Probability of g2 after mapping (considering only mapped edges) = 1.6204500964464458E-126
+Upper bound of sim = 318 Exact sim = 318.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.5322081407890578E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.5322081407890578E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.358962822375533E-122
+G2's id:169
+Probability of g2 after mapping (considering only mapped edges) = 9.358962822375533E-122
+Exact sim to graph 169= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.134332893315849E-125
+G2's id:172
+Probability of g2 after mapping (considering only mapped edges) = 1.134332893315849E-125
+Exact sim to graph 172= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8945254558601597E-126
+G2's id:177
+Probability of g2 after mapping (considering only mapped edges) = 2.8945254558601597E-126
+Exact sim to graph 177= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6204500964464458E-126
+G2's id:168
+Probability of g2 after mapping (considering only mapped edges) = 1.6204500964464458E-126
+Exact sim to graph 168= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.630239627477019E-117
+G2's id:184
+Probability of g2 after mapping (considering only mapped edges) = 2.630239627477019E-117
+Exact sim to graph 184= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1627133316459535E-102
+G2's id:67
+Probability of g2 after mapping (considering only mapped edges) = 1.1627133316459535E-102
+Upper bound of sim = 256 Exact sim = 272.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0720208133276404E-87
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0720208133276404E-87
+Upper bound of sim = 327 Exact sim = 306.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.48301800177173E-101
+G2's id:270
+Probability of g2 after mapping (considering only mapped edges) = 7.48301800177173E-101
+Upper bound of sim = 259 Exact sim = 254.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.1833582743844244E-83
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.1833582743844244E-83
+Upper bound of sim = 281 Exact sim = 290.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.501890632491657E-97
+G2's id:138
+Probability of g2 after mapping (considering only mapped edges) = 3.501890632491657E-97
+Upper bound of sim = 286 Exact sim = 259.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.6075571057690873E-84
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.6075571057690873E-84
+Upper bound of sim = 312 Exact sim = 304.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.870212836046446E-100
+G2's id:203
+Probability of g2 after mapping (considering only mapped edges) = 4.870212836046446E-100
+Upper bound of sim = 267 Exact sim = 253.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.340991819695516E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 9.340991819695516E-79
+Upper bound of sim = 327 Exact sim = 284.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.768539450175355E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.768539450175355E-76
+Upper bound of sim = 310 Exact sim = 319.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1450507750184397E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1450507750184397E-76
+Upper bound of sim = 309 Exact sim = 294.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.237709379507974E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.237709379507974E-78
+Upper bound of sim = 305 Exact sim = 276.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.9375761753958607E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.9375761753958607E-72
+Upper bound of sim = 301 Exact sim = 291.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6487736825690992E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.6487736825690992E-79
+Upper bound of sim = 327 Exact sim = 323.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.069370109198588E-42
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.069370109198588E-42
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.228677858159805E-69
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.228677858159805E-69
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0569078693767476E-58
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.0569078693767476E-58
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.228677858159805E-69
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.228677858159805E-69
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.017215366657055E-134
+G2's id:225
+Probability of g2 after mapping (considering only mapped edges) = 7.017215366657055E-134
+Upper bound of sim = 315 Exact sim = 315.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.615002857828248E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.615002857828248E-79
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8100517333830755E-126
+G2's id:221
+Probability of g2 after mapping (considering only mapped edges) = 2.8100517333830755E-126
+Exact sim to graph 221= 315.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.876660784187087E-122
+G2's id:224
+Probability of g2 after mapping (considering only mapped edges) = 3.876660784187087E-122
+Exact sim to graph 224= 315.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.284750018798337E-127
+G2's id:228
+Probability of g2 after mapping (considering only mapped edges) = 8.284750018798337E-127
+Exact sim to graph 228= 315.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0348235792346798E-124
+G2's id:229
+Probability of g2 after mapping (considering only mapped edges) = 1.0348235792346798E-124
+Exact sim to graph 229= 315.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.0405099528476294E-61
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.0405099528476294E-61
+Upper bound of sim = 315 Exact sim = 279.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.13401611118434E-81
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.13401611118434E-81
+Upper bound of sim = 327 Exact sim = 311.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.017215366657055E-134
+G2's id:225
+Probability of g2 after mapping (considering only mapped edges) = 7.017215366657055E-134
+Exact sim to graph 225= 315.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.776401055960612E-106
+G2's id:15
+Probability of g2 after mapping (considering only mapped edges) = 6.776401055960612E-106
+Upper bound of sim = 293 Exact sim = 288.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.919538915141746E-88
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.919538915141746E-88
+Upper bound of sim = 323 Exact sim = 299.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2023572395727564E-102
+G2's id:102
+Probability of g2 after mapping (considering only mapped edges) = 1.2023572395727564E-102
+Upper bound of sim = 271 Exact sim = 263.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.4087906674153803E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.4087906674153803E-76
+Upper bound of sim = 273 Exact sim = 300.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.992565998493992E-85
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.992565998493992E-85
+Upper bound of sim = 310 Exact sim = 306.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.576042983449407E-64
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.576042983449407E-64
+Upper bound of sim = 326 Exact sim = 317.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.000481827524747E-75
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.000481827524747E-75
+Upper bound of sim = 319 Exact sim = 299.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.4621756096299047E-82
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.4621756096299047E-82
+Upper bound of sim = 310 Exact sim = 299.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.9720103346917143E-60
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.9720103346917143E-60
+Upper bound of sim = 326 Exact sim = 308.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.648641858959911E-121
+G2's id:9
+Probability of g2 after mapping (considering only mapped edges) = 9.648641858959911E-121
+Exact sim to graph 9= 326.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.264148458121793E-124
+G2's id:11
+Probability of g2 after mapping (considering only mapped edges) = 9.264148458121793E-124
+Exact sim to graph 11= 308.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.638574998412233E-85
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.638574998412233E-85
+Upper bound of sim = 324 Exact sim = 319.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2582020305173153E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.2582020305173153E-70
+Upper bound of sim = 327 Exact sim = 298.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.626159971061879E-105
+G2's id:71
+Probability of g2 after mapping (considering only mapped edges) = 4.626159971061879E-105
+Upper bound of sim = 300 Exact sim = 268.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0187836593496105E-86
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0187836593496105E-86
+Upper bound of sim = 320 Exact sim = 305.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8621345692080014E-62
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.8621345692080014E-62
+Upper bound of sim = 316 Exact sim = 317.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.660670924700113E-83
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.660670924700113E-83
+Upper bound of sim = 301 Exact sim = 303.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9499099471051204E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.9499099471051204E-76
+Upper bound of sim = 283 Exact sim = 287.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3359556246012958E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3359556246012958E-76
+Upper bound of sim = 303 Exact sim = 300.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.664700636270488E-100
+G2's id:262
+Probability of g2 after mapping (considering only mapped edges) = 4.664700636270488E-100
+Upper bound of sim = 257 Exact sim = 261.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.64139243775964E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.64139243775964E-79
+Upper bound of sim = 260 Exact sim = 283.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.655084697919525E-130
+G2's id:81
+Probability of g2 after mapping (considering only mapped edges) = 8.655084697919525E-130
+Upper bound of sim = 322 Exact sim = 322.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.0476335991561205E-80
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.0476335991561205E-80
+Upper bound of sim = 327 Exact sim = 290.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.655084697919525E-130
+G2's id:81
+Probability of g2 after mapping (considering only mapped edges) = 8.655084697919525E-130
+Exact sim to graph 81= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.201844270142677E-39
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.201844270142677E-39
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7791361645758163E-80
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.7791361645758163E-80
+Upper bound of sim = 327 Exact sim = 319.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.416524254248583E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.416524254248583E-67
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.1291578775852E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.1291578775852E-66
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.70410219849054E-123
+G2's id:156
+Probability of g2 after mapping (considering only mapped edges) = 5.70410219849054E-123
+Exact sim to graph 156= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.3832959348083023E-124
+G2's id:157
+Probability of g2 after mapping (considering only mapped edges) = 3.3832959348083023E-124
+Exact sim to graph 157= 319.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.5507269167987108E-121
+G2's id:160
+Probability of g2 after mapping (considering only mapped edges) = 2.5507269167987108E-121
+Exact sim to graph 160= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1790735915322772E-124
+G2's id:161
+Probability of g2 after mapping (considering only mapped edges) = 1.1790735915322772E-124
+Exact sim to graph 161= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.4356043333207397E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.4356043333207397E-72
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.607461919907589E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.607461919907589E-78
+Upper bound of sim = 322 Exact sim = 298.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.4356043333207397E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.4356043333207397E-72
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.0782835533725573E-131
+G2's id:164
+Probability of g2 after mapping (considering only mapped edges) = 4.0782835533725573E-131
+Exact sim to graph 164= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.438466938694812E-119
+G2's id:165
+Probability of g2 after mapping (considering only mapped edges) = 8.438466938694812E-119
+Exact sim to graph 165= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.458480032835019E-50
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.458480032835019E-50
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.1666456345086847E-63
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.1666456345086847E-63
+Upper bound of sim = 327 Exact sim = 299.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.737799004414387E-127
+G2's id:244
+Probability of g2 after mapping (considering only mapped edges) = 7.737799004414387E-127
+Upper bound of sim = 314 Exact sim = 314.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2052563554330028E-73
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.2052563554330028E-73
+Upper bound of sim = 326 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.891272142802766E-128
+G2's id:245
+Probability of g2 after mapping (considering only mapped edges) = 4.891272142802766E-128
+Exact sim to graph 245= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.7198757140706944E-139
+G2's id:248
+Probability of g2 after mapping (considering only mapped edges) = 2.7198757140706944E-139
+Exact sim to graph 248= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.737799004414387E-127
+G2's id:244
+Probability of g2 after mapping (considering only mapped edges) = 7.737799004414387E-127
+Exact sim to graph 244= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.636669720918897E-130
+G2's id:68
+Probability of g2 after mapping (considering only mapped edges) = 3.636669720918897E-130
+Upper bound of sim = 323 Exact sim = 323.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.138712236527374E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.138712236527374E-78
+Upper bound of sim = 328 Exact sim = 298.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.636669720918897E-130
+G2's id:68
+Probability of g2 after mapping (considering only mapped edges) = 3.636669720918897E-130
+Exact sim to graph 68= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.749118108895646E-116
+G2's id:54
+Probability of g2 after mapping (considering only mapped edges) = 3.749118108895646E-116
+Exact sim to graph 54= 294.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.840132004320844E-99
+G2's id:226
+Probability of g2 after mapping (considering only mapped edges) = 1.840132004320844E-99
+Exact sim to graph 226= 248.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.3725943083916498E-94
+G2's id:119
+Probability of g2 after mapping (considering only mapped edges) = 2.3725943083916498E-94
+Upper bound of sim = 269 Exact sim = 257.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.920876961198393E-81
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.920876961198393E-81
+Upper bound of sim = 303 Exact sim = 294.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0662959636521172E-87
+G2's id:127
+Probability of g2 after mapping (considering only mapped edges) = 1.0662959636521172E-87
+Exact sim to graph 127= 258.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5689787423504553E-104
+G2's id:163
+Probability of g2 after mapping (considering only mapped edges) = 1.5689787423504553E-104
+Exact sim to graph 163= 265.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.140762871218628E-61
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.140762871218628E-61
+Upper bound of sim = 310 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.4565378612638017E-59
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.4565378612638017E-59
+Upper bound of sim = 319 Exact sim = 284.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.874946915181485E-121
+G2's id:34
+Probability of g2 after mapping (considering only mapped edges) = 5.874946915181485E-121
+Exact sim to graph 34= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.790106394143754E-124
+G2's id:43
+Probability of g2 after mapping (considering only mapped edges) = 4.790106394143754E-124
+Exact sim to graph 43= 328.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.280793803345387E-25
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.280793803345387E-25
+Upper bound of sim = 328 Exact sim = 321.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2773468602074838E-23
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.2773468602074838E-23
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.109518759734497E-41
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 9.109518759734497E-41
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.6932908197494685E-34
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.6932908197494685E-34
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.6184773907207E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.6184773907207E-77
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0002768783882127E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0002768783882127E-71
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.903748368582628E-69
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.903748368582628E-69
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.167587862875664E-48
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.167587862875664E-48
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.903748368582628E-69
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.903748368582628E-69
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.117394997277261E-128
+G2's id:132
+Probability of g2 after mapping (considering only mapped edges) = 3.117394997277261E-128
+Upper bound of sim = 320 Exact sim = 320.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.4873373089138714E-64
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.4873373089138714E-64
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.277923109118393E-130
+G2's id:128
+Probability of g2 after mapping (considering only mapped edges) = 1.277923109118393E-130
+Exact sim to graph 128= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0343415105138727E-119
+G2's id:129
+Probability of g2 after mapping (considering only mapped edges) = 1.0343415105138727E-119
+Exact sim to graph 129= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.486955672156151E-129
+G2's id:133
+Probability of g2 after mapping (considering only mapped edges) = 6.486955672156151E-129
+Exact sim to graph 133= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.1179300968354997E-122
+G2's id:136
+Probability of g2 after mapping (considering only mapped edges) = 2.1179300968354997E-122
+Exact sim to graph 136= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.458398075308009E-134
+G2's id:120
+Probability of g2 after mapping (considering only mapped edges) = 3.458398075308009E-134
+Exact sim to graph 120= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.1764672251751987E-149
+G2's id:121
+Probability of g2 after mapping (considering only mapped edges) = 3.1764672251751987E-149
+Exact sim to graph 121= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.406551477236468E-123
+G2's id:124
+Probability of g2 after mapping (considering only mapped edges) = 8.406551477236468E-123
+Exact sim to graph 124= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.31645877474501E-132
+G2's id:125
+Probability of g2 after mapping (considering only mapped edges) = 8.31645877474501E-132
+Exact sim to graph 125= 313.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.60694904145723E-42
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.60694904145723E-42
+Upper bound of sim = 328 Exact sim = 319.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.864873044135509E-36
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.864873044135509E-36
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.1169232933794794E-64
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.1169232933794794E-64
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.7816837360629685E-54
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.7816837360629685E-54
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.1169232933794794E-64
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.1169232933794794E-64
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.2570027008752894E-129
+G2's id:113
+Probability of g2 after mapping (considering only mapped edges) = 3.2570027008752894E-129
+Upper bound of sim = 321 Exact sim = 321.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.192630618827635E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.192630618827635E-78
+Upper bound of sim = 327 Exact sim = 327.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.153749468263431E-119
+G2's id:109
+Probability of g2 after mapping (considering only mapped edges) = 8.153749468263431E-119
+Exact sim to graph 109= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.202285402948329E-125
+G2's id:112
+Probability of g2 after mapping (considering only mapped edges) = 1.202285402948329E-125
+Exact sim to graph 112= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.896285839699486E-128
+G2's id:116
+Probability of g2 after mapping (considering only mapped edges) = 1.896285839699486E-128
+Exact sim to graph 116= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9352468464904366E-137
+G2's id:117
+Probability of g2 after mapping (considering only mapped edges) = 1.9352468464904366E-137
+Exact sim to graph 117= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.2570027008752894E-129
+G2's id:113
+Probability of g2 after mapping (considering only mapped edges) = 3.2570027008752894E-129
+Exact sim to graph 113= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.117394997277261E-128
+G2's id:132
+Probability of g2 after mapping (considering only mapped edges) = 3.117394997277261E-128
+Exact sim to graph 132= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.421241395272898E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.421241395272898E-66
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.527419865211354E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 9.527419865211354E-68
+Upper bound of sim = 327 Exact sim = 315.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8327573232055568E-123
+G2's id:101
+Probability of g2 after mapping (considering only mapped edges) = 1.8327573232055568E-123
+Exact sim to graph 101= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8744550498926385E-124
+G2's id:104
+Probability of g2 after mapping (considering only mapped edges) = 2.8744550498926385E-124
+Exact sim to graph 104= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.242051055384951E-139
+G2's id:105
+Probability of g2 after mapping (considering only mapped edges) = 8.242051055384951E-139
+Exact sim to graph 105= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6000929788533357E-132
+G2's id:108
+Probability of g2 after mapping (considering only mapped edges) = 1.6000929788533357E-132
+Exact sim to graph 108= 321.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.155980313935245E-52
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.155980313935245E-52
+Upper bound of sim = 301 Exact sim = 277.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.5668606993611676E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.5668606993611676E-78
+Upper bound of sim = 305 Exact sim = 290.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.551081408472395E-109
+G2's id:158
+Probability of g2 after mapping (considering only mapped edges) = 4.551081408472395E-109
+Exact sim to graph 158= 264.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.9540949708841854E-92
+G2's id:222
+Probability of g2 after mapping (considering only mapped edges) = 3.9540949708841854E-92
+Exact sim to graph 222= 254.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.530715102737138E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.530715102737138E-68
+Upper bound of sim = 316 Exact sim = 276.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.8144119516074555E-46
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.8144119516074555E-46
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.280430604809272E-133
+G2's id:77
+Probability of g2 after mapping (considering only mapped edges) = 5.280430604809272E-133
+Upper bound of sim = 323 Exact sim = 323.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.4040436750220587E-63
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.4040436750220587E-63
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2715396667824619E-117
+G2's id:79
+Probability of g2 after mapping (considering only mapped edges) = 1.2715396667824619E-117
+Exact sim to graph 79= 310.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.377145046179214E-129
+G2's id:80
+Probability of g2 after mapping (considering only mapped edges) = 3.377145046179214E-129
+Exact sim to graph 80= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.280430604809272E-133
+G2's id:77
+Probability of g2 after mapping (considering only mapped edges) = 5.280430604809272E-133
+Exact sim to graph 77= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.606429085700091E-98
+G2's id:271
+Probability of g2 after mapping (considering only mapped edges) = 8.606429085700091E-98
+Upper bound of sim = 293 Exact sim = 259.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.16991186235163E-84
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.16991186235163E-84
+Upper bound of sim = 295 Exact sim = 293.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.749351925631042E-80
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.749351925631042E-80
+Upper bound of sim = 326 Exact sim = 301.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.3529335438820954E-131
+G2's id:82
+Probability of g2 after mapping (considering only mapped edges) = 2.3529335438820954E-131
+Exact sim to graph 82= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.357852603841382E-105
+G2's id:95
+Probability of g2 after mapping (considering only mapped edges) = 7.357852603841382E-105
+Exact sim to graph 95= 299.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3654454803902081E-75
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.3654454803902081E-75
+Upper bound of sim = 327 Exact sim = 307.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2810016795209684E-98
+G2's id:111
+Probability of g2 after mapping (considering only mapped edges) = 2.2810016795209684E-98
+Upper bound of sim = 308 Exact sim = 258.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.685491568021782E-121
+G2's id:62
+Probability of g2 after mapping (considering only mapped edges) = 2.685491568021782E-121
+Upper bound of sim = 274 Exact sim = 267.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.324006772073066E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.324006772073066E-77
+Upper bound of sim = 327 Exact sim = 302.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.121944639067552E-130
+G2's id:27
+Probability of g2 after mapping (considering only mapped edges) = 7.121944639067552E-130
+Exact sim to graph 27= 317.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.788840716415299E-107
+G2's id:46
+Probability of g2 after mapping (considering only mapped edges) = 3.788840716415299E-107
+Exact sim to graph 46= 301.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.487755210189605E-102
+G2's id:234
+Probability of g2 after mapping (considering only mapped edges) = 6.487755210189605E-102
+Exact sim to graph 234= 268.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8465374888007843E-90
+G2's id:247
+Probability of g2 after mapping (considering only mapped edges) = 1.8465374888007843E-90
+Exact sim to graph 247= 254.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.983370710354186E-86
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.983370710354186E-86
+Upper bound of sim = 327 Exact sim = 300.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.664777771266799E-104
+G2's id:130
+Probability of g2 after mapping (considering only mapped edges) = 3.664777771266799E-104
+Exact sim to graph 130= 268.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.178812402690615E-90
+G2's id:146
+Probability of g2 after mapping (considering only mapped edges) = 5.178812402690615E-90
+Exact sim to graph 146= 255.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.057930959004406E-130
+G2's id:87
+Probability of g2 after mapping (considering only mapped edges) = 4.057930959004406E-130
+Exact sim to graph 87= 308.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.640081946547451E-105
+G2's id:195
+Probability of g2 after mapping (considering only mapped edges) = 8.640081946547451E-105
+Exact sim to graph 195= 252.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2640172786273264E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.2640172786273264E-66
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4376784764683566E-73
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.4376784764683566E-73
+Upper bound of sim = 327 Exact sim = 298.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.0692895290337843E-115
+G2's id:249
+Probability of g2 after mapping (considering only mapped edges) = 3.0692895290337843E-115
+Exact sim to graph 249= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.870809898723087E-127
+G2's id:252
+Probability of g2 after mapping (considering only mapped edges) = 1.870809898723087E-127
+Exact sim to graph 252= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7466646715399709E-90
+G2's id:219
+Probability of g2 after mapping (considering only mapped edges) = 1.7466646715399709E-90
+Exact sim to graph 219= 258.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6651145089133817E-125
+G2's id:251
+Probability of g2 after mapping (considering only mapped edges) = 1.6651145089133817E-125
+Exact sim to graph 251= 266.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0658589132570441E-83
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.0658589132570441E-83
+Upper bound of sim = 238 Exact sim = 299.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0422357858095647E-110
+G2's id:66
+Probability of g2 after mapping (considering only mapped edges) = 1.0422357858095647E-110
+Exact sim to graph 66= 261.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5091218193822686E-104
+G2's id:94
+Probability of g2 after mapping (considering only mapped edges) = 1.5091218193822686E-104
+Exact sim to graph 94= 265.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.853818435322464E-97
+G2's id:202
+Probability of g2 after mapping (considering only mapped edges) = 3.853818435322464E-97
+Exact sim to graph 202= 251.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.204528847331647E-118
+G2's id:239
+Probability of g2 after mapping (considering only mapped edges) = 8.204528847331647E-118
+Exact sim to graph 239= 268.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.913194478371094E-100
+G2's id:150
+Probability of g2 after mapping (considering only mapped edges) = 7.913194478371094E-100
+Exact sim to graph 150= 262.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.563043338636325E-95
+G2's id:210
+Probability of g2 after mapping (considering only mapped edges) = 6.563043338636325E-95
+Exact sim to graph 210= 260.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.6290357818759127E-61
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.6290357818759127E-61
+Upper bound of sim = 322 Exact sim = 279.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.815325714865891E-76
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.815325714865891E-76
+Upper bound of sim = 327 Exact sim = 298.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.913525601716796E-127
+G2's id:69
+Probability of g2 after mapping (considering only mapped edges) = 4.913525601716796E-127
+Exact sim to graph 69= 323.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4811881151843004E-117
+G2's id:70
+Probability of g2 after mapping (considering only mapped edges) = 1.4811881151843004E-117
+Exact sim to graph 70= 292.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1586174740163336E-107
+G2's id:47
+Probability of g2 after mapping (considering only mapped edges) = 1.1586174740163336E-107
+Upper bound of sim = 310 Exact sim = 300.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4967641064129307E-75
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.4967641064129307E-75
+Upper bound of sim = 311 Exact sim = 275.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1586174740163336E-107
+G2's id:47
+Probability of g2 after mapping (considering only mapped edges) = 1.1586174740163336E-107
+Exact sim to graph 47= 300.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.6121440854459314E-129
+G2's id:253
+Probability of g2 after mapping (considering only mapped edges) = 3.6121440854459314E-129
+Exact sim to graph 253= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.57007171220112E-82
+G2's id:255
+Probability of g2 after mapping (considering only mapped edges) = 7.57007171220112E-82
+Exact sim to graph 255= 247.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.4742020288617086E-102
+G2's id:175
+Probability of g2 after mapping (considering only mapped edges) = 6.4742020288617086E-102
+Exact sim to graph 175= 259.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.768864110053352E-99
+G2's id:207
+Probability of g2 after mapping (considering only mapped edges) = 3.768864110053352E-99
+Exact sim to graph 207= 267.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.5563186834224497E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.5563186834224497E-79
+Upper bound of sim = 263 Exact sim = 298.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.7665324710696704E-114
+G2's id:218
+Probability of g2 after mapping (considering only mapped edges) = 3.7665324710696704E-114
+Exact sim to graph 218= 259.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.094483024146502E-104
+G2's id:254
+Probability of g2 after mapping (considering only mapped edges) = 5.094483024146502E-104
+Exact sim to graph 254= 256.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.238843729102415E-88
+G2's id:223
+Probability of g2 after mapping (considering only mapped edges) = 2.238843729102415E-88
+Exact sim to graph 223= 252.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.9947746057051417E-101
+G2's id:230
+Probability of g2 after mapping (considering only mapped edges) = 2.9947746057051417E-101
+Exact sim to graph 230= 260.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8375664873582886E-137
+G2's id:2
+Probability of g2 after mapping (considering only mapped edges) = 1.8375664873582886E-137
+Upper bound of sim = 305 Exact sim = 307.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5708344838441407E-74
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.5708344838441407E-74
+Upper bound of sim = 317 Exact sim = 304.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8375664873582886E-137
+G2's id:2
+Probability of g2 after mapping (considering only mapped edges) = 1.8375664873582886E-137
+Exact sim to graph 2= 307.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.78906732104102E-105
+G2's id:39
+Probability of g2 after mapping (considering only mapped edges) = 1.78906732104102E-105
+Exact sim to graph 39= 252.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.452384697199153E-104
+G2's id:90
+Probability of g2 after mapping (considering only mapped edges) = 3.452384697199153E-104
+Exact sim to graph 90= 305.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8168438982379526E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.8168438982379526E-78
+Upper bound of sim = 301 Exact sim = 295.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.525991294881617E-104
+G2's id:110
+Probability of g2 after mapping (considering only mapped edges) = 7.525991294881617E-104
+Upper bound of sim = 311 Exact sim = 272.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2677108587182627E-73
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.2677108587182627E-73
+Upper bound of sim = 327 Exact sim = 288.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.704128580543562E-104
+G2's id:115
+Probability of g2 after mapping (considering only mapped edges) = 1.704128580543562E-104
+Exact sim to graph 115= 259.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.032633490113148E-107
+G2's id:131
+Probability of g2 after mapping (considering only mapped edges) = 2.032633490113148E-107
+Exact sim to graph 131= 263.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.237049966169534E-59
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.237049966169534E-59
+Upper bound of sim = 283 Exact sim = 254.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.676579710933652E-71
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.676579710933652E-71
+Upper bound of sim = 304 Exact sim = 296.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.041055272451777E-97
+G2's id:55
+Probability of g2 after mapping (considering only mapped edges) = 7.041055272451777E-97
+Exact sim to graph 55= 260.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.786825377886305E-107
+G2's id:215
+Probability of g2 after mapping (considering only mapped edges) = 2.786825377886305E-107
+Exact sim to graph 215= 269.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7688582242519054E-100
+G2's id:243
+Probability of g2 after mapping (considering only mapped edges) = 1.7688582242519054E-100
+Exact sim to graph 243= 260.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.214945107815922E-101
+G2's id:250
+Probability of g2 after mapping (considering only mapped edges) = 2.214945107815922E-101
+Exact sim to graph 250= 252.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.829089311291277E-95
+G2's id:170
+Probability of g2 after mapping (considering only mapped edges) = 3.829089311291277E-95
+Exact sim to graph 170= 256.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.436274333486851E-108
+G2's id:191
+Probability of g2 after mapping (considering only mapped edges) = 2.436274333486851E-108
+Exact sim to graph 191= 267.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.094336340249042E-89
+G2's id:166
+Probability of g2 after mapping (considering only mapped edges) = 8.094336340249042E-89
+Exact sim to graph 166= 252.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.064499800941829E-101
+G2's id:199
+Probability of g2 after mapping (considering only mapped edges) = 7.064499800941829E-101
+Exact sim to graph 199= 256.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.6784987959660875E-96
+G2's id:134
+Probability of g2 after mapping (considering only mapped edges) = 3.6784987959660875E-96
+Exact sim to graph 134= 258.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.594466615248337E-93
+G2's id:279
+Probability of g2 after mapping (considering only mapped edges) = 4.594466615248337E-93
+Exact sim to graph 279= 251.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.47179507455759E-55
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.47179507455759E-55
+Upper bound of sim = 328 Exact sim = 328.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.613083263097445E-52
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.613083263097445E-52
+Upper bound of sim = 328 Exact sim = 324.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.352644211609554E-117
+G2's id:265
+Probability of g2 after mapping (considering only mapped edges) = 2.352644211609554E-117
+Upper bound of sim = 313 Exact sim = 313.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4750806528602199E-67
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.4750806528602199E-67
+Upper bound of sim = 328 Exact sim = 307.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6576716477250867E-72
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.6576716477250867E-72
+Upper bound of sim = 326 Exact sim = 326.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.806456730784513E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 8.806456730784513E-77
+Upper bound of sim = 327 Exact sim = 311.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.030807668307063E-128
+G2's id:272
+Probability of g2 after mapping (considering only mapped edges) = 4.030807668307063E-128
+Exact sim to graph 272= 297.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.9896323899308755E-113
+G2's id:273
+Probability of g2 after mapping (considering only mapped edges) = 3.9896323899308755E-113
+Exact sim to graph 273= 302.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.352644211609554E-117
+G2's id:265
+Probability of g2 after mapping (considering only mapped edges) = 2.352644211609554E-117
+Exact sim to graph 265= 313.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0147393702106198E-125
+G2's id:276
+Probability of g2 after mapping (considering only mapped edges) = 1.0147393702106198E-125
+Exact sim to graph 276= 298.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2573939808459273E-131
+G2's id:277
+Probability of g2 after mapping (considering only mapped edges) = 1.2573939808459273E-131
+Exact sim to graph 277= 313.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.63009369659851E-131
+G2's id:268
+Probability of g2 after mapping (considering only mapped edges) = 4.63009369659851E-131
+Exact sim to graph 268= 313.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.810495885441319E-117
+G2's id:269
+Probability of g2 after mapping (considering only mapped edges) = 2.810495885441319E-117
+Exact sim to graph 269= 313.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.194083769843032E-102
+G2's id:186
+Probability of g2 after mapping (considering only mapped edges) = 9.194083769843032E-102
+Upper bound of sim = 284 Exact sim = 258.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9341161767266634E-83
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.9341161767266634E-83
+Upper bound of sim = 295 Exact sim = 287.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7516954640856416E-58
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.7516954640856416E-58
+Upper bound of sim = 312 Exact sim = 293.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.1170359896280254E-97
+G2's id:154
+Probability of g2 after mapping (considering only mapped edges) = 2.1170359896280254E-97
+Exact sim to graph 154= 261.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1506357551041732E-96
+G2's id:162
+Probability of g2 after mapping (considering only mapped edges) = 1.1506357551041732E-96
+Exact sim to graph 162= 253.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.43709825809515E-95
+G2's id:30
+Probability of g2 after mapping (considering only mapped edges) = 5.43709825809515E-95
+Exact sim to graph 30= 266.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.7900936421842944E-126
+G2's id:59
+Probability of g2 after mapping (considering only mapped edges) = 4.7900936421842944E-126
+Exact sim to graph 59= 328.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.110888574476662E-107
+G2's id:142
+Probability of g2 after mapping (considering only mapped edges) = 5.110888574476662E-107
+Exact sim to graph 142= 255.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.120769488075016E-96
+G2's id:182
+Probability of g2 after mapping (considering only mapped edges) = 6.120769488075016E-96
+Exact sim to graph 182= 251.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.392602501162948E-79
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.392602501162948E-79
+Upper bound of sim = 327 Exact sim = 291.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.550825628338623E-132
+G2's id:257
+Probability of g2 after mapping (considering only mapped edges) = 6.550825628338623E-132
+Exact sim to graph 257= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3598354471728343E-102
+G2's id:259
+Probability of g2 after mapping (considering only mapped edges) = 1.3598354471728343E-102
+Exact sim to graph 259= 267.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7211864207103917E-101
+G2's id:19
+Probability of g2 after mapping (considering only mapped edges) = 1.7211864207103917E-101
+Exact sim to graph 19= 267.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.970437683834792E-131
+G2's id:26
+Probability of g2 after mapping (considering only mapped edges) = 3.970437683834792E-131
+Exact sim to graph 26= 314.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7961405080217087E-103
+G2's id:194
+Probability of g2 after mapping (considering only mapped edges) = 1.7961405080217087E-103
+Upper bound of sim = 311 Exact sim = 266.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.4852323310389376E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.4852323310389376E-70
+Upper bound of sim = 297 Exact sim = 295.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4658946865407531E-93
+G2's id:227
+Probability of g2 after mapping (considering only mapped edges) = 1.4658946865407531E-93
+Exact sim to graph 227= 269.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.4096176095498886E-79
+G2's id:235
+Probability of g2 after mapping (considering only mapped edges) = 4.4096176095498886E-79
+Exact sim to graph 235= 239.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4990727489421354E-104
+G2's id:155
+Probability of g2 after mapping (considering only mapped edges) = 1.4990727489421354E-104
+Upper bound of sim = 269 Exact sim = 262.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.704716876909016E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 5.704716876909016E-77
+Upper bound of sim = 297 Exact sim = 299.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.888193267959018E-89
+G2's id:123
+Probability of g2 after mapping (considering only mapped edges) = 5.888193267959018E-89
+Exact sim to graph 123= 248.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.421336275304436E-109
+G2's id:159
+Probability of g2 after mapping (considering only mapped edges) = 5.421336275304436E-109
+Exact sim to graph 159= 255.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.01150415403719E-100
+G2's id:98
+Probability of g2 after mapping (considering only mapped edges) = 8.01150415403719E-100
+Exact sim to graph 98= 265.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.30221239477039E-100
+G2's id:107
+Probability of g2 after mapping (considering only mapped edges) = 5.30221239477039E-100
+Exact sim to graph 107= 256.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.677666394753031E-101
+G2's id:114
+Probability of g2 after mapping (considering only mapped edges) = 6.677666394753031E-101
+Exact sim to graph 114= 253.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0182297206678692E-92
+G2's id:278
+Probability of g2 after mapping (considering only mapped edges) = 2.0182297206678692E-92
+Exact sim to graph 278= 248.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.0856827038976594E-123
+G2's id:84
+Probability of g2 after mapping (considering only mapped edges) = 3.0856827038976594E-123
+Exact sim to graph 84= 322.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.201909930303422E-102
+G2's id:187
+Probability of g2 after mapping (considering only mapped edges) = 1.201909930303422E-102
+Exact sim to graph 187= 265.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.050788706072612E-83
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 6.050788706072612E-83
+Upper bound of sim = 308 Exact sim = 289.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9771778425467391E-118
+G2's id:58
+Probability of g2 after mapping (considering only mapped edges) = 1.9771778425467391E-118
+Upper bound of sim = 288 Exact sim = 271.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1647228584232921E-66
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.1647228584232921E-66
+Upper bound of sim = 301 Exact sim = 295.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.8790709967747883E-102
+G2's id:86
+Probability of g2 after mapping (considering only mapped edges) = 1.8790709967747883E-102
+Exact sim to graph 86= 285.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.899740212886725E-108
+G2's id:91
+Probability of g2 after mapping (considering only mapped edges) = 3.899740212886725E-108
+Exact sim to graph 91= 273.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.762842276904287E-100
+G2's id:242
+Probability of g2 after mapping (considering only mapped edges) = 7.762842276904287E-100
+Exact sim to graph 242= 262.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1986204262665392E-106
+G2's id:258
+Probability of g2 after mapping (considering only mapped edges) = 1.1986204262665392E-106
+Exact sim to graph 258= 261.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4885958886215763E-77
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.4885958886215763E-77
+Upper bound of sim = 303 Exact sim = 288.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.681086750888994E-96
+G2's id:99
+Probability of g2 after mapping (considering only mapped edges) = 4.681086750888994E-96
+Exact sim to graph 99= 257.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.5224422537801203E-97
+G2's id:143
+Probability of g2 after mapping (considering only mapped edges) = 3.5224422537801203E-97
+Exact sim to graph 143= 246.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.9470001425108125E-101
+G2's id:6
+Probability of g2 after mapping (considering only mapped edges) = 3.9470001425108125E-101
+Upper bound of sim = 313 Exact sim = 273.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9875591039006148E-61
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.9875591039006148E-61
+Upper bound of sim = 307 Exact sim = 295.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0521143450607673E-112
+G2's id:7
+Probability of g2 after mapping (considering only mapped edges) = 2.0521143450607673E-112
+Exact sim to graph 7= 298.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.63391061752231E-124
+G2's id:14
+Probability of g2 after mapping (considering only mapped edges) = 8.63391061752231E-124
+Exact sim to graph 14= 295.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.184455888226685E-97
+G2's id:118
+Probability of g2 after mapping (considering only mapped edges) = 2.184455888226685E-97
+Exact sim to graph 118= 276.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.825740452286168E-109
+G2's id:126
+Probability of g2 after mapping (considering only mapped edges) = 3.825740452286168E-109
+Exact sim to graph 126= 270.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 6.776401055960612E-106
+G2's id:15
+Probability of g2 after mapping (considering only mapped edges) = 6.776401055960612E-106
+Exact sim to graph 15= 288.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.3134534571717344E-110
+G2's id:206
+Probability of g2 after mapping (considering only mapped edges) = 3.3134534571717344E-110
+Exact sim to graph 206= 254.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.2064435419808376E-97
+G2's id:275
+Probability of g2 after mapping (considering only mapped edges) = 4.2064435419808376E-97
+Exact sim to graph 275= 244.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.559393328374309E-92
+G2's id:211
+Probability of g2 after mapping (considering only mapped edges) = 1.559393328374309E-92
+Exact sim to graph 211= 240.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.961017103220285E-121
+G2's id:263
+Probability of g2 after mapping (considering only mapped edges) = 3.961017103220285E-121
+Exact sim to graph 263= 273.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.513254360597486E-130
+G2's id:50
+Probability of g2 after mapping (considering only mapped edges) = 5.513254360597486E-130
+Exact sim to graph 50= 313.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5107049875519291E-83
+G2's id:63
+Probability of g2 after mapping (considering only mapped edges) = 1.5107049875519291E-83
+Exact sim to graph 63= 249.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1742123300982088E-97
+G2's id:147
+Probability of g2 after mapping (considering only mapped edges) = 1.1742123300982088E-97
+Exact sim to graph 147= 253.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.341831490785556E-127
+G2's id:174
+Probability of g2 after mapping (considering only mapped edges) = 4.341831490785556E-127
+Exact sim to graph 174= 280.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.462812780757746E-111
+G2's id:266
+Probability of g2 after mapping (considering only mapped edges) = 4.462812780757746E-111
+Exact sim to graph 266= 270.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.381907142292524E-93
+G2's id:267
+Probability of g2 after mapping (considering only mapped edges) = 4.381907142292524E-93
+Exact sim to graph 267= 257.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.3675246292246392E-98
+G2's id:171
+Probability of g2 after mapping (considering only mapped edges) = 1.3675246292246392E-98
+Exact sim to graph 171= 258.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4906316529652823E-97
+G2's id:178
+Probability of g2 after mapping (considering only mapped edges) = 1.4906316529652823E-97
+Exact sim to graph 178= 252.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5558089608249639E-96
+G2's id:103
+Probability of g2 after mapping (considering only mapped edges) = 1.5558089608249639E-96
+Upper bound of sim = 285 Exact sim = 262.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.6110806186972356E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 1.6110806186972356E-78
+Upper bound of sim = 320 Exact sim = 291.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.494569695612601E-101
+G2's id:122
+Probability of g2 after mapping (considering only mapped edges) = 7.494569695612601E-101
+Exact sim to graph 122= 260.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.928175315153365E-105
+G2's id:167
+Probability of g2 after mapping (considering only mapped edges) = 4.928175315153365E-105
+Exact sim to graph 167= 270.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.293581413194295E-102
+G2's id:238
+Probability of g2 after mapping (considering only mapped edges) = 8.293581413194295E-102
+Exact sim to graph 238= 264.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.6048109293437426E-99
+G2's id:274
+Probability of g2 after mapping (considering only mapped edges) = 2.6048109293437426E-99
+Exact sim to graph 274= 267.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.864748560117712E-62
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.864748560117712E-62
+Upper bound of sim = 326 Exact sim = 266.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.9214153570460764E-104
+G2's id:35
+Probability of g2 after mapping (considering only mapped edges) = 4.9214153570460764E-104
+Upper bound of sim = 300 Exact sim = 288.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.9214153570460764E-104
+G2's id:35
+Probability of g2 after mapping (considering only mapped edges) = 4.9214153570460764E-104
+Upper bound of sim = 300 Exact sim = 288.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.9214153570460764E-104
+G2's id:35
+Probability of g2 after mapping (considering only mapped edges) = 4.9214153570460764E-104
+Exact sim to graph 35= 288.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.026266397418376E-128
+G2's id:74
+Probability of g2 after mapping (considering only mapped edges) = 3.026266397418376E-128
+Exact sim to graph 74= 290.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0098089649239742E-120
+G2's id:75
+Probability of g2 after mapping (considering only mapped edges) = 1.0098089649239742E-120
+Exact sim to graph 75= 318.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.0405099528476294E-61
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 4.0405099528476294E-61
+Upper bound of sim = 315 Exact sim = 279.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.602279415115346E-112
+G2's id:22
+Probability of g2 after mapping (considering only mapped edges) = 5.602279415115346E-112
+Exact sim to graph 22= 272.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.349621894407789E-128
+G2's id:31
+Probability of g2 after mapping (considering only mapped edges) = 9.349621894407789E-128
+Exact sim to graph 31= 311.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.0708424219242643E-110
+G2's id:3
+Probability of g2 after mapping (considering only mapped edges) = 2.0708424219242643E-110
+Exact sim to graph 3= 273.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4410888292944323E-101
+G2's id:18
+Probability of g2 after mapping (considering only mapped edges) = 1.4410888292944323E-101
+Exact sim to graph 18= 277.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.065244396891191E-92
+G2's id:214
+Probability of g2 after mapping (considering only mapped edges) = 3.065244396891191E-92
+Exact sim to graph 214= 260.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.894852135570881E-106
+G2's id:246
+Probability of g2 after mapping (considering only mapped edges) = 9.894852135570881E-106
+Exact sim to graph 246= 267.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.530715102737138E-68
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 7.530715102737138E-68
+Upper bound of sim = 316 Exact sim = 276.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.237709379507974E-78
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 3.237709379507974E-78
+Upper bound of sim = 305 Exact sim = 276.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.43780295050095E-86
+G2's id:38
+Probability of g2 after mapping (considering only mapped edges) = 9.43780295050095E-86
+Exact sim to graph 38= 249.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.533180088576485E-101
+G2's id:190
+Probability of g2 after mapping (considering only mapped edges) = 5.533180088576485E-101
+Exact sim to graph 190= 263.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4946036775527502E-99
+G2's id:51
+Probability of g2 after mapping (considering only mapped edges) = 1.4946036775527502E-99
+Exact sim to graph 51= 260.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.7141939972107524E-103
+G2's id:106
+Probability of g2 after mapping (considering only mapped edges) = 2.7141939972107524E-103
+Exact sim to graph 106= 258.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1909494598973572E-98
+G2's id:139
+Probability of g2 after mapping (considering only mapped edges) = 1.1909494598973572E-98
+Exact sim to graph 139= 251.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.600299343156336E-101
+G2's id:151
+Probability of g2 after mapping (considering only mapped edges) = 7.600299343156336E-101
+Exact sim to graph 151= 268.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.9470001425108125E-101
+G2's id:6
+Probability of g2 after mapping (considering only mapped edges) = 3.9470001425108125E-101
+Exact sim to graph 6= 273.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.525991294881617E-104
+G2's id:110
+Probability of g2 after mapping (considering only mapped edges) = 7.525991294881617E-104
+Exact sim to graph 110= 272.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.1627133316459535E-102
+G2's id:67
+Probability of g2 after mapping (considering only mapped edges) = 1.1627133316459535E-102
+Exact sim to graph 67= 272.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.9771778425467391E-118
+G2's id:58
+Probability of g2 after mapping (considering only mapped edges) = 1.9771778425467391E-118
+Exact sim to graph 58= 271.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.626159971061879E-105
+G2's id:71
+Probability of g2 after mapping (considering only mapped edges) = 4.626159971061879E-105
+Exact sim to graph 71= 268.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.685491568021782E-121
+G2's id:62
+Probability of g2 after mapping (considering only mapped edges) = 2.685491568021782E-121
+Exact sim to graph 62= 267.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.094063690766721E-118
+G2's id:83
+Probability of g2 after mapping (considering only mapped edges) = 2.094063690766721E-118
+Upper bound of sim = 288 Exact sim = 280.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.402234703557186E-70
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 9.402234703557186E-70
+Upper bound of sim = 324 Exact sim = 287.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.4393324387516153E-130
+G2's id:10
+Probability of g2 after mapping (considering only mapped edges) = 3.4393324387516153E-130
+Exact sim to graph 10= 328.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4314087379021904E-113
+G2's id:23
+Probability of g2 after mapping (considering only mapped edges) = 1.4314087379021904E-113
+Exact sim to graph 23= 320.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.094063690766721E-118
+G2's id:83
+Probability of g2 after mapping (considering only mapped edges) = 2.094063690766721E-118
+Exact sim to graph 83= 280.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7961405080217087E-103
+G2's id:194
+Probability of g2 after mapping (considering only mapped edges) = 1.7961405080217087E-103
+Exact sim to graph 194= 266.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.7018839013988576E-111
+G2's id:78
+Probability of g2 after mapping (considering only mapped edges) = 1.7018839013988576E-111
+Exact sim to graph 78= 264.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 5.240432100515373E-113
+G2's id:179
+Probability of g2 after mapping (considering only mapped edges) = 5.240432100515373E-113
+Exact sim to graph 179= 264.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.868482962506748E-97
+G2's id:231
+Probability of g2 after mapping (considering only mapped edges) = 7.868482962506748E-97
+Upper bound of sim = 238 Exact sim = 259.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.4233141799546197E-81
+G2's id:null
+Probability of g2 after mapping (considering only mapped edges) = 2.4233141799546197E-81
+Upper bound of sim = 289 Exact sim = 290.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.5006959920215956E-101
+G2's id:183
+Probability of g2 after mapping (considering only mapped edges) = 2.5006959920215956E-101
+Exact sim to graph 183= 259.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.0064375573475105E-96
+G2's id:198
+Probability of g2 after mapping (considering only mapped edges) = 1.0064375573475105E-96
+Exact sim to graph 198= 264.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.2023572395727564E-102
+G2's id:102
+Probability of g2 after mapping (considering only mapped edges) = 1.2023572395727564E-102
+Exact sim to graph 102= 263.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.4990727489421354E-104
+G2's id:155
+Probability of g2 after mapping (considering only mapped edges) = 1.4990727489421354E-104
+Exact sim to graph 155= 262.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5558089608249639E-96
+G2's id:103
+Probability of g2 after mapping (considering only mapped edges) = 1.5558089608249639E-96
+Exact sim to graph 103= 262.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.664700636270488E-100
+G2's id:262
+Probability of g2 after mapping (considering only mapped edges) = 4.664700636270488E-100
+Exact sim to graph 262= 261.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.868482962506748E-97
+G2's id:231
+Probability of g2 after mapping (considering only mapped edges) = 7.868482962506748E-97
+Exact sim to graph 231= 259.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 8.606429085700091E-98
+G2's id:271
+Probability of g2 after mapping (considering only mapped edges) = 8.606429085700091E-98
+Exact sim to graph 271= 259.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 3.501890632491657E-97
+G2's id:138
+Probability of g2 after mapping (considering only mapped edges) = 3.501890632491657E-97
+Exact sim to graph 138= 259.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2810016795209684E-98
+G2's id:111
+Probability of g2 after mapping (considering only mapped edges) = 2.2810016795209684E-98
+Upper bound of sim = 308 Exact sim = 258.0
+Ctree internal node is not pruned since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 9.194083769843032E-102
+G2's id:186
+Probability of g2 after mapping (considering only mapped edges) = 9.194083769843032E-102
+Exact sim to graph 186= 258.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.2810016795209684E-98
+G2's id:111
+Probability of g2 after mapping (considering only mapped edges) = 2.2810016795209684E-98
+Exact sim to graph 111= 258.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.3725943083916498E-94
+G2's id:119
+Probability of g2 after mapping (considering only mapped edges) = 2.3725943083916498E-94
+Exact sim to graph 119= 257.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 2.3080386461949233E-91
+G2's id:42
+Probability of g2 after mapping (considering only mapped edges) = 2.3080386461949233E-91
+Exact sim to graph 42= 254.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 1.5003795182353425E-99
+G2's id:135
+Probability of g2 after mapping (considering only mapped edges) = 1.5003795182353425E-99
+Exact sim to graph 135= 267.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 7.48301800177173E-101
+G2's id:270
+Probability of g2 after mapping (considering only mapped edges) = 7.48301800177173E-101
+Exact sim to graph 270= 254.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Probability of G2 after mapping = 4.870212836046446E-100
+G2's id:203
+Probability of g2 after mapping (considering only mapped edges) = 4.870212836046446E-100
+Exact sim to graph 203= 253.0
+Graph is in answer set since similarity is above threshold=106.0
+
+Result: Query_time(ms) Ans_size Access_ratio
+420.000000 280.000000 2.267857

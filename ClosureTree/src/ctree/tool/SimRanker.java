@@ -7,9 +7,6 @@ import ctree.lgraph.LGraph;
 import ctree.mapper.*;
 import ctree.index.*;
 
-
-
-
 /**
  *
  * @author Huahai He
@@ -135,6 +132,7 @@ public class SimRanker {
           System.out.println();
           
           RankerEntry entry2 = new RankerEntry( -sim, child);
+          entry2.prob = entry.prob;
           pqueue.add(entry2);
           accessCount++;
         }
@@ -299,6 +297,10 @@ public class SimRanker {
     return null;
   }  
 
+  /**
+   * GPRepresentative range query
+   * @return Data and its feature distance to the query point
+   */
   public RankerEntry GPRepresentativeRangeQuery(double range, double probThresh) {
 	  	
 	  	int noOfSampledGraphs = 1000;
@@ -466,6 +468,9 @@ public class SimRanker {
     return ans;
   }
 
+  /**
+   * Used in database generation
+   */
   public void generateProbs(LGraph[] graphs, Graph[] queries, PrintWriter output) {
   	
   	int noOfSampledGraphs = 1000;
@@ -485,7 +490,7 @@ public class SimRanker {
 	  			prob_Den += sampledGraphs[k].probOfGraph;
 	  		}
 	  		
-	  		System.out.println("Id: "+graphs[j].id()+" Prob: "+(prob_Num/prob_Den)+" Avg no edges: "+(double)size/sampledGraphs.length);
+	  		output.println("Id: "+graphs[j].id()+" Prob: "+(prob_Num/prob_Den)+" Avg no edges: "+(double)size/sampledGraphs.length);
 	  	}
 	  }
   	

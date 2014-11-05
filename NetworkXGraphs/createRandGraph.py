@@ -2,7 +2,7 @@ import networkx as nx
 import random
 
 n = 30 # number of nodes
-prob_edge = 0.7 # prob of each edge
+prob_edge = 0.4 # prob of each edge
 
 labelList = ["A","B","C"]
 
