@@ -1,0 +1,1295 @@
+Building ctree from graphDatabase.txt
+
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+coming here merge
+Range Query:
+
+For query graph:
+#10000
+30
+A
+B
+C
+B
+C
+C
+A
+C
+C
+C
+B
+B
+C
+C
+B
+C
+B
+B
+A
+A
+C
+C
+A
+A
+A
+A
+B
+C
+B
+C
+298
+0 4
+0 6
+0 7
+0 9
+0 10
+0 12
+0 13
+0 15
+0 16
+0 17
+0 18
+0 23
+0 24
+0 25
+0 26
+0 27
+0 28
+0 29
+1 2
+1 3
+1 5
+1 6
+1 8
+1 9
+1 12
+1 14
+1 15
+1 17
+1 19
+1 20
+1 21
+1 22
+1 23
+1 24
+1 25
+1 27
+1 28
+1 29
+2 4
+2 5
+2 6
+2 7
+2 8
+2 9
+2 12
+2 14
+2 15
+2 17
+2 18
+2 21
+2 23
+2 24
+2 25
+2 26
+3 5
+3 6
+3 8
+3 9
+3 10
+3 11
+3 12
+3 16
+3 17
+3 18
+3 19
+3 21
+3 23
+3 24
+3 26
+3 28
+3 29
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+4 16
+4 17
+4 18
+4 20
+4 21
+4 23
+4 24
+4 25
+4 26
+4 28
+5 6
+5 7
+5 8
+5 10
+5 12
+5 13
+5 14
+5 16
+5 18
+5 19
+5 20
+5 22
+5 23
+5 24
+5 26
+5 27
+5 28
+5 29
+6 7
+6 8
+6 9
+6 10
+6 11
+6 13
+6 14
+6 15
+6 16
+6 17
+6 18
+6 19
+6 20
+6 22
+6 23
+6 24
+6 26
+6 27
+7 11
+7 12
+7 13
+7 14
+7 15
+7 16
+7 17
+7 19
+7 20
+7 21
+7 23
+7 24
+7 25
+7 26
+7 27
+8 9
+8 10
+8 12
+8 14
+8 15
+8 16
+8 17
+8 19
+8 20
+8 21
+8 22
+8 23
+8 24
+8 26
+8 28
+9 15
+9 16
+9 17
+9 19
+9 20
+9 21
+9 24
+9 25
+9 26
+9 28
+9 29
+10 11
+10 12
+10 15
+10 16
+10 18
+10 19
+10 20
+10 21
+10 22
+10 23
+10 25
+10 26
+10 27
+11 13
+11 15
+11 16
+11 17
+11 18
+11 20
+11 21
+11 22
+11 23
+11 25
+11 26
+11 27
+11 28
+12 17
+12 18
+12 19
+12 20
+12 21
+12 22
+12 23
+12 24
+12 25
+12 26
+12 28
+12 29
+13 14
+13 17
+13 18
+13 19
+13 20
+13 21
+13 22
+13 24
+13 25
+13 26
+13 27
+13 28
+13 29
+14 15
+14 16
+14 18
+14 19
+14 20
+14 21
+14 24
+14 27
+15 16
+15 17
+15 18
+15 19
+15 21
+15 22
+15 23
+15 24
+15 25
+15 26
+15 27
+15 28
+15 29
+16 19
+16 20
+16 22
+16 24
+16 25
+16 27
+16 28
+16 29
+17 19
+17 20
+17 21
+17 22
+17 23
+17 24
+17 25
+17 27
+17 29
+18 21
+18 24
+18 26
+18 27
+18 28
+18 29
+19 25
+19 26
+19 27
+19 28
+19 29
+20 21
+20 23
+20 24
+20 27
+20 28
+20 29
+21 22
+21 23
+21 24
+21 25
+21 26
+21 28
+21 29
+22 23
+22 24
+22 25
+22 26
+22 27
+22 28
+22 29
+23 24
+23 26
+23 27
+24 27
+24 28
+24 29
+25 27
+25 28
+26 27
+26 29
+27 28
+28 29
+
+Edge Added to Rep:3 10
+Edge Added to Rep:7 20
+Edge Added to Rep:4 15
+Edge Added to Rep:10 23
+Edge Added to Rep:26 27
+Edge Added to Rep:6 11
+Edge Added to Rep:16 24
+Edge Added to Rep:0 25
+Edge Added to Rep:2 5
+Edge Added to Rep:3 8
+Edge Added to Rep:17 23
+Edge Added to Rep:22 25
+Edge Added to Rep:8 15
+Edge Added to Rep:3 6
+Edge Added to Rep:0 29
+Edge Added to Rep:2 8
+Edge Added to Rep:7 17
+Edge Added to Rep:8 24
+Edge Added to Rep:5 18
+Edge Added to Rep:1 2
+Edge Added to Rep:9 26
+Edge Added to Rep:32 26
+Edge Added to Rep:11 20
+Edge Added to Rep:27 28
+Edge Added to Rep:8 21
+Edge Added to Rep:18 24
+Edge Added to Rep:17 22
+Edge Added to Rep:5 20
+Edge Added to Rep:8 22
+Edge Added to Rep:6 9
+Edge Added to Rep:6 22
+Edge Added to Rep:2 21
+Edge Added to Rep:3 16
+Edge Added to Rep:32 18
+Edge Added to Rep:15 23
+Edge Added to Rep:4 7
+Edge Added to Rep:20 28
+Edge Added to Rep:9 28
+Edge Added to Rep:2 11
+Edge Added to Rep:10 11
+Edge Added to Rep:2 6
+Edge Added to Rep:7 23
+Edge Added to Rep:1 22
+Edge Added to Rep:0 12
+Edge Added to Rep:1 28
+Edge Added to Rep:13 18
+Edge Added to Rep:4 8
+Edge Added to Rep:30 17
+Edge Added to Rep:5 8
+Edge Added to Rep:35 28
+Edge Added to Rep:3 18
+Edge Added to Rep:4 25
+Edge Added to Rep:20 29
+Edge Added to Rep:16 28
+Edge Added to Rep:16 26
+Edge Added to Rep:13 24
+Edge Added to Rep:32 8
+Edge Added to Rep:25 27
+Edge Added to Rep:11 18
+Edge Added to Rep:23 26
+Edge Added to Rep:8 10
+Edge Added to Rep:2 4
+Edge Added to Rep:15 17
+Edge Added to Rep:11 21
+Edge Added to Rep:15 28
+Edge Added to Rep:15 29
+Edge Added to Rep:4 13
+Edge Added to Rep:5 16
+Edge Added to Rep:8 17
+Edge Added to Rep:7 15
+Edge Added to Rep:6 16
+Edge Added to Rep:4 16
+Edge Added to Rep:10 20
+Edge Added to Rep:13 27
+Edge Added to Rep:28 29
+Edge Added to Rep:4 17
+Edge Added to Rep:13 21
+Edge Added to Rep:10 16
+Edge Added to Rep:8 23
+Edge Added to Rep:9 19
+Edge Added to Rep:0 26
+Edge Added to Rep:0 10
+Edge Added to Rep:4 11
+Edge Added to Rep:12 14
+Edge Added to Rep:34 17
+Edge Added to Rep:9 21
+Edge Added to Rep:5 29
+Edge Added to Rep:12 24
+Edge Added to Rep:21 28
+Edge Added to Rep:0 17
+Edge Added to Rep:0 15
+Edge Added to Rep:7 12
+Edge Added to Rep:7 25
+Edge Added to Rep:5 23
+Edge Added to Rep:8 20
+Edge Added to Rep:5 26
+Edge Added to Rep:20 24
+Edge Added to Rep:2 7
+Edge Added to Rep:4 28
+Edge Added to Rep:0 24
+Edge Added to Rep:12 17
+Edge Added to Rep:1 9
+Edge Added to Rep:17 29
+Edge Added to Rep:11 13
+Edge Added to Rep:11 25
+Edge Added to Rep:7 21
+Edge Added to Rep:9 15
+Edge Added to Rep:1 20
+Edge Added to Rep:27 3
+Edge Added to Rep:30 18
+Edge Added to Rep:6 20
+Edge Added to Rep:0 4
+Edge Added to Rep:24 28
+Edge Added to Rep:23 28
+Edge Added to Rep:1 5
+Edge Added to Rep:1 24
+Edge Added to Rep:5 12
+Edge Added to Rep:11 23
+Edge Added to Rep:32 30
+Edge Added to Rep:4 9
+Edge Added to Rep:5 7
+Edge Added to Rep:30 28
+Edge Added to Rep:2 24
+Edge Added to Rep:32 0
+Edge Added to Rep:22 29
+Edge Added to Rep:33 21
+Edge Added to Rep:15 26
+Edge Added to Rep:9 25
+Edge Added to Rep:11 17
+Edge Added to Rep:11 27
+Edge Added to Rep:33 12
+Edge Added to Rep:17 20
+Edge Added to Rep:21 22
+Edge Added to Rep:9 16
+Edge Added to Rep:4 34
+Edge Added to Rep:32 3
+Edge Added to Rep:0 13
+Edge Added to Rep:30 5
+Edge Added to Rep:16 27
+Edge Added to Rep:2 18
+Edge Added to Rep:10 25
+Edge Added to Rep:11 16
+Edge Added to Rep:21 23
+Edge Added to Rep:7 33
+Edge Added to Rep:12 22
+Edge Added to Rep:13 28
+Edge Added to Rep:5 27
+Edge Added to Rep:8 16
+Edge Added to Rep:5 24
+Edge Added to Rep:19 27
+Edge Added to Rep:5 6
+Edge Added to Rep:23 27
+Edge Added to Rep:15 27
+Edge Added to Rep:33 9
+Edge Added to Rep:1 3
+Edge Added to Rep:1 27
+Edge Added to Rep:26 24
+Edge Added to Rep:18 21
+Edge Added to Rep:16 22
+Edge Added to Rep:11 19
+Edge Added to Rep:32 20
+Edge Added to Rep:6 12
+Edge Added to Rep:14 15
+Edge Added to Rep:3 21
+Edge Added to Rep:3 17
+Edge Added to Rep:9 20
+Edge Added to Rep:17 28
+Edge Added to Rep:15 18
+Edge Added to Rep:32 22
+Edge Added to Rep:16 20
+Edge Added to Rep:15 21
+Edge Added to Rep:32 6
+Edge Added to Rep:15 16
+Edge Added to Rep:24 27
+Edge Added to Rep:9 10
+Edge Added to Rep:1 15
+Edge Added to Rep:7 24
+Edge Added to Rep:6 28
+Edge Added to Rep:9 22
+Edge Added to Rep:6 24
+Edge Added to Rep:32 23
+Edge Added to Rep:6 27
+Edge Added to Rep:26 20
+Edge Added to Rep:17 19
+Edge Added to Rep:8 19
+Edge Added to Rep:11 15
+Edge Added to Rep:24 29
+Edge Added to Rep:10 12
+Edge Added to Rep:10 15
+Edge Added to Rep:4 12
+Edge Added to Rep:10 21
+Edge Added to Rep:2 19
+Edge Added to Rep:1 17
+Edge Added to Rep:13 8
+Edge Added to Rep:35 16
+Edge Added to Rep:4 35
+Edge Added to Rep:14 9
+Edge Added to Rep:11 22
+Edge Added to Rep:21 25
+Edge Added to Rep:5 28
+Edge Added to Rep:14 26
+Edge Added to Rep:3 19
+Edge Added to Rep:21 29
+Edge Added to Rep:33 29
+Edge Added to Rep:1 14
+Edge Added to Rep:21 26
+Edge Added to Rep:25 29
+Edge Added to Rep:15 22
+Edge Added to Rep:19 0
+Edge Added to Rep:2 25
+Edge Added to Rep:3 24
+Edge Added to Rep:21 27
+Edge Added to Rep:19 18
+Edge Added to Rep:7 26
+Edge Added to Rep:13 33
+Edge Added to Rep:12 26
+Edge Added to Rep:10 34
+Edge Added to Rep:25 35
+Edge Added to Rep:22 19
+Edge Added to Rep:8 12
+Edge Added to Rep:33 0
+Edge Added to Rep:22 28
+Edge Added to Rep:33 35
+Edge Added to Rep:20 0
+Edge Added to Rep:22 34
+Edge Added to Rep:6 18
+Edge Added to Rep:13 29
+Edge Added to Rep:8 7
+Edge Added to Rep:31 24
+Edge Added to Rep:10 14
+Edge Added to Rep:5 22
+Edge Added to Rep:1 18
+Edge Added to Rep:2 35
+Edge Added to Rep:16 25
+Edge Added to Rep:9 11
+Edge Added to Rep:19 28
+Edge Added to Rep:32 16
+Edge Added to Rep:32 25
+Edge Added to Rep:12 18
+Edge Added to Rep:6 14
+Edge Added to Rep:13 15
+Edge Added to Rep:2 31
+Edge Added to Rep:32 9
+Edge Added to Rep:7 9
+Edge Added to Rep:1 6
+Edge Added to Rep:11 30
+Edge Added to Rep:12 29
+Edge Added to Rep:5 19
+Edge Added to Rep:3 20
+Edge Added to Rep:0 27
+Edge Added to Rep:2 27
+Edge Added to Rep:6 10
+Edge Added to Rep:9 30
+Edge Added to Rep:4 18
+Edge Added to Rep:24 33
+Edge Added to Rep:22 4
+Edge Added to Rep:14 23
+Edge Added to Rep:0 6
+Edge Added to Rep:4 27
+Edge Added to Rep:20 31
+Edge Added to Rep:35 23
+Edge Added to Rep:3 28
+Edge Added to Rep:3 5
+Edge Added to Rep:13 12
+Edge Added to Rep:3 7
+Edge Added to Rep:6 7
+Edge Added to Rep:34 14
+Edge Added to Rep:35 29
+Edge Added to Rep:12 19
+Edge Added to Rep:33 1
+Edge Added to Rep:10 28
+Edge Added to Rep:6 13
+Edge Added to Rep:1 8
+Edge Added to Rep:7 19
+Edge Added to Rep:8 30
+Edge Added to Rep:22 30
+Edge Added to Rep:19 25
+Edge Added to Rep:2 17
+Edge Added to Rep:32 2
+Edge Added to Rep:17 18
+Edge Added to Rep:16 29
+Edge Added to Rep:13 26
+Edge Added to Rep:30 29
+Edge Added to Rep:17 27
+Edge Added to Rep:15 24
+Edge Added to Rep:10 18
+Edge Added to Rep:3 22
+Edge Added to Rep:31 18
+Edge Added to Rep:20 23
+Edge Added to Rep:14 18
+Edge Added to Rep:14 4
+Edge Added to Rep:1 23
+Edge Added to Rep:21 32
+Edge Added to Rep:32 7
+Edge Added to Rep:21 16
+Edge Added to Rep:0 34
+Edge Added to Rep:14 20
+Edge Added to Rep:30 35
+Edge Added to Rep:13 20
+Edge Added to Rep:9 27
+Edge Added to Rep:6 19
+Edge Added to Rep:16 18
+Edge Added to Rep:31 17
+Edge Added to Rep:26 17
+Edge Added to Rep:27 32
+Edge Added to Rep:10 33
+Edge Added to Rep:5 9
+Edge Added to Rep:7 27
+Edge Added to Rep:35 24
+Edge Added to Rep:1 16
+Edge Added to Rep:32 15
+Edge Added to Rep:11 5
+Edge Added to Rep:0 7
+Edge Added to Rep:31 6
+Edge Added to Rep:25 23
+Edge Added to Rep:2 16
+Edge Added to Rep:32 5
+Edge Added to Rep:6 21
+Edge Added to Rep:13 3
+Edge Added to Rep:18 29
+Edge Added to Rep:32 29
+Edge Added to Rep:31 12
+Edge Added to Rep:13 31
+Edge Added to Rep:8 28
+Edge Added to Rep:14 32
+Edge Added to Rep:1 19
+Edge Added to Rep:14 25
+Edge Added to Rep:1 12
+Edge Added to Rep:21 0
+Edge Added to Rep:20 35
+Edge Added to Rep:25 24
+Edge Added to Rep:26 34
+Edge Added to Rep:19 26
+Edge Added to Rep:7 13
+Edge Added to Rep:14 28
+Edge Added to Rep:5 10
+Edge Added to Rep:14 3
+Edge Added to Rep:23 18
+Edge Added to Rep:20 27
+Edge Added to Rep:6 15
+Edge Added to Rep:6 23
+Edge Added to Rep:23 29
+Edge Added to Rep:1 10
+Edge Added to Rep:35 27
+Edge Added to Rep:21 5
+Edge Added to Rep:8 27
+Edge Added to Rep:22 33
+Edge Added to Rep:20 22
+Edge Added to Rep:4 23
+Edge Added to Rep:32 11
+Edge Added to Rep:30 10
+Edge Added to Rep:5 33
+Edge Added to Rep:32 28
+Edge Added to Rep:4 10
+Edge Added to Rep:7 11
+Edge Added to Rep:12 15
+Edge Added to Rep:29 31
+Edge Added to Rep:14 30
+Edge Added to Rep:16 30
+Edge Added to Rep:11 29
+Edge Added to Rep:15 31
+Edge Added to Rep:12 25
+Edge Added to Rep:11 14
+Edge Added to Rep:0 28
+Edge Added to Rep:17 16
+Edge Added to Rep:13 34
+Edge Added to Rep:8 0
+Edge Added to Rep:30 2
+Edge Added to Rep:11 28
+Edge Added to Rep:1 29
+Edge Added to Rep:26 28
+Edge Added to Rep:25 20
+Edge Added to Rep:4 21
+Edge Added to Rep:13 25
+Edge Added to Rep:19 23
+Edge Added to Rep:2 12
+Edge Added to Rep:17 10
+Edge Added to Rep:17 24
+Edge Added to Rep:13 30
+Edge Added to Rep:9 24
+Edge Added to Rep:22 23
+Edge Added to Rep:2 0
+Edge Added to Rep:11 33
+Edge Added to Rep:2 9
+Edge Added to Rep:8 14
+Edge Added to Rep:30 12
+Edge Added to Rep:31 26
+Edge Added to Rep:22 2
+Edge Added to Rep:30 3
+Edge Added to Rep:31 4
+Edge Added to Rep:30 34
+Edge Added to Rep:24 19
+Edge Added to Rep:33 19
+Representative sim = 265
+Pruned Ctree internal node since weighted similarity falls below threshold=320.0 !
+Edge Added to Rep:8 10
+Edge Added to Rep:5 6
+Edge Added to Rep:22 25
+Edge Added to Rep:23 24
+Edge Added to Rep:0 26
+Edge Added to Rep:27 2
+Edge Added to Rep:9 16
+Edge Added to Rep:5 10
+Edge Added to Rep:7 27
+Edge Added to Rep:0 23
+Edge Added to Rep:24 34
+Edge Added to Rep:31 16
+Edge Added to Rep:6 18
+Edge Added to Rep:22 26
+Edge Added to Rep:1 20
+Edge Added to Rep:18 29
+Edge Added to Rep:15 29
+Edge Added to Rep:3 18
+Edge Added to Rep:12 22
+Edge Added to Rep:17 29
+Edge Added to Rep:13 25
+Edge Added to Rep:32 22
+Edge Added to Rep:19 27
+Edge Added to Rep:31 27
+Edge Added to Rep:4 7
+Edge Added to Rep:33 17
+Edge Added to Rep:7 33
+Edge Added to Rep:1 19
+Edge Added to Rep:3 19
+Edge Added to Rep:17 21
+Edge Added to Rep:14 18
+Edge Added to Rep:1 9
+Edge Added to Rep:10 32
+Edge Added to Rep:11 22
+Edge Added to Rep:9 20
+Edge Added to Rep:1 8
+Edge Added to Rep:1 24
+Edge Added to Rep:5 23
+Edge Added to Rep:7 15
+Edge Added to Rep:22 24
+Edge Added to Rep:8 15
+Edge Added to Rep:14 15
+Edge Added to Rep:10 21
+Edge Added to Rep:10 22
+Edge Added to Rep:3 11
+Edge Added to Rep:6 23
+Edge Added to Rep:11 13
+Edge Added to Rep:10 12
+Edge Added to Rep:1 5
+Edge Added to Rep:5 32
+Edge Added to Rep:11 20
+Edge Added to Rep:10 18
+Edge Added to Rep:25 32
+Edge Added to Rep:3 24
+Edge Added to Rep:5 4
+Edge Added to Rep:6 20
+Edge Added to Rep:6 27
+Edge Added to Rep:24 11
+Edge Added to Rep:11 21
+Edge Added to Rep:22 23
+Edge Added to Rep:7 32
+Edge Added to Rep:17 10
+Edge Added to Rep:8 30
+Edge Added to Rep:15 22
+Edge Added to Rep:5 22
+Edge Added to Rep:7 21
+Edge Added to Rep:3 7
+Edge Added to Rep:8 9
+Edge Added to Rep:23 31
+Edge Added to Rep:29 32
+Edge Added to Rep:23 27
+Edge Added to Rep:2 9
+Edge Added to Rep:5 7
+Edge Added to Rep:21 25
+Edge Added to Rep:15 25
+Edge Added to Rep:19 29
+Edge Added to Rep:21 23
+Edge Added to Rep:4 21
+Edge Added to Rep:20 33
+Edge Added to Rep:3 17
+Edge Added to Rep:16 27
+Edge Added to Rep:0 1
+Edge Added to Rep:8 21
+Edge Added to Rep:3 6
+Edge Added to Rep:7 23
+Edge Added to Rep:12 19
+Edge Added to Rep:5 24
+Edge Added to Rep:8 16
+Edge Added to Rep:14 21
+Edge Added to Rep:8 22
+Edge Added to Rep:0 15
+Edge Added to Rep:1 6
+Edge Added to Rep:18 24
+Edge Added to Rep:17 24
+Edge Added to Rep:16 24
+Edge Added to Rep:12 25
+Edge Added to Rep:19 26
+Edge Added to Rep:12 20
+Edge Added to Rep:24 25
+Edge Added to Rep:19 25
+Edge Added to Rep:9 26
+Edge Added to Rep:9 32
+Edge Added to Rep:33 23
+Edge Added to Rep:5 28
+Edge Added to Rep:5 19
+Edge Added to Rep:0 18
+Edge Added to Rep:4 26
+Edge Added to Rep:2 21
+Edge Added to Rep:21 26
+Edge Added to Rep:9 21
+Edge Added to Rep:0 8
+Edge Added to Rep:11 25
+Edge Added to Rep:27 8
+Edge Added to Rep:3 26
+Edge Added to Rep:7 19
+Edge Added to Rep:2 26
+Edge Added to Rep:31 29
+Edge Added to Rep:13 18
+Edge Added to Rep:22 20
+Edge Added to Rep:6 10
+Edge Added to Rep:12 21
+Edge Added to Rep:24 27
+Edge Added to Rep:21 24
+Edge Added to Rep:14 24
+Edge Added to Rep:4 12
+Edge Added to Rep:12 26
+Edge Added to Rep:4 20
+Edge Added to Rep:12 17
+Edge Added to Rep:0 12
+Edge Added to Rep:33 15
+Edge Added to Rep:1 3
+Edge Added to Rep:31 14
+Edge Added to Rep:32 19
+Edge Added to Rep:29 25
+Edge Added to Rep:9 34
+Edge Added to Rep:0 13
+Edge Added to Rep:6 26
+Edge Added to Rep:4 11
+Edge Added to Rep:2 24
+Edge Added to Rep:12 24
+Edge Added to Rep:3 21
+Edge Added to Rep:13 24
+Edge Added to Rep:7 14
+Edge Added to Rep:17 32
+Edge Added to Rep:30 5
+Edge Added to Rep:27 28
+Edge Added to Rep:14 19
+Edge Added to Rep:13 3
+Edge Added to Rep:29 30
+Edge Added to Rep:16 19
+Edge Added to Rep:30 18
+Edge Added to Rep:1 22
+Edge Added to Rep:2 12
+Edge Added to Rep:4 23
+Edge Added to Rep:9 7
+Edge Added to Rep:32 13
+Edge Added to Rep:17 22
+Edge Added to Rep:31 21
+Edge Added to Rep:4 17
+Edge Added to Rep:33 29
+Edge Added to Rep:14 0
+Edge Added to Rep:14 10
+Edge Added to Rep:4 13
+Edge Added to Rep:16 29
+Edge Added to Rep:15 24
+Edge Added to Rep:9 25
+Edge Added to Rep:0 7
+Edge Added to Rep:5 12
+Edge Added to Rep:11 14
+Edge Added to Rep:1 29
+Edge Added to Rep:1 15
+Edge Added to Rep:6 8
+Edge Added to Rep:15 17
+Edge Added to Rep:10 28
+Edge Added to Rep:3 23
+Edge Added to Rep:12 29
+Edge Added to Rep:33 16
+Edge Added to Rep:24 29
+Edge Added to Rep:0 25
+Edge Added to Rep:15 16
+Edge Added to Rep:24 31
+Edge Added to Rep:27 32
+Edge Added to Rep:2 14
+Edge Added to Rep:15 23
+Edge Added to Rep:5 27
+Edge Added to Rep:8 19
+Edge Added to Rep:3 12
+Edge Added to Rep:8 20
+Edge Added to Rep:13 17
+Edge Added to Rep:28 29
+Edge Added to Rep:15 27
+Edge Added to Rep:13 30
+Edge Added to Rep:30 32
+Edge Added to Rep:17 19
+Edge Added to Rep:11 30
+Edge Added to Rep:16 22
+Edge Added to Rep:26 34
+Edge Added to Rep:1 25
+Edge Added to Rep:34 2
+Edge Added to Rep:11 15
+Edge Added to Rep:6 14
+Edge Added to Rep:0 6
+Edge Added to Rep:2 18
+Edge Added to Rep:4 10
+Edge Added to Rep:3 2
+Edge Added to Rep:4 19
+Edge Added to Rep:15 21
+Edge Added to Rep:9 12
+Edge Added to Rep:12 18
+Edge Added to Rep:9 27
+Edge Added to Rep:17 25
+Edge Added to Rep:4 6
+Edge Added to Rep:22 29
+Edge Added to Rep:16 20
+Edge Added to Rep:5 16
+Edge Added to Rep:6 11
+Edge Added to Rep:2 0
+Edge Added to Rep:20 21
+Edge Added to Rep:15 18
+Edge Added to Rep:33 13
+Edge Added to Rep:3 16
+Edge Added to Rep:22 9
+Edge Added to Rep:7 25
+Edge Added to Rep:9 17
+Edge Added to Rep:33 25
+Edge Added to Rep:2 4
+Edge Added to Rep:1 32
+Edge Added to Rep:6 12
+Edge Added to Rep:15 28
+Edge Added to Rep:15 26
+Edge Added to Rep:23 18
+Edge Added to Rep:21 29
+Edge Added to Rep:9 29
+Edge Added to Rep:31 6
+Edge Added to Rep:8 26
+Edge Added to Rep:10 11
+Edge Added to Rep:18 16
+Edge Added to Rep:14 34
+Edge Added to Rep:11 18
+Edge Added to Rep:4 28
+Edge Added to Rep:31 26
+Edge Added to Rep:7 10
+Edge Added to Rep:4 33
+Edge Added to Rep:13 21
+Edge Added to Rep:15 12
+Edge Added to Rep:1 31
+Edge Added to Rep:2 5
+Edge Added to Rep:19 28
+Edge Added to Rep:22 28
+Edge Added to Rep:4 29
+Edge Added to Rep:8 14
+Edge Added to Rep:17 20
+Edge Added to Rep:5 13
+Edge Added to Rep:6 16
+Edge Added to Rep:34 4
+Edge Added to Rep:8 32
+Edge Added to Rep:20 23
+Edge Added to Rep:14 12
+Edge Added to Rep:26 27
+Edge Added to Rep:12 1
+Edge Added to Rep:16 2
+Edge Added to Rep:1 34
+Edge Added to Rep:13 19
+Edge Added to Rep:3 25
+Edge Added to Rep:20 2
+Edge Added to Rep:11 9
+Edge Added to Rep:5 34
+Edge Added to Rep:9 10
+Edge Added to Rep:13 14
+Edge Added to Rep:11 27
+Edge Added to Rep:6 15
+Edge Added to Rep:6 24
+Edge Added to Rep:11 33
+Edge Added to Rep:34 12
+Edge Added to Rep:26 32
+Edge Added to Rep:3 8
+Edge Added to Rep:11 34
+Edge Added to Rep:13 20
+Edge Added to Rep:18 27
+Edge Added to Rep:30 6
+Edge Added to Rep:11 26
+Edge Added to Rep:13 10
+Edge Added to Rep:0 28
+Edge Added to Rep:12 13
+Edge Added to Rep:31 13
+Edge Added to Rep:7 24
+Edge Added to Rep:23 25
+Edge Added to Rep:2 15
+Edge Added to Rep:5 14
+Edge Added to Rep:1 17
+Edge Added to Rep:11 8
+Edge Added to Rep:5 8
+Edge Added to Rep:25 27
+Edge Added to Rep:15 19
+Edge Added to Rep:33 22
+Edge Added to Rep:4 24
+Edge Added to Rep:24 10
+Edge Added to Rep:26 14
+Edge Added to Rep:16 1
+Edge Added to Rep:4 8
+Edge Added to Rep:20 30
+Edge Added to Rep:6 9
+Edge Added to Rep:23 29
+Edge Added to Rep:8 23
+Edge Added to Rep:9 24
+Edge Added to Rep:5 0
+Edge Added to Rep:31 3
+Edge Added to Rep:28 32
+Edge Added to Rep:22 34
+Edge Added to Rep:14 32
+Edge Added to Rep:20 18
+Edge Added to Rep:27 12
+Edge Added to Rep:23 32
+Edge Added to Rep:2 6
+Edge Added to Rep:21 34
+Edge Added to Rep:2 30
+Edge Added to Rep:11 2
+Edge Added to Rep:18 31
+Edge Added to Rep:3 32
+Edge Added to Rep:13 1
+Edge Added to Rep:34 28
+Edge Added to Rep:8 24
+Edge Added to Rep:16 17
+Edge Added to Rep:10 19
+Edge Added to Rep:10 30
+Edge Added to Rep:11 28
+Edge Added to Rep:9 23
+Edge Added to Rep:22 3
+Edge Added to Rep:32 21
+Edge Added to Rep:20 27
+Edge Added to Rep:14 25
+Edge Added to Rep:19 21
+Edge Added to Rep:4 16
+Edge Added to Rep:34 23
+Edge Added to Rep:4 25
+Edge Added to Rep:2 13
+Edge Added to Rep:8 34
+Edge Added to Rep:16 25
+Edge Added to Rep:18 1
+Edge Added to Rep:1 27
+Edge Added to Rep:20 3
+Edge Added to Rep:3 5
+Edge Added to Rep:22 0
+Edge Added to Rep:9 15
+Edge Added to Rep:31 10
+Edge Added to Rep:9 19
+Edge Added to Rep:10 29
+Edge Added to Rep:31 30
+Edge Added to Rep:0 4
+Edge Added to Rep:9 18
+Edge Added to Rep:23 14
+Edge Added to Rep:21 33
+Edge Added to Rep:11 0
+Edge Added to Rep:33 10
+Edge Added to Rep:0 27
+Edge Added to Rep:15 35
+Edge Added to Rep:7 20
+Edge Added to Rep:8 17
+Edge Added to Rep:22 14
+Edge Added to Rep:34 35
+Edge Added to Rep:0 29
+Edge Added to Rep:18 21
+Edge Added to Rep:18 17
+Edge Added to Rep:23 28
+Edge Added to Rep:20 24
+Edge Added to Rep:5 20
+Edge Added to Rep:12 23
+Edge Added to Rep:2 8
+Edge Added to Rep:1 26
+Edge Added to Rep:10 1
+Edge Added to Rep:8 25
+Edge Added to Rep:31 11
+Edge Added to Rep:22 19
+Edge Added to Rep:1 23
+Edge Added to Rep:20 19
+Edge Added to Rep:3 29
+Edge Added to Rep:13 28
+Edge Added to Rep:9 5
+Edge Added to Rep:24 33
+Edge Added to Rep:23 26
+Edge Added to Rep:4 35
+Edge Added to Rep:7 12
+Edge Added to Rep:27 21
+Edge Added to Rep:34 17
+Edge Added to Rep:11 23
+Edge Added to Rep:6 22
+Edge Added to Rep:0 21
+Edge Added to Rep:31 28
+Edge Added to Rep:7 26
+Edge Added to Rep:34 29
+Edge Added to Rep:14 28
+Edge Added to Rep:10 16
+Edge Added to Rep:5 18
+Edge Added to Rep:30 22
+Edge Added to Rep:2 7
+Edge Added to Rep:3 27
+Edge Added to Rep:4 18
+Edge Added to Rep:5 25
+Edge Added to Rep:17 31
+Edge Added to Rep:8 31
+Edge Added to Rep:14 27
+Edge Added to Rep:24 19
+Edge Added to Rep:3 30
+Edge Added to Rep:7 30
+Edge Added to Rep:33 30
+Edge Added to Rep:11 17
+Edge Added to Rep:20 15
+Edge Added to Rep:7 22
+Edge Added to Rep:13 16
+Edge Added to Rep:16 23
+Edge Added to Rep:4 1
+Edge Added to Rep:20 29
+Edge Added to Rep:17 14
+Edge Added to Rep:11 12
+Edge Added to Rep:3 15
+Edge Added to Rep:26 29
+Edge Added to Rep:33 5
+Edge Added to Rep:8 29
+Edge Added to Rep:31 20
+Edge Added to Rep:6 32
+Edge Added to Rep:8 13
+Edge Added to Rep:11 1
+Edge Added to Rep:4 31
+Edge Added to Rep:3 10
+Edge Added to Rep:27 4
+Edge Added to Rep:7 34
+Edge Added to Rep:23 13
+Edge Added to Rep:1 2
+Edge Added to Rep:5 15
+Edge Added to Rep:31 25
+Edge Added to Rep:1 14
+Edge Added to Rep:18 28
+Edge Added to Rep:9 35
+Edge Added to Rep:9 13
+Edge Added to Rep:16 35
+Edge Added to Rep:33 14
+Edge Added to Rep:30 28
+Edge Added to Rep:16 21
+Edge Added to Rep:0 32
+Edge Added to Rep:7 28
+Edge Added to Rep:16 30
+Edge Added to Rep:6 19
+Edge Added to Rep:10 27
+Edge Added to Rep:20 28
+Edge Added to Rep:2 35
+Edge Added to Rep:33 35
+Edge Added to Rep:5 21
+Edge Added to Rep:7 13
+Edge Added to Rep:2 17
+Edge Added to Rep:0 16
+Edge Added to Rep:10 35
+Edge Added to Rep:31 19
+Edge Added to Rep:34 25
+Edge Added to Rep:24 30
+Edge Added to Rep:17 26
+Edge Added to Rep:32 18
+Edge Added to Rep:28 26
+Edge Added to Rep:2 25
+Edge Added to Rep:0 9
+Edge Added to Rep:25 18
+Edge Added to Rep:30 9
+Edge Added to Rep:22 35
+Edge Added to Rep:30 26
+Edge Added to Rep:34 6
+Representative sim = 292
+Pruned Ctree internal node since weighted similarity falls below threshold=320.0 !
+Result: Query_time(ms) Ans_size Access_ratio
+33.000000 0.000000 0.007143

@@ -318,6 +318,7 @@ public class LGraph implements Graph {
   		if(prob>=probThresh){ // only if prob of graph >= probThresh, use it to compute weighted sim
     		LGraph graph = new LGraph(this.V, edges.toArray(edgesArray) ,this.id+"_"+i);
     		graph.probOfGraph = prob;
+    		graph.probMap = this.probMap;
     		graphs[cnt]=graph;
     		cnt++;
   		}

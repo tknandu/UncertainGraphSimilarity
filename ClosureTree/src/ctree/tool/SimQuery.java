@@ -9,6 +9,7 @@ import ctree.mapper.*;
 import ctree.util.*;
 
 import ctree.lgraph.*;
+import java.io.File;
 import java.io.PrintWriter;
 
 import ctree.tool.BuildCTree;;
@@ -41,10 +42,10 @@ public class SimQuery {
     }
 
     public static void main(String[] args) throws Exception {
-   
+    	
+    	  //String[] customArgs = {"-range=0", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
+    		String[] customArgs = {"-range=320", "-probThresh=0.0", "-output=answerSet.txt", "graphDatabase.txt", "queryGraph.txt"};
 
-    	  String[] customArgs = {"-range=4", "-probThresh=0.0", "-output=output.txt", "toyDatabaseG.txt", "toyQueryG.txt"};
-    	  //String[] customArgs = {"-range=106", "-probThresh=0.0", "-output=output.txt", "toyEvaluationGraph.txt", "evaluationQueryGraph.txt"};
     	
         Opt opt = new Opt(customArgs);
         if (opt.args() < 2) {
@@ -102,6 +103,19 @@ public class SimQuery {
             out = new PrintWriter(output);
         }
 
+        
+        
+        /*
+        // if you want to generate probability for database graphs
+        File file = new File("graphIdToProbMapping.txt");
+        PrintWriter probOutput = new PrintWriter(file);
+        SimRanker ranker = new SimRanker(ctree, mapper, graphSim, queries[0],strict);
+        ranker.generateProbs(graphs, queries, probOutput);
+        probOutput.close();
+        */
+        
+        
+        
         // We always compute exact sim even for internal node, so next comment is invalid
         // By strict ranking, the similarity between a ctree node and the query 
         // is computed by upper bound.
@@ -114,6 +128,7 @@ public class SimQuery {
         for (int i = 0; i < nQ; i++) {
         	  System.out.println("For query graph:");
         	  System.out.println(queries[i].toString());
+        	  
             long query_time = System.currentTimeMillis();
 
             Vector<RankerEntry> ans;
@@ -131,7 +146,12 @@ public class SimQuery {
             		   the uncertain graph whose prob > probThreshold and set sim = weighted similarity of those possible 
             		   worlds */
                 //ans = samplingRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
-            	ans = ADRRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+
+
+                /* Representative graph approach */
+                 ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+
+
             }
             query_time = System.currentTimeMillis() - query_time;
 
