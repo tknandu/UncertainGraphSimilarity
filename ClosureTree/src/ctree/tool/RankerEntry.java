@@ -15,6 +15,10 @@ public class RankerEntry implements Comparable {
   private Object obj; // Graph or CTreeNode
   public double prob; // pronbability of mapped version of prob graph
   
+  public RankerEntry() {
+  	
+  }
+  
   public RankerEntry(double _dist, Object _obj) {
     dist = _dist;
     obj = _obj;

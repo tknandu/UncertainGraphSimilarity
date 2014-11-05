@@ -1,5 +1,6 @@
 package ctree.tool;
 
+import java.io.PrintWriter;
 import java.util.*;
 import ctree.graph.*;
 import ctree.lgraph.LGraph;
@@ -401,6 +402,31 @@ public class SimRanker {
     return ans;
   }
 
+  public void generateProbs(LGraph[] graphs, Graph[] queries, PrintWriter output) {
+  	
+  	int noOfSampledGraphs = 1000;
+  	double probThresh = 0.0;
+  	RankerEntry entry = new RankerEntry();
+  	
+	  for(int i=0; i<queries.length; i++){	
+	  	for(int j=0; j<graphs.length; j++){
+	  		LGraph[] sampledGraphs = ((LGraph)graphs[j]).sampledGraphs(noOfSampledGraphs, probThresh);
+	  		double prob_Num = 0.0, prob_Den = 0.0;
+	  		int size = 0;
+	  		
+	  		for(int k=0; k<sampledGraphs.length; k++){
+	  			int[] map = ((NeighborBiasedMapper)mapper).mapAndReturnProb((LGraph)queries[i], sampledGraphs[k], entry);
+	  			size+= sampledGraphs[k].numE();
+	  			prob_Num += sampledGraphs[k].probOfGraph * entry.prob;
+	  			prob_Den += sampledGraphs[k].probOfGraph;
+	  		}
+	  		
+	  		System.out.println("Id: "+graphs[j].id()+" Prob: "+(prob_Num/prob_Den)+" Avg no edges: "+(double)size/sampledGraphs.length);
+	  	}
+	  }
+  	
+  }
+  
   public void clear() {
     pqueue.clear();
     accessCount = 0;
