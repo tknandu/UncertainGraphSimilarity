@@ -6,7 +6,7 @@ graphToSimMapping=open("graphIdToSimMapping.txt")
 graphToProbMapping=open("graphIdToProbMapping.txt")
 answerSet=open("answerSet.txt")
 
-simThreshold = int(sim) 
+simThreshold = float(sim) 
 probThreshold= float(prob)
 
 groundPositives=[]
@@ -22,7 +22,7 @@ for line in graphToProbMapping:
 for line in graphToSimMapping:
 	words=line.split()
 	graphId=int(words[0][1:])
-	graphSimilarity=int(words[1])
+	graphSimilarity=float(words[1])
 	if graphSimilarity>=simThreshold and graphIdToProbMap[graphId]>=probThreshold:
 		groundPositives.append(graphId)
 	else:

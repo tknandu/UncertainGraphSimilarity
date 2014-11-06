@@ -110,8 +110,8 @@ evaluationFile=open("graphIdToSimMapping.txt","w")
 sampleSet=[]
 for editDistance in range(2,16):
 	for sampleSize in range(5):
-		sampleSet.append((deleteEdges(Q,editDistance),editDistance))
-		sampleSet.append((deleteEdges(Q,editDistance),editDistance))
+		sampleSet.append((deleteEdges(Q,editDistance),editDistance*0.75))
+		sampleSet.append((deleteEdges(Q,editDistance),editDistance*0.75))
 		sampleSet.append((relabelNodes(Q,editDistance,labelList),editDistance))
 		sampleSet.append((relabelNodes(Q,editDistance,labelList),editDistance))
 #for sampleCount in range(5):
@@ -128,7 +128,7 @@ for (sampleIndex,graphSample) in enumerate(sampleSet):
 	evaluationFile.write("#"+str(sampleIndex)+" ")
 	editDistance=graphSample[1]
 	queryNodes=nx.number_of_nodes(Q)
-	queryEdges=nx.number_of_edges(Q)
+	queryEdges=0.75*nx.number_of_edges(Q)
 	similarity=queryNodes+queryEdges-editDistance
 	evaluationFile.write(str(similarity)+"\n")
 	printGraph(graphSample[0])

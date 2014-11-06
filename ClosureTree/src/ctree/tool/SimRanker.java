@@ -243,12 +243,12 @@ public class SimRanker {
            for(int j=0; j<sampledGraphs.length; j++){
           	 int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraphs[j]); // probability of mapped Ctree node not considered for pruning here
           	 int sim = graphSim.sim(query, sampledGraphs[j], map); 
-          	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim;
+          	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim*((double)g.numE()/sampledGraphs[j].numE());
           	 weightedSim_Den += sampledGraphs[j].probOfGraph;
            }
             
            weightedSim = weightedSim_Num/weightedSim_Den;
-           
+          
             System.out.println("Weighted sim = "+weightedSim);
             
             if(weightedSim < range){
@@ -270,7 +270,7 @@ public class SimRanker {
            for(int j=0; j<sampledGraphs.length; j++){
           	 int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraphs[j]); // probability of mapped Ctree node not considered for pruning here
           	 int sim = graphSim.sim(query, sampledGraphs[j], map); 
-          	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim;
+          	weightedSim_Num += sampledGraphs[j].probOfGraph * sim*((double)g.numE()/sampledGraphs[j].numE());
           	 weightedSim_Den += sampledGraphs[j].probOfGraph;
            }
             
@@ -319,16 +319,17 @@ public class SimRanker {
 	        for (int i = 0; i < node.getEntries().size(); i++) {
 	          Object child = node.childAt(i);
 	          Graph g = node.childGraphAt(i); // if g is not a leaf node, its closure is returned 
-	          int repSim;
+	          double repSim;
 	          
 	          if (strictRanking && !node.isLeaf()) { 
 	          	
 	            LGraph sampledGraph = ((LGraph)g).GPRepresentative();
 	            //System.out.println("Number of sampled deterministic graphs with prob>probThresh= "+sampledGraphs.length);
 	          	int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraph); // probability of mapped Ctree node not considered for pruning here
-	          	repSim = graphSim.sim(query, sampledGraph,map); 
+	          	repSim = graphSim.sim(query, sampledGraph,map);
+	          	repSim *=((double)g.numE()/sampledGraph.numE());
 	          	System.out.println("Representative sim = "+repSim);
-	            
+	          	System.out.println("Representative edges = "+sampledGraph.E().length);
 	            if(repSim < range){
 	            	System.out.println("Pruned Ctree internal node since weighted similarity falls below threshold="+ range+" !");
 	            	accessCount++;
@@ -344,9 +345,10 @@ public class SimRanker {
 		            LGraph sampledGraph = ((LGraph)g).GPRepresentative();
 		            //System.out.println("Number of sampled deterministic graphs with prob>probThresh= "+sampledGraphs.length);
 		          	int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraph); // probability of mapped Ctree node not considered for pruning here
-		          	repSim = graphSim.sim(query, sampledGraph,map); 
+		          	repSim = graphSim.sim(query, sampledGraph,map);
+		          	repSim *=((double)g.numE()/sampledGraph.numE());
 		          	System.out.println("Representative sim = "+repSim);
-	            
+		          	System.out.println("Representative edges = "+sampledGraph.E().length);
 	            if(repSim < range){
 	            	System.out.println("Graph is not in answer set since since weighted similarity falls below threshold="+ range+" !");
 	            }

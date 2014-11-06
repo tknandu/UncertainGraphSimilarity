@@ -166,7 +166,7 @@ public class LGraph implements Graph {
 		  if(Math.abs(disv1+1)+Math.abs(disv2+1)<Math.abs(disv1)+Math.abs(disv2))
 		  {
 			  selectedEdges.add(e);
-			  System.out.println("Edge Added to Rep:"+e.v1+" "+e.v2);
+			  //System.out.println("Edge Added to Rep:"+e.v1+" "+e.v2);
 			  discrepancies[e.v1]+=1;
 			  discrepancies[e.v2]+=1;
 		  }
