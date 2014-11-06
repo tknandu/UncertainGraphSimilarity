@@ -62,6 +62,8 @@ def addNodes(G,alpha,labelList):
 
 def deleteEdges(G,alpha):
 	sampleGraph=G.copy()
+	addProbabilities(sampleGraph)
+	editDistance=0.0
 	n=nx.number_of_nodes(G)	
 	for edgeDeletion in range(alpha):
 		if nx.number_of_edges(sampleGraph)==0:
@@ -73,10 +75,10 @@ def deleteEdges(G,alpha):
 			if j not in sampleGraph[i]:
 				continue
 			else:
+				editDistance+=sampleGraph.edge[i][j]['prob']
 				sampleGraph.remove_edge(i,j)
 				break
-	addProbabilities(sampleGraph)
-	return sampleGraph
+	return (sampleGraph,editDistance)
 
 def relabelNodes(G,alpha,labelList):
 	sampleGraph=G.copy()
@@ -99,7 +101,7 @@ def relabelNodes(G,alpha,labelList):
 						break
 				break
 	addProbabilities(sampleGraph)
-	return sampleGraph
+	return (sampleGraph,alpha)
 
 labelList=["A","B","C"]
 
@@ -110,10 +112,10 @@ evaluationFile=open("graphIdToSimMapping.txt","w")
 sampleSet=[]
 for editDistance in range(2,16):
 	for sampleSize in range(5):
-		sampleSet.append((deleteEdges(Q,editDistance),editDistance*0.75))
-		sampleSet.append((deleteEdges(Q,editDistance),editDistance*0.75))
-		sampleSet.append((relabelNodes(Q,editDistance,labelList),editDistance))
-		sampleSet.append((relabelNodes(Q,editDistance,labelList),editDistance))
+		sampleSet.append(deleteEdges(Q,editDistance))
+		sampleSet.append(deleteEdges(Q,editDistance))
+		sampleSet.append(relabelNodes(Q,editDistance,labelList))
+		sampleSet.append(relabelNodes(Q,editDistance,labelList))
 #for sampleCount in range(5):
 #	sampleSet+=[(graphSample,2) for graphSample in addNodes(Q,2,labelList)]
 #	sampleSet+=[(graphSample,3) for graphSample in addNodes(Q,3,labelList)]
