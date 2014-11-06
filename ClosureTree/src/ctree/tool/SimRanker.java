@@ -244,8 +244,9 @@ public class SimRanker {
             
            for(int j=0; j<sampledGraphs.length; j++){
           	 int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraphs[j]); // probability of mapped Ctree node not considered for pruning here
-          	 int sim = graphSim.sim(query, sampledGraphs[j], map); 
-          	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim*((double)g.numE()/sampledGraphs[j].numE());
+          	 int sim = graphSim.sim(query, sampledGraphs[j], map);
+          	 double scalingFactor=(((double)g.numE()/sampledGraphs[j].numE())-1.0)*0.75;///2.0;
+          	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim*(1.0+scalingFactor);
           	 weightedSim_Den += sampledGraphs[j].probOfGraph;
            }
             
@@ -272,7 +273,8 @@ public class SimRanker {
            for(int j=0; j<sampledGraphs.length; j++){
           	 int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraphs[j]); // probability of mapped Ctree node not considered for pruning here
           	 int sim = graphSim.sim(query, sampledGraphs[j], map); 
-          	weightedSim_Num += sampledGraphs[j].probOfGraph * sim*((double)g.numE()/sampledGraphs[j].numE());
+          	 double scalingFactor=(((double)g.numE()/sampledGraphs[j].numE())-1.0)*0.7;///2.0;
+          	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim*(1.0+scalingFactor);
           	 weightedSim_Den += sampledGraphs[j].probOfGraph;
            }
             
@@ -329,7 +331,8 @@ public class SimRanker {
 	            //System.out.println("Number of sampled deterministic graphs with prob>probThresh= "+sampledGraphs.length);
 	          	int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraph); // probability of mapped Ctree node not considered for pruning here
 	          	repSim = graphSim.sim(query, sampledGraph,map);
-	          	//repSim *=((double)g.numE()/sampledGraph.numE());
+	          	double scalingFactor=(((double)g.numE()/sampledGraph.numE())-1.0);
+	          	repSim *=(1+scalingFactor);
 	          	System.out.println("Representative sim = "+repSim);
 	          	System.out.println("Representative edges = "+sampledGraph.E().length);
 	            if(repSim < range){
@@ -348,7 +351,8 @@ public class SimRanker {
 		            //System.out.println("Number of sampled deterministic graphs with prob>probThresh= "+sampledGraphs.length);
 		          	int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraph); // probability of mapped Ctree node not considered for pruning here
 		          	repSim = graphSim.sim(query, sampledGraph,map);
-		          	//repSim *=((double)g.numE()/sampledGraph.numE());
+		          	double scalingFactor=(((double)g.numE()/sampledGraph.numE())-1.0);
+		          	repSim *=(1+scalingFactor);
 		          	System.out.println("Representative sim = "+repSim);
 		          	System.out.println("Representative edges = "+sampledGraph.E().length);
 	            if(repSim < range){
