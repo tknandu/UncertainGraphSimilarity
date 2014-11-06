@@ -40,6 +40,31 @@ public class LGraphSim implements GraphSim {
     return sim;
   }
 
+  public double simUncertain(Graph g1, Graph g2, int[] map) {
+    double sim = 0.0;
+    
+    for (int i = 0; i < map.length; i++) {
+      if (map[i] >= 0) {
+        sim += VSIM;
+      }
+    }
+    
+    Edge[] E1 = g1.E();
+    int[][] adj2 = g2.adjMatrix();
+    for (int i = 0; i < E1.length; i++) {
+      Edge e = E1[i];
+      if (map[e.v1()] >= 0 && map[e.v2()] >= 0 && adj2[map[e.v1()]][map[e.v2()]] > 0) {
+        //sim += ESIM;
+      	if(map[e.v1()]<map[e.v2()])
+      		sim += ((LGraph)g2).probMap.get(map[e.v1()]+","+map[e.v2()]);
+      	else
+      		sim += ((LGraph)g2).probMap.get(map[e.v2()]+","+map[e.v1()]);
+      }
+    }
+    return sim;
+  }
+  
+  
   public int simLower(Graph g1, Graph g2) {
     int[][] B = Util.getBipartiteMatrix(g1, g2);
     int[] map = new int[g1.numV()];

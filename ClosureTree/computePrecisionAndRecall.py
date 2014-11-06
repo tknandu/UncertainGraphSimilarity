@@ -37,8 +37,8 @@ for lineNumber,line in enumerate(answerSet):
 	graphId=int(words[1])
 	if graphId in groundPositives:
 		truePositives.append(graphId)
-	else:
-		print graphId
+	#else:
+		#print graphId
 	positives.append(graphId)
 
 precision=(len(truePositives)+0.0)/(len(positives)+0.0)

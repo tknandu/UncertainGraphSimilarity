@@ -262,7 +262,6 @@ public class NeighborBiasedMapping {
         //System.out.println(n1+" "+n2+" "+maxSize);
         
 
-        System.out.println("Probability of G2 after mapping = "+probOfMappedG2);
         System.out.println("G2's id:"+g2.getId());
 
         /*

@@ -10,6 +10,8 @@ import ctree.graph.*;
  */
 public interface GraphSim extends java.io.Serializable {
   int sim(Graph g1, Graph g2, int[] map);
+  
+  double simUncertain(Graph g1, Graph g2, int[] map);
 
   int simUpper(Graph g1, Graph g2);
 

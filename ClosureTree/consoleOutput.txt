@@ -208,1029 +208,1116 @@ A
 26 28
 27 28
 
-Upper bound of sim = 201 Exact sim = 197.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 201 Exact sim = 201.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 200 Exact sim = 195.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 201 Exact sim = 196.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 199 Exact sim = 199.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 201 Exact sim = 201.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 199 Exact sim = 196.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 199 Exact sim = 190.0
-Pruned Ctree internal node since similarity falls below threshold=193.0 !
-Upper bound of sim = 201 Exact sim = 197.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 200 Exact sim = 200.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 200 Exact sim = 200.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 201 Exact sim = 199.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 199 Exact sim = 198.0
-Ctree internal node is not pruned since similarity is above threshold=193.0
-
-Upper bound of sim = 201 Exact sim = 181.0
-Pruned Ctree internal node since similarity falls below threshold=193.0 !
-Exact sim to graph 37= 198.0
-Probability of mapped version of graph 37= 2.015757510461188E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 40= 197.0
-Probability of mapped version of graph 40= 3.4977826060246007E-25
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 41= 197.0
-Probability of mapped version of graph 41= 1.2648193570157686E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 44= 197.0
-Probability of mapped version of graph 44= 1.897029389029474E-25
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 45= 197.0
-Probability of mapped version of graph 45= 1.935161540819073E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 48= 197.0
-Probability of mapped version of graph 48= 1.0259151626160702E-21
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 49= 197.0
-Probability of mapped version of graph 49= 4.566606211615731E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 50= 201.0
-Probability of mapped version of graph 50= 8.163065403049531E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 52= 197.0
-Probability of mapped version of graph 52= 4.953974396546338E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 53= 197.0
-Probability of mapped version of graph 53= 1.3420753265273835E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 56= 197.0
-Probability of mapped version of graph 56= 3.384829149408877E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 57= 197.0
-Probability of mapped version of graph 57= 5.944473421480257E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 60= 196.0
-Probability of mapped version of graph 60= 1.067590868175499E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 61= 196.0
-Probability of mapped version of graph 61= 9.297448259073099E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 63= 187.0
-Probability of mapped version of graph 63= 3.376111641834115E-24
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 64= 196.0
-Probability of mapped version of graph 64= 2.2819643677786892E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 65= 196.0
-Probability of mapped version of graph 65= 1.6652124841594892E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 68= 196.0
-Probability of mapped version of graph 68= 2.8897348739294415E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 69= 196.0
-Probability of mapped version of graph 69= 6.036082883806046E-21
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 72= 196.0
-Probability of mapped version of graph 72= 1.632271100356299E-21
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 73= 196.0
-Probability of mapped version of graph 73= 6.0371745593264844E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 76= 196.0
-Probability of mapped version of graph 76= 1.0602039510992723E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 2= 171.0
-Probability of mapped version of graph 2= 4.027208804971534E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 3= 201.0
-Probability of mapped version of graph 3= 2.3706444923080886E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 31= 174.0
-Probability of mapped version of graph 31= 8.025092768608583E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 74= 186.0
-Probability of mapped version of graph 74= 3.9007736820810723E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 99= 143.0
-Probability of mapped version of graph 99= 1.719007609077636E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 107= 166.0
-Probability of mapped version of graph 107= 7.347106933320125E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 124= 193.0
-Probability of mapped version of graph 124= 1.2815332049593396E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 125= 193.0
-Probability of mapped version of graph 125= 1.4020431602253184E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 128= 193.0
-Probability of mapped version of graph 128= 4.270192656765761E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 129= 193.0
-Probability of mapped version of graph 129= 8.075860706575322E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 132= 193.0
-Probability of mapped version of graph 132= 2.5511789185363317E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 133= 193.0
-Probability of mapped version of graph 133= 2.0604281730499268E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 136= 193.0
-Probability of mapped version of graph 136= 2.2953077174721757E-21
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 137= 193.0
-Probability of mapped version of graph 137= 7.43795907047667E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 140= 192.0
-Probability of mapped version of graph 140= 3.798673503066816E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 141= 192.0
-Probability of mapped version of graph 141= 1.9692443844192632E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 144= 192.0
-Probability of mapped version of graph 144= 1.7821860003606103E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 145= 192.0
-Probability of mapped version of graph 145= 7.610273324583174E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 148= 192.0
-Probability of mapped version of graph 148= 7.286694770378057E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 149= 192.0
-Probability of mapped version of graph 149= 1.683996735098333E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 43= 175.0
-Probability of mapped version of graph 43= 3.220085282107703E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 54= 149.0
-Probability of mapped version of graph 54= 3.8140037001638418E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 83= 201.0
-Probability of mapped version of graph 83= 4.6747511930386126E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 90= 176.0
-Probability of mapped version of graph 90= 9.180102965588563E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 91= 134.0
-Probability of mapped version of graph 91= 1.478411584141886E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 95= 201.0
-Probability of mapped version of graph 95= 1.6352913545422617E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 98= 144.0
-Probability of mapped version of graph 98= 3.0208734053375898E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 131= 178.0
-Probability of mapped version of graph 131= 6.250432036883066E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 135= 161.0
-Probability of mapped version of graph 135= 1.954640070332993E-19
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 138= 128.0
-Probability of mapped version of graph 138= 3.3889222398460146E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 154= 191.0
-Probability of mapped version of graph 154= 8.72714216510833E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 175= 132.0
-Probability of mapped version of graph 175= 4.15210412834528E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 182= 134.0
-Probability of mapped version of graph 182= 2.403374742165503E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 195= 137.0
-Probability of mapped version of graph 195= 4.6385490611503915E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 207= 132.0
-Probability of mapped version of graph 207= 5.626820180118671E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 219= 201.0
-Probability of mapped version of graph 219= 1.942850691172988E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 222= 131.0
-Probability of mapped version of graph 222= 7.25201643432444E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 223= 128.0
-Probability of mapped version of graph 223= 1.6725396177386107E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 254= 140.0
-Probability of mapped version of graph 254= 6.845188184224286E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 262= 133.0
-Probability of mapped version of graph 262= 3.56327452453713E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 279= 135.0
-Probability of mapped version of graph 279= 2.560865111122421E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 51= 201.0
-Probability of mapped version of graph 51= 1.1456285237904078E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 71= 188.0
-Probability of mapped version of graph 71= 4.783944440561209E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 87= 133.0
-Probability of mapped version of graph 87= 1.540968295664678E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 171= 138.0
-Probability of mapped version of graph 171= 3.0318853098789798E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 179= 130.0
-Probability of mapped version of graph 179= 4.036339765096741E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 192= 190.0
-Probability of mapped version of graph 192= 1.5691974704774093E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 193= 190.0
-Probability of mapped version of graph 193= 3.6679969323190595E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 196= 190.0
-Probability of mapped version of graph 196= 2.292436876673218E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 197= 190.0
-Probability of mapped version of graph 197= 8.927704129245552E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 200= 189.0
-Probability of mapped version of graph 200= 1.0353191383630166E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 201= 189.0
-Probability of mapped version of graph 201= 3.700480504915088E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 204= 146.0
-Probability of mapped version of graph 204= 4.534119524297435E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 205= 159.0
-Probability of mapped version of graph 205= 3.025829139737355E-18
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 208= 159.0
-Probability of mapped version of graph 208= 2.31802590428529E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 209= 189.0
-Probability of mapped version of graph 209= 1.4506577318912185E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 212= 189.0
-Probability of mapped version of graph 212= 9.213410499484348E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 213= 180.0
-Probability of mapped version of graph 213= 9.005548248189798E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 216= 189.0
-Probability of mapped version of graph 216= 1.1434647887481281E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 217= 176.0
-Probability of mapped version of graph 217= 1.532826937823288E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 220= 188.0
-Probability of mapped version of graph 220= 2.0227151600754424E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 221= 188.0
-Probability of mapped version of graph 221= 3.677154806987299E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 227= 130.0
-Probability of mapped version of graph 227= 1.270188844991003E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 234= 131.0
-Probability of mapped version of graph 234= 7.751320996513206E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 238= 132.0
-Probability of mapped version of graph 238= 3.4594921751307E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 251= 141.0
-Probability of mapped version of graph 251= 3.080865309456686E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 259= 130.0
-Probability of mapped version of graph 259= 5.333527411106473E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 7= 154.0
-Probability of mapped version of graph 7= 3.758709312939512E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 11= 189.0
-Probability of mapped version of graph 11= 2.7497404879749025E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 38= 201.0
-Probability of mapped version of graph 38= 1.384105548113814E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 42= 189.0
-Probability of mapped version of graph 42= 1.6368641293266334E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 46= 188.0
-Probability of mapped version of graph 46= 1.1064274768958676E-19
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 55= 201.0
-Probability of mapped version of graph 55= 7.552132827450848E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 58= 156.0
-Probability of mapped version of graph 58= 4.4406837493885754E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 59= 130.0
-Probability of mapped version of graph 59= 1.5534988010044215E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 62= 155.0
-Probability of mapped version of graph 62= 4.3204306918035024E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 75= 191.0
-Probability of mapped version of graph 75= 6.798077125732381E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 94= 191.0
-Probability of mapped version of graph 94= 7.445866719265113E-25
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 110= 135.0
-Probability of mapped version of graph 110= 4.237374488317528E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 118= 143.0
-Probability of mapped version of graph 118= 2.4384731705214374E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 123= 147.0
-Probability of mapped version of graph 123= 7.035195510821275E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 127= 167.0
-Probability of mapped version of graph 127= 6.28614430279883E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 151= 179.0
-Probability of mapped version of graph 151= 2.3786953722907094E-19
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 163= 140.0
-Probability of mapped version of graph 163= 5.795516488398449E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 230= 133.0
-Probability of mapped version of graph 230= 7.040573410621357E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 270= 135.0
-Probability of mapped version of graph 270= 8.431071465861375E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 274= 135.0
-Probability of mapped version of graph 274= 2.0811811033322333E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 167= 134.0
-Probability of mapped version of graph 167= 7.671792579351485E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 170= 132.0
-Probability of mapped version of graph 170= 1.6101197093787516E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 186= 134.0
-Probability of mapped version of graph 186= 2.464717132848099E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 187= 134.0
-Probability of mapped version of graph 187= 9.06337526919031E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 194= 162.0
-Probability of mapped version of graph 194= 2.9179780292898124E-18
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 211= 133.0
-Probability of mapped version of graph 211= 2.6732283608564214E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 214= 135.0
-Probability of mapped version of graph 214= 2.1587590247684377E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 224= 188.0
-Probability of mapped version of graph 224= 3.133617710714529E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 225= 177.0
-Probability of mapped version of graph 225= 4.275924846981193E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 228= 188.0
-Probability of mapped version of graph 228= 4.138838730617719E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 229= 188.0
-Probability of mapped version of graph 229= 3.314563605807791E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 232= 188.0
-Probability of mapped version of graph 232= 6.71221286918205E-24
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 233= 188.0
-Probability of mapped version of graph 233= 2.8894103652023323E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 236= 188.0
-Probability of mapped version of graph 236= 8.08984973912741E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 237= 188.0
-Probability of mapped version of graph 237= 2.8202735317689304E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 26= 143.0
-Probability of mapped version of graph 26= 8.163517993502104E-18
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 47= 201.0
-Probability of mapped version of graph 47= 1.3823749665895601E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 79= 145.0
-Probability of mapped version of graph 79= 9.618626881573262E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 119= 157.0
-Probability of mapped version of graph 119= 2.4323121262001785E-18
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 126= 131.0
-Probability of mapped version of graph 126= 1.4341080949585198E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 146= 142.0
-Probability of mapped version of graph 146= 1.8649459831401411E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 190= 130.0
-Probability of mapped version of graph 190= 3.798444126449955E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 198= 201.0
-Probability of mapped version of graph 198= 2.1066262178261215E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 215= 191.0
-Probability of mapped version of graph 215= 1.2447505721912827E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 231= 127.0
-Probability of mapped version of graph 231= 2.013294792231751E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 242= 191.0
-Probability of mapped version of graph 242= 4.837014069764242E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 250= 135.0
-Probability of mapped version of graph 250= 6.27864371098637E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 255= 139.0
-Probability of mapped version of graph 255= 5.595070376765363E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 263= 128.0
-Probability of mapped version of graph 263= 4.7565416538241125E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 266= 133.0
-Probability of mapped version of graph 266= 7.034717488712212E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 278= 132.0
-Probability of mapped version of graph 278= 4.100221443584787E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 14= 201.0
-Probability of mapped version of graph 14= 1.3285258708286628E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 30= 192.0
-Probability of mapped version of graph 30= 2.561815917045979E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 39= 201.0
-Probability of mapped version of graph 39= 1.4667872954153712E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 70= 201.0
-Probability of mapped version of graph 70= 1.15843117016053E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 106= 130.0
-Probability of mapped version of graph 106= 1.044373699233399E-12
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 147= 137.0
-Probability of mapped version of graph 147= 7.544180060879469E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 168= 191.0
-Probability of mapped version of graph 168= 4.1693437533325996E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 169= 191.0
-Probability of mapped version of graph 169= 1.1364002894797008E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 172= 191.0
-Probability of mapped version of graph 172= 1.0534996911297412E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 173= 191.0
-Probability of mapped version of graph 173= 1.2036422811836695E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 176= 191.0
-Probability of mapped version of graph 176= 1.5118595011039368E-21
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 177= 191.0
-Probability of mapped version of graph 177= 1.9365596799293051E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 178= 130.0
-Probability of mapped version of graph 178= 8.921348260375684E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 180= 190.0
-Probability of mapped version of graph 180= 2.977701016176343E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 181= 173.0
-Probability of mapped version of graph 181= 9.938745940963779E-18
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 184= 190.0
-Probability of mapped version of graph 184= 1.973191372152958E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 185= 190.0
-Probability of mapped version of graph 185= 1.0467029504055032E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 188= 174.0
-Probability of mapped version of graph 188= 2.5260223766666342E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 189= 190.0
-Probability of mapped version of graph 189= 3.056951880112165E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 191= 142.0
-Probability of mapped version of graph 191= 2.721741437302614E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 0= 199.0
-Probability of mapped version of graph 0= 7.845319031599338E-26
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 1= 199.0
-Probability of mapped version of graph 1= 1.5399247687876246E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 4= 199.0
-Probability of mapped version of graph 4= 6.032979564764154E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 5= 199.0
-Probability of mapped version of graph 5= 1.0251250245675116E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 6= 169.0
-Probability of mapped version of graph 6= 5.868717691185429E-19
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 8= 199.0
-Probability of mapped version of graph 8= 4.419261088820421E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 9= 199.0
-Probability of mapped version of graph 9= 8.456404655689155E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 10= 192.0
-Probability of mapped version of graph 10= 6.140005902089256E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 12= 199.0
-Probability of mapped version of graph 12= 8.543813355624164E-25
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 13= 199.0
-Probability of mapped version of graph 13= 3.356657725961542E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 16= 199.0
-Probability of mapped version of graph 16= 1.189743639432349E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 17= 199.0
-Probability of mapped version of graph 17= 1.260563886401783E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 20= 198.0
-Probability of mapped version of graph 20= 5.807186080066261E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 21= 198.0
-Probability of mapped version of graph 21= 8.868392670010939E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 24= 198.0
-Probability of mapped version of graph 24= 1.1769126565884581E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 25= 198.0
-Probability of mapped version of graph 25= 6.256358178899099E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 27= 150.0
-Probability of mapped version of graph 27= 2.4068619345803994E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 28= 198.0
-Probability of mapped version of graph 28= 1.8673542275739856E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 29= 198.0
-Probability of mapped version of graph 29= 1.0881599281703627E-21
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 32= 198.0
-Probability of mapped version of graph 32= 5.602073290606208E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 33= 198.0
-Probability of mapped version of graph 33= 1.2044766791668589E-20
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 36= 198.0
-Probability of mapped version of graph 36= 7.048077719807714E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 100= 194.0
-Probability of mapped version of graph 100= 4.006329182653228E-21
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 101= 194.0
-Probability of mapped version of graph 101= 8.430762831269432E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 103= 146.0
-Probability of mapped version of graph 103= 1.2638034764024736E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 104= 194.0
-Probability of mapped version of graph 104= 1.8924727119342437E-25
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 105= 194.0
-Probability of mapped version of graph 105= 1.7591597829980555E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 108= 194.0
-Probability of mapped version of graph 108= 9.987433325193243E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 109= 194.0
-Probability of mapped version of graph 109= 1.636010641892425E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 112= 194.0
-Probability of mapped version of graph 112= 6.445633021676085E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 113= 194.0
-Probability of mapped version of graph 113= 2.9555339956056227E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 114= 165.0
-Probability of mapped version of graph 114= 3.781470725569654E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 116= 194.0
-Probability of mapped version of graph 116= 1.552811371253471E-20
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 117= 194.0
-Probability of mapped version of graph 117= 1.248897200344499E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 120= 193.0
-Probability of mapped version of graph 120= 2.2511297604222414E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 121= 152.0
-Probability of mapped version of graph 121= 1.2569333728241687E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 122= 201.0
-Probability of mapped version of graph 122= 5.590113184365732E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 66= 137.0
-Probability of mapped version of graph 66= 7.739730078642948E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 102= 138.0
-Probability of mapped version of graph 102= 1.9230724925906593E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 111= 184.0
-Probability of mapped version of graph 111= 3.1468958312770134E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 115= 136.0
-Probability of mapped version of graph 115= 6.58728965629994E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 139= 192.0
-Probability of mapped version of graph 139= 1.9040554206856123E-25
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 150= 191.0
-Probability of mapped version of graph 150= 5.547567395456145E-23
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 158= 140.0
-Probability of mapped version of graph 158= 4.684926987741073E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 159= 135.0
-Probability of mapped version of graph 159= 1.270999036709999E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 166= 135.0
-Probability of mapped version of graph 166= 7.867986751497933E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 183= 128.0
-Probability of mapped version of graph 183= 4.891030221276217E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 202= 120.0
-Probability of mapped version of graph 202= 1.4817778395698136E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 203= 136.0
-Probability of mapped version of graph 203= 1.5428304081996473E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 210= 134.0
-Probability of mapped version of graph 210= 5.752810544435274E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 218= 161.0
-Probability of mapped version of graph 218= 3.531343549609094E-18
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 226= 128.0
-Probability of mapped version of graph 226= 5.942395909040869E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 246= 135.0
-Probability of mapped version of graph 246= 7.763870078417072E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 247= 140.0
-Probability of mapped version of graph 247= 1.7936599817005103E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 258= 124.0
-Probability of mapped version of graph 258= 1.3956587424809385E-12
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 267= 129.0
-Probability of mapped version of graph 267= 2.3264517317478237E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 15= 201.0
-Probability of mapped version of graph 15= 3.36476672393499E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 18= 187.0
-Probability of mapped version of graph 18= 7.557283101811137E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 19= 201.0
-Probability of mapped version of graph 19= 1.4603765226725783E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 22= 201.0
-Probability of mapped version of graph 22= 1.2902724047271246E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 23= 201.0
-Probability of mapped version of graph 23= 2.6305399823591106E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 34= 190.0
-Probability of mapped version of graph 34= 3.5914218174819144E-22
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 35= 152.0
-Probability of mapped version of graph 35= 1.9921338264673186E-17
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 67= 176.0
-Probability of mapped version of graph 67= 1.757491721258583E-20
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 77= 196.0
-Probability of mapped version of graph 77= 2.3049509494657055E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 78= 139.0
-Probability of mapped version of graph 78= 1.594863510630315E-14
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 80= 195.0
-Probability of mapped version of graph 80= 3.4992562090287904E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 81= 195.0
-Probability of mapped version of graph 81= 3.248909603833942E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 82= 182.0
-Probability of mapped version of graph 82= 1.521926714529897E-18
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 84= 195.0
-Probability of mapped version of graph 84= 1.6314327431873823E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 85= 195.0
-Probability of mapped version of graph 85= 1.164145788617406E-23
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 86= 161.0
-Probability of mapped version of graph 86= 3.3397473985629046E-19
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 88= 195.0
-Probability of mapped version of graph 88= 1.6040468023511876E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 89= 195.0
-Probability of mapped version of graph 89= 4.280576466148597E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 92= 195.0
-Probability of mapped version of graph 92= 4.226467112769498E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 93= 195.0
-Probability of mapped version of graph 93= 2.90689370737746E-24
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 96= 195.0
-Probability of mapped version of graph 96= 9.516737327471268E-25
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 97= 195.0
-Probability of mapped version of graph 97= 8.279594621277451E-22
-Graph is in answer set since similarity > threshold=193.0 and prob > threshold=2.1294038288374836E-77
-
-Exact sim to graph 130= 133.0
-Probability of mapped version of graph 130= 1.7587078170893833E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 142= 136.0
-Probability of mapped version of graph 142= 1.4031152337235838E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 143= 135.0
-Probability of mapped version of graph 143= 4.872648452193081E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 162= 136.0
-Probability of mapped version of graph 162= 2.2295340552253657E-16
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 206= 132.0
-Probability of mapped version of graph 206= 8.579248275302928E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 235= 138.0
-Probability of mapped version of graph 235= 7.221059566113139E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 239= 126.0
-Probability of mapped version of graph 239= 2.187800004532811E-15
-Graph is not in answer set since similarity falls below threshold=193.0 !
-
-Exact sim to graph 243= 137.0
-Probability of mapped version of graph 243= 1.4918294669905967E-13
-Graph is not in answer set since similarity falls below threshold=193.0 !
+Representative sim = 199.0
+Representative edges = 378
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 201.0
+Representative edges = 171
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 198.0
+Representative edges = 427
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 191.0
+Representative edges = 408
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 197.0
+Representative edges = 409
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 193.0
+Representative edges = 368
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 195.0
+Representative edges = 391
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 150.0
+Representative edges = 218
+Pruned Ctree internal node since weighted similarity falls below threshold=153.0 !
+Representative sim = 196.0
+Representative edges = 416
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 199.0
+Representative edges = 402
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 191.0
+Representative edges = 400
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 190.0
+Representative edges = 388
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 196.0
+Representative edges = 391
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 196.0
+Representative edges = 363
+Ctree internal node is not pruned since weighted similarity is above threshold=153.0
+
+Representative sim = 118.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 163.0
+Representative edges = 133
+Graph is in answer set since weighted similarity is above threshold=153.0
+
+Representative sim = 120.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 145.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 112.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 112.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 133.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 123.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 140.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 129.0
+Representative edges = 135
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 124.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 125.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 142.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 124.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 135.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 124.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 123.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 137.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 109.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 123.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 155.0
+Representative edges = 125
+Graph is in answer set since weighted similarity is above threshold=153.0
+
+Representative sim = 115.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 112.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 145.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 112.0
+Representative edges = 123
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 143.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 123
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 125.0
+Representative edges = 137
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 124.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 123.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 127.0
+Representative edges = 135
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 127.0
+Representative edges = 135
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 123.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 128.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 135
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 128.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 152.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 152.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 106.0
+Representative edges = 120
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 124.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 120
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 139.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 143.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 120
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 116
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 124.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 112.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 106.0
+Representative edges = 117
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 123
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 120
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 110.0
+Representative edges = 118
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 123
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 110.0
+Representative edges = 117
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 110.0
+Representative edges = 120
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 134.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 108.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 123.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 110.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 110.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 136
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 123
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 136
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 120
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 110.0
+Representative edges = 119
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 110.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 123
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 154.0
+Representative edges = 124
+Graph is in answer set since weighted similarity is above threshold=153.0
+
+Representative sim = 122.0
+Representative edges = 123
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 109.0
+Representative edges = 120
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 136.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 119
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 128.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 126.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 126.0
+Representative edges = 135
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 112.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 123.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 107.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 129.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 109.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 124.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 127
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 138.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 114.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 123
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 126
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 159.0
+Representative edges = 129
+Graph is in answer set since weighted similarity is above threshold=153.0
+
+Representative sim = 117.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 110.0
+Representative edges = 124
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 158.0
+Representative edges = 128
+Graph is in answer set since weighted similarity is above threshold=153.0
+
+Representative sim = 118.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 111.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 119.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 128.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 124.0
+Representative edges = 128
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 117.0
+Representative edges = 134
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 116.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 129.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 136
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 122.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 127.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 126.0
+Representative edges = 133
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 123.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 125
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 125.0
+Representative edges = 135
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 112.0
+Representative edges = 122
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 113.0
+Representative edges = 121
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 131
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 129
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 118.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 120.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 121.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 115.0
+Representative edges = 130
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
+
+Representative sim = 112.0
+Representative edges = 132
+Graph is not in answer set since since weighted similarity falls below threshold=153.0 !
 
 Result: Query_time(ms) Ans_size Access_ratio
-82.000000 87.000000 0.928571
+224.000000 5.000000 0.992857
