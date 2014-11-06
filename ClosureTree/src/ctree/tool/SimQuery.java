@@ -107,13 +107,13 @@ public class SimQuery {
         
         
         // if you want to generate probability for database graphs
-        /*
+        
         File file = new File("graphIdToProbMapping.txt");
         PrintWriter probOutput = new PrintWriter(file);
         SimRanker ranker = new SimRanker(ctree, mapper, graphSim, queries[0],strict);
         ranker.generateProbs(graphs, queries, probOutput);
         probOutput.close();
-        */
+        
         
         
         
