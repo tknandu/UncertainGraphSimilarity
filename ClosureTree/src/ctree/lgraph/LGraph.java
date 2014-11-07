@@ -249,7 +249,16 @@ public class LGraph implements Graph {
 			  {
 				  continue;
 			  }
-			  int v=adjacency.get(u).get(rand.nextInt(uDegree));
+			  Integer uInteger=null;
+			  for(Integer integer:adjacency.keySet())
+			  {
+				  if(integer==u)
+				  {
+					  uInteger=integer;
+					  break;
+				  }
+			  }
+			  Integer v=adjacency.get(u).get(rand.nextInt(uDegree));
 			  UnlabeledEdge e1=null;
 			  for(UnlabeledEdge e:selectedEdges)
 			  {
@@ -276,7 +285,7 @@ public class LGraph implements Graph {
 				  selectedEdges.remove(e1);
 				  excludedEdges.add(e1);
 				  adjacency.get(u).remove(v);
-				  adjacency.get(v).remove(u);
+				  adjacency.get(v).remove(uInteger);
 				  excludedEdges.remove(e2);
 				  selectedEdges.add(e2);
 				  adjacency.get(x).add(y);
@@ -290,7 +299,7 @@ public class LGraph implements Graph {
 	  }
 	  for(UnlabeledEdge e:selectedEdges)
 	  {
-		  System.out.println("ADRRepresentative: "+e.v1+" "+e.v2);
+		  //System.out.println("ADRRepresentative: "+e.v1+" "+e.v2);
 	  }
 	  UnlabeledEdge[] edgesArray = new UnlabeledEdge[selectedEdges.size()];
 	  LGraph GPRepresentative = new LGraph(this.V, selectedEdges.toArray(edgesArray) ,this.id+"*");

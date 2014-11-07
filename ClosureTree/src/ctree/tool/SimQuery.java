@@ -150,8 +150,8 @@ public class SimQuery {
 
 
                 /* Representative graph approach */
-                ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
-
+                //ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+            	ans = ADRRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
 
             }
             query_time = System.currentTimeMillis() - query_time;
@@ -385,7 +385,7 @@ public class SimQuery {
 
     public static Vector<RankerEntry> ADRRepresentativeRangeQuery(CTree ctree,GraphMapper mapper,GraphSim graphSim,Graph query, double range,boolean preciseRanking,double probThresh) 
     {
-    	int numberOfSteps=2;
+    	int numberOfSteps=20;
     	SimRanker ranker = new SimRanker(ctree, mapper, graphSim, query,
     			preciseRanking);
     	RankerEntry entry;
