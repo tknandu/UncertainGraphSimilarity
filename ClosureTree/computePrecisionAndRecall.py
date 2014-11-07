@@ -49,3 +49,4 @@ print 'No of true ground positives: ', len(groundPositives)
 print 'No of positives returned: ', len(positives)
 print 'Precision: ', precision
 print 'Recall: ', recall
+print 'F1-Score', (2*precision*recall)/(precision+recall)

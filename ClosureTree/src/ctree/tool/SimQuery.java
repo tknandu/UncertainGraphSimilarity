@@ -107,13 +107,13 @@ public class SimQuery {
         
         
         // if you want to generate probability for database graphs
-        
+        /*
         File file = new File("graphIdToProbMapping.txt");
         PrintWriter probOutput = new PrintWriter(file);
         SimRanker ranker = new SimRanker(ctree, mapper, graphSim, queries[0],strict);
         ranker.generateProbs(graphs, queries, probOutput);
         probOutput.close();
-        
+        */
         
         
         
@@ -136,6 +136,7 @@ public class SimQuery {
             if (knn) {
                 ans = kNNQuery(ctree, mapper, graphSim, queries[i], k, strict);
             } else {
+            	
             		/* in optimizedRangeQuery, you prune internal Ctree nodes which fail probability test */
                 //ans = optimizedRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict);
             	
@@ -149,8 +150,11 @@ public class SimQuery {
                 //ans = samplingRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
 
 
-                /* Representative graph approach */
-                ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+                /* Greedy Representative graph approach */
+                //ans = GPRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
+                
+                /* ADR Representative graph approach */
+                ans = ADRRepresentativeRangeQuery(ctree, mapper, graphSim, queries[i], -range, strict, probThresh);
 
 
             }

@@ -167,7 +167,8 @@ public class SimRanker {
           if (strictRanking && !node.isLeaf()) {
             int sim1 = graphSim.simUpper(query, g); 
             int[] map = ((NeighborBiasedMapper)mapper).map(query, g); // probability of mapped Ctree node not considered for pruning here
-            sim = graphSim.sim(query, g, map); 
+            //sim = graphSim.sim(query, g, map); 
+            sim = graphSim.simUncertain(query, g, map); 
             System.out.println("Upper bound of sim = "+sim1+" Exact sim = "+sim);
             if(sim < range){
             	System.out.println("Pruned Ctree internal node since similarity falls below threshold="+ range+" !");
@@ -184,7 +185,8 @@ public class SimRanker {
           else {
             int[] map = ((NeighborBiasedMapper)mapper).mapAndReturnProb(query, g, entry); // for a database graph, we calculate probability of mapped G2
           	//int[] map = ((NeighborBiasedMapper)mapper).map(query, g);
-          	sim = graphSim.sim(query, g, map); // this seems to be for database graph
+          	//sim = graphSim.sim(query, g, map); // this seems to be for database graph
+            sim = graphSim.simUncertain(query, g, map); // this seems to be for database graph
             System.out.println("Exact sim to graph "+g.id()+"= "+sim);
             System.out.println("Probability of mapped version of graph "+g.id()+"= "+entry.prob);
             
@@ -273,7 +275,7 @@ public class SimRanker {
            for(int j=0; j<sampledGraphs.length; j++){
           	 int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraphs[j]); // probability of mapped Ctree node not considered for pruning here
           	 int sim = graphSim.sim(query, sampledGraphs[j], map); 
-          	 double scalingFactor=(((double)g.numE()/sampledGraphs[j].numE())-1.0)*0.7;///2.0;
+          	 double scalingFactor=(((double)g.numE()/sampledGraphs[j].numE())-1.0)*0.75;///2.0;
           	 weightedSim_Num += sampledGraphs[j].probOfGraph * sim*(1.0+scalingFactor);
           	 weightedSim_Den += sampledGraphs[j].probOfGraph;
            }
