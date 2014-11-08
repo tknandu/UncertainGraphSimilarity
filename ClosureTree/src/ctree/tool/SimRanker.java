@@ -244,6 +244,8 @@ public class SimRanker {
             double weightedSim_Num = 0.0, weightedSim_Den = 0.0;
             System.out.println("Number of sampled deterministic graphs with prob>probThresh= "+sampledGraphs.length);
             
+            //System.out.println(sampledGraphs.length);
+            
            for(int j=0; j<sampledGraphs.length; j++){
           	 int[] map = ((NeighborBiasedMapper)mapper).map(query, sampledGraphs[j]); // probability of mapped Ctree node not considered for pruning here
           	 int sim = graphSim.sim(query, sampledGraphs[j], map);

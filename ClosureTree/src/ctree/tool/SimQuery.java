@@ -9,7 +9,6 @@ import ctree.mapper.*;
 import ctree.util.*;
 
 import ctree.lgraph.*;
-import java.io.File;
 import java.io.PrintWriter;
 
 import ctree.tool.BuildCTree;;
@@ -74,8 +73,8 @@ public class SimQuery {
         GraphFactory factory = new LGraphFactory(labelMap, dim1, dim2);
         
         // Decide m, M
-        int m = 10;
-        int M = 30;
+        int m = 50;
+        int M = 99;
         CTree ctree = BuildCTree.buildCTree(graphs, m, M, mapper, graphSim, labelMap, factory); // build ctree using hierarchical clustering
         
         Graph[] queries = LGraphFile.loadLGraphs(opt.getArg(1));
@@ -107,13 +106,13 @@ public class SimQuery {
         
         
         // if you want to generate probability for database graphs
-        
+        /*
         File file = new File("graphIdToProbMapping.txt");
         PrintWriter probOutput = new PrintWriter(file);
         SimRanker ranker = new SimRanker(ctree, mapper, graphSim, queries[0],strict);
         ranker.generateProbs(graphs, queries, probOutput);
         probOutput.close();
-        
+        */
         
         
         
@@ -387,7 +386,7 @@ public class SimQuery {
 
     public static Vector<RankerEntry> ADRRepresentativeRangeQuery(CTree ctree,GraphMapper mapper,GraphSim graphSim,Graph query, double range,boolean preciseRanking,double probThresh) 
     {
-    	int numberOfSteps=20;
+    	int numberOfSteps=100;
     	SimRanker ranker = new SimRanker(ctree, mapper, graphSim, query,
     			preciseRanking);
     	RankerEntry entry;

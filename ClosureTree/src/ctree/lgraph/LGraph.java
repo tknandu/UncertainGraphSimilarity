@@ -322,6 +322,8 @@ public class LGraph implements Graph {
   			}
   		}
   		
+  		//System.out.println(prob);
+  		
   		UnlabeledEdge[] edgesArray = new UnlabeledEdge[edges.size()];
   		
   		if(prob>=probThresh){ // only if prob of graph >= probThresh, use it to compute weighted sim
@@ -333,6 +335,8 @@ public class LGraph implements Graph {
   		}
 
   	}
+  	
+  	//System.out.println(cnt);
   	
   	return graphs;
   }
